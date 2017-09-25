@@ -1,4 +1,5 @@
 # colscore
+
 College Scorecard Panel Data Builder
 
 ## Introduction
@@ -7,9 +8,46 @@ This project is inspired by a collaborative effort that begain in the summer of 
 
 Subsequently Hillman published [More college scorecard code for Stata](http://website.education.wisc.edu/nwhillman/index.php/2017/06/23/more-college-scorecard-code-for-stata/). Using the ideas shared in the above conversations I developed a set of routines that build a panel data set of IPEDS data [StataIPEDSAll Stable Version 1.0](https://github.com/adamrossnelson/StataIPEDSAll/tree/1.0). Using the same ideas this routine builds on Hillman's original blog post.
 
-Upon implementation available from Stata's command line is a quick way to download and build college scorecard panel data:
-```
-do https://raw.githubusercontent.com/adamrossnelson/colscore/___/colscore.do
+Upon implementation available from Stata's command line is a quick way to download and build college scorecard panel data (stable release):
 
-[to be impemented]
 ```
+do https://raw.githubusercontent.com/adamrossnelson/colscore/1.0/colscore.do
+```
+Or at the working development release (master branch):
+```
+do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore.do
+```
+
+## Usage
+
+Plan your day. At last testing, building the complete college scorecard data required approximately 11 min on a PC Windows 10 3.60 GHz Intel(R) Core(TM) i7-7700 CPU 16 GB RAM computer running Stata SE 15. Slightly longer at 17 min a Mac OS 10.10.5 (Mid 2014) 2.8 GHz Intel Core i7 16 GB RAM running Stata SE 15.
+
+No promises that these code work as described or as users may desire. This work is collaborative and needs to be checked re-checked. Report problems or concerns to Adam Ross Nelson on GitHub issues or via Twitter @adamrossnelson.
+
+## Updates
+
+If I am behind on making updates let me know. Or branch the project, revise on your own, and submit a pull request. For beginners, contact me and I'll help you learn how.
+
+## License
+
+MIT License
+
+Copyright (c) 2018 Adam Ross Nelson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
