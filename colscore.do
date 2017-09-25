@@ -17,6 +17,8 @@ set more off
 
 /*#############################################################################
 
+      Version 1.0 (Stable branched September 24, 2017).
+      
       This do file is maintained by Adam Ross Nelson JD PhD at
 	  https://github.com/adamrossnelson/colscore
 	  
