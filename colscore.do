@@ -9,11 +9,9 @@ set more off
 
 // Initial build: 			Spring 2017
 // GitHub rebuild:			September 2017
-// Original Author:			Adam Ross Nelson
-// Additional Contributors: Nicholas Hillman
-// 							Nicholas Cox
-//							Kevin Fosnacht
-//							Alan Riley
+// Corresponding Collaborator: Adam Ross Nelson
+// Additional Collaborators:   Nicholas Hillman   Kevin Fosnacht
+//                             Nicholas Cox       Alan Riley
 
 /*#############################################################################
 
