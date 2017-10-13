@@ -4,6 +4,7 @@ set more off
 
 // Sep/2017:	GitHub rebuild.
 // Apr/2017:	Initial build.
+
 // Corresponding Collaborator: Adam Ross Nelson
 // Additional Collaborators:   Nicholas Hillman   Kevin Fosnacht
 //                             Nicholas Cox       Alan Riley
@@ -2151,5 +2152,4 @@ noi di "	  Questions or comments via GitHub or Twitter @adamrossnelson"
 noi di ""
 noi di "######################################################################"
 }
-
 log close
