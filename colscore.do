@@ -29,10 +29,10 @@ set more off
 // https://github.com/adamrossnelson/sshnd/tree/1.0
 do https://raw.githubusercontent.com/adamrossnelson/sshnd/1.0/sshnd.do
 
-capture log close							// Close stray log files.
-log using "$loggbl", append					// Append sshnd established log file.
-local sp char(13) char(10) char(13) char(10)// Define spacer.
-di c(pwd)									// Confrim working directory.
+capture log close                                // Close stray log files.
+log using "$loggbl", append                      // Append sshnd established log file.
+local sp char(13) char(10) char(13) char(10)     // Define spacer.
+di c(pwd)                                        // Confrim working directory.
 
 // Copy the zip file from the web to our current directory
 copy https://ed-public-download.app.cloud.gov/downloads/CollegeScorecard_Raw_Data.zip .
