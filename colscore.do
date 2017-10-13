@@ -1,20 +1,18 @@
-// From Alan Riley: // Enforce version control so if we want to re-run this 20 
-// years from now in Stata 25, we'lll still be able to.  -version 15- tells any 
-// future version of Stata to interpret the syntax below according to Stata 15 
-// syntax. (-verison 14- would be ok here too, as we're not using any syntax 
-// that doesn't also exist in Stata 14.)
 version 14
 clear all
 set more off
 
-// Initial build:              Spring 2017
-// GitHub rebuild:             September 2017
+// Sep/2017:	GitHub rebuild.
+// Apr/2017:	Initial build.
+
 // Corresponding Collaborator: Adam Ross Nelson
 // Additional Collaborators:   Nicholas Hillman   Kevin Fosnacht
 //                             Nicholas Cox       Alan Riley
 
 /*#############################################################################
 
+      Version 1.0 (Stable branched September 24, 2017).
+      
       This do file is maintained by Adam Ross Nelson JD PhD at
 	  https://github.com/adamrossnelson/colscore
 	  
@@ -27,10 +25,10 @@ set more off
 // https://github.com/adamrossnelson/sshnd/tree/1.0
 do https://raw.githubusercontent.com/adamrossnelson/sshnd/1.0/sshnd.do
 
-capture log close							// Close stray log files.
-log using "$loggbl", append					// Append sshnd established log file.
-local sp char(13) char(10) char(13) char(10)// Define spacer.
-di c(pwd)									// Confrim working directory.
+capture log close                                // Close stray log files.
+log using "$loggbl", append                      // Append sshnd established log file.
+local sp char(13) char(10) char(13) char(10)     // Define spacer.
+di c(pwd)                                        // Confrim working directory.
 
 // Copy the zip file from the web to our current directory
 copy https://ed-public-download.app.cloud.gov/downloads/CollegeScorecard_Raw_Data.zip .
@@ -2154,5 +2152,4 @@ noi di "	  Questions or comments via GitHub or Twitter @adamrossnelson"
 noi di ""
 noi di "######################################################################"
 }
-
 log close
