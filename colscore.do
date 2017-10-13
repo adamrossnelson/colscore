@@ -1,14 +1,9 @@
-// From Alan Riley: // Enforce version control so if we want to re-run this 20 
-// years from now in Stata 25, we'lll still be able to.  -version 15- tells any 
-// future version of Stata to interpret the syntax below according to Stata 15 
-// syntax. (-verison 14- would be ok here too, as we're not using any syntax 
-// that doesn't also exist in Stata 14.)
 version 14
 clear all
 set more off
 
-// Initial build: 			Spring 2017
-// GitHub rebuild:			September 2017
+// Sep/2017:	GitHub rebuild.
+// Apr/2017:	Initial build.
 // Corresponding Collaborator: Adam Ross Nelson
 // Additional Collaborators:   Nicholas Hillman   Kevin Fosnacht
 //                             Nicholas Cox       Alan Riley
