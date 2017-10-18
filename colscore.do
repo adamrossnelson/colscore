@@ -72,6 +72,7 @@ forvalues i = 1996 / 2014 {
 		// Fix string variable 'alias', which now has the string ".n"
 		// in it for various observations; it is really a string
 		// variable, so we just want to indicate missing with "".
+	tostring alias, replace
 	replace alias = "" if alias==".n"
 
 		// Convert repay_dt_mdn and separ_dt_mdn, if they exist,
@@ -106,13 +107,16 @@ forvalues i = 1996 / 2014 {
 	}
 
 		// Save as Stata dataset
+	compress
 	save "MERGED_`i'PP.dta", replace
 }
 
 clear
 use "MERGED_1996PP.dta"
+di "Loaded MERGED_1996PP.dta"
 
 forvalues i = 1997/2014 {
+	di "Merging MERGED_`i'PP.dta"
 	append using "MERGED_`i'PP.dta"
 }
 
