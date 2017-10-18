@@ -2,6 +2,10 @@
 
 College Scorecard Panel Data Builder
 
+# Caution
+
+In September of 2017 the data at [college score card data](https://collegescorecard.ed.gov/data/) was updated. Some variables not matching with routine below. Please avoid using this routine until further updates can be published. For additioanl information see also: [college score card on GitHub](https://github.com/RTICWDT/college-scorecard).
+
 ## Introduction
 
 This project is inspired by a collaborative effort that begain in the summer of 2017 [Professor Nick Hillman](https://elpa.education.wisc.edu/elpa/people/faculty-and-staff-directory/nicholas-hillman) published [Working with college scorecard data](http://website.education.wisc.edu/nwhillman/index.php/2017/06/09/working-with-college-scorecard-data/) that guided readers through the process of building a panel data set consisting of [college score card data](https://collegescorecard.ed.gov/data/). From that post a conversation between Hillman, [Nicholas Cox](https://www.dur.ac.uk/geography/staff/geogstaffhidden/?id=335), [Kevin Fosnacht](http://education.indiana.edu/dotnetforms/Profile.aspx?u=kfosnach), and Alan Riley [of Stata Corporation](https://blog.stata.com/author/ariley/) further developed the choice of code. I had the fortune to 'listen' in on some of the emails.

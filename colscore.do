@@ -2,6 +2,8 @@ version 14
 clear all
 set more off
 
+xxx // Break - See ReadMe.md before proceeding.
+
 // Sep/2017:	GitHub rebuild.
 // Apr/2017:	Initial build.
 
@@ -64,6 +66,7 @@ forvalues i = 1996 / 2014 {
 		// force npcurl (column 10) to always be string.
 	import delimited "MERGED_`i'PP.csv", clear stringcols(2 8 9 10)
 	gen int year = `i'
+	gen int isYr = year
 
 		// Fix strange character that sometimes appears in unitid
 		// column header/variable name
@@ -119,8 +122,6 @@ forvalues i = 1997/2014 {
 	di "Merging MERGED_`i'PP.dta"
 	append using "MERGED_`i'PP.dta"
 }
-
-// Additional optimizations added by ARN June 22 2017
 
 rename ïunitid unitid
 
