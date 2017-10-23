@@ -1,12 +1,8 @@
-# colscore
+# 1. colscore
 
 College Scorecard Panel Data Builder
 
-# Caution
 
-In September of 2017 the data at [college score card data](https://collegescorecard.ed.gov/data/) was updated. Some variables not matching with routine below. Please avoid using this routine until further updates can be published. For additioanl information see also: [college score card on GitHub](https://github.com/RTICWDT/college-scorecard).
-
-## Introduction
 
 This project is inspired by a collaborative effort that begain in the summer of 2017 [Professor Nick Hillman](https://elpa.education.wisc.edu/elpa/people/faculty-and-staff-directory/nicholas-hillman) published [Working with college scorecard data](http://website.education.wisc.edu/nwhillman/index.php/2017/06/09/working-with-college-scorecard-data/) that guided readers through the process of building a panel data set consisting of [college score card data](https://collegescorecard.ed.gov/data/). From that post a conversation between Hillman, [Nicholas Cox](https://www.dur.ac.uk/geography/staff/geogstaffhidden/?id=335), [Kevin Fosnacht](http://education.indiana.edu/dotnetforms/Profile.aspx?u=kfosnach), and Alan Riley [of Stata Corporation](https://blog.stata.com/author/ariley/) further developed the choice of code. I had the fortune to 'listen' in on some of the emails.
 
@@ -22,17 +18,21 @@ Or at the working development release (master branch):
 do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore.do
 ```
 
-## Usage
+## 1.2. Usage
 
 Plan your day. At last testing, building the complete college scorecard data required approximately 11 min on a PC Windows 10 3.60 GHz Intel(R) Core(TM) i7-7700 CPU 16 GB RAM computer running Stata SE 15. Slightly longer at 17 min a Mac OS 10.10.5 (Mid 2014) 2.8 GHz Intel Core i7 16 GB RAM running Stata SE 15.
 
 No promises that these code work as described or as users may desire. This work is collaborative and needs to be checked re-checked. Report problems or concerns to Adam Ross Nelson on GitHub issues or via Twitter @adamrossnelson.
 
-## Updates
+## 1.3. Updates
 
 If I am behind on making updates let me know. Or branch the project, revise on your own, and submit a pull request. For beginners, contact me and I'll help you learn how.
 
-## License
+## 1.4. Change log
+
+See `colscore.do` headers and comments for change log.
+
+## 1.5. License
 
 MIT License
 

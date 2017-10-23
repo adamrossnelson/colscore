@@ -2,8 +2,7 @@ version 14
 clear all
 set more off
 
-xxx // Break - See ReadMe.md before proceeding.
-
+// Oct/2017: 	Updated to include data files added in Sep of 2017.
 // Sep/2017:	GitHub rebuild.
 // Apr/2017:	Initial build.
 
@@ -21,7 +20,7 @@ xxx // Break - See ReadMe.md before proceeding.
 	  Questions or comments via GitHub or Twitter @adamrossnelson
 	  
 ##############################################################################*/
-
+/*
 // Utilizes preckage version of sshnd (interactive file picker)
 // Stable 1.0 version of sshnd documentation available at:
 // https://github.com/adamrossnelson/sshnd/tree/1.0
@@ -38,8 +37,8 @@ copy https://ed-public-download.app.cloud.gov/downloads/CollegeScorecard_Raw_Dat
 // Extract the contents of the zip file and change into the created directory
 unzipfile CollegeScorecard_Raw_Data.zip, replace
 cd CollegeScorecard_Raw_Data
-
-forvalues i = 1996 / 2014 {
+*/
+forvalues i = 1996 / 2015 {
 		// dataset names look like MERGED1996_97_PP.csv so the
 		// next two lines come up with the '97' given '1996'.
 	local num2 = (`i'+1) - int((`i'+1) / 100)*100
@@ -75,9 +74,9 @@ forvalues i = 1996 / 2014 {
 		// Fix string variable 'alias', which now has the string ".n"
 		// in it for various observations; it is really a string
 		// variable, so we just want to indicate missing with "".
-	tostring alias, replace
+	tostring alias accredcode, replace
 	replace alias = "" if alias==".n"
-
+	
 		// Convert repay_dt_mdn and separ_dt_mdn, if they exist,
 		// to Stata dates
 	capture confirm string variable repay_dt_mdn
@@ -108,7 +107,20 @@ forvalues i = 1996 / 2014 {
 	else {
 		recast long separ_dt_mdn
 	}
-
+	
+	capture confirm string variable t4approvaldate
+	if _rc==0 {
+		gen long newdate = date(t4approvaldate,"MDY")
+		replace newdate = .n if t4approvaldate==".n"
+		replace newdate = .p if t4approvaldate==".p"
+		drop t4approvaldate
+		rename newdate t4approvaldate
+		format t4approvaldate %td
+	}
+	else {
+		recast long separ_dt_mdn
+	}
+	
 		// Save as Stata dataset
 	compress
 	save "MERGED_`i'PP.dta", replace
@@ -118,7 +130,7 @@ clear
 use "MERGED_1996PP.dta"
 di "Loaded MERGED_1996PP.dta"
 
-forvalues i = 1997/2014 {
+forvalues i = 1997/2015 {
 	di "Merging MERGED_`i'PP.dta"
 	append using "MERGED_`i'PP.dta"
 }
