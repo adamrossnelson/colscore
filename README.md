@@ -8,21 +8,17 @@ This project is inspired by a collaborative effort that begain in the summer of 
 
 Subsequently Hillman published [More college scorecard code for Stata](http://website.education.wisc.edu/nwhillman/index.php/2017/06/23/more-college-scorecard-code-for-stata/). Using the ideas shared in the above conversations I developed a set of routines that build a panel data set of IPEDS data [StataIPEDSAll Stable Version 1.0](https://github.com/adamrossnelson/StataIPEDSAll/tree/1.0). Using the same ideas this routine builds on Hillman's original blog post.
 
-Upon implementation available from Stata's command line is a quick way to download and build college scorecard panel data (stable release):
-
-```
-do https://raw.githubusercontent.com/adamrossnelson/colscore/1.0/colscore.do
-```
-Or at the working development release (master branch):
-```
-do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore.do
-```
-
 ## 1.2. Usage
 
 Plan your day. At last testing, building the complete college scorecard data required approximately 11 min on a PC Windows 10 3.60 GHz Intel(R) Core(TM) i7-7700 CPU 16 GB RAM computer running Stata SE 15. Slightly longer at 17 min a Mac OS 10.10.5 (Mid 2014) 2.8 GHz Intel Core i7 16 GB RAM running Stata SE 15.
 
 No promises that these code work as described or as users may desire. This work is collaborative and needs to be checked re-checked. Report problems or concerns to Adam Ross Nelson on GitHub issues or via Twitter @adamrossnelson.
+
+Run from Stata:
+
+```Stata
+do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore.do
+```
 
 ## 1.3. Updates
 
