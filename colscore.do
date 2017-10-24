@@ -20,7 +20,7 @@ set more off
 	  Questions or comments via GitHub or Twitter @adamrossnelson
 	  
 ##############################################################################*/
-/*
+
 // Utilizes preckage version of sshnd (interactive file picker)
 // Stable 1.0 version of sshnd documentation available at:
 // https://github.com/adamrossnelson/sshnd/tree/1.0
@@ -37,7 +37,7 @@ copy https://ed-public-download.app.cloud.gov/downloads/CollegeScorecard_Raw_Dat
 // Extract the contents of the zip file and change into the created directory
 unzipfile CollegeScorecard_Raw_Data.zip, replace
 cd CollegeScorecard_Raw_Data
-*/
+
 forvalues i = 1996 / 2015 {
 		// dataset names look like MERGED1996_97_PP.csv so the
 		// next two lines come up with the '97' given '1996'.
