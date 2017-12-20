@@ -7,24 +7,17 @@ set more off
 // Apr/2017:	Initial build.
 
 // Corresponding Collaborator: Adam Ross Nelson
-// Additional Collaborators:   Nicholas Hillman   Kevin Fosnacht
-//                             Nicholas Cox       Alan Riley
 
 /*#############################################################################
-
-      Version 1.0 (Stable branched September 24, 2017).
-      
-      This do file is maintained by Adam Ross Nelson JD PhD at
+      Maintained/more information at:
 	  https://github.com/adamrossnelson/colscore
-	  
-	  Questions or comments via GitHub or Twitter @adamrossnelson
-	  
+  
 ##############################################################################*/
 
 // Utilizes preckage version of sshnd (interactive file picker)
 // Stable 1.0 version of sshnd documentation available at:
 // https://github.com/adamrossnelson/sshnd/tree/1.0
-do https://raw.githubusercontent.com/adamrossnelson/sshnd/1.0/sshnd.do
+do https://raw.githubusercontent.com/adamrossnelson/sshnd/master/sshnd.do
 
 capture log close                                // Close stray log files.
 log using "$loggbl", append                      // Append sshnd established log file.
