@@ -2,35 +2,9 @@
 
 College Scorecard Panel Data Builder
 
-# Caution
+1.0 Branch retired - discontinued. For more information, see master branch:
 
-In September of 2017 the data at [college score card data](https://collegescorecard.ed.gov/data/) was updated. Some variables not matching with routine below. Please avoid using this routine until further updates can be published. For additioanl information see also: [college score card on GitHub](https://github.com/RTICWDT/college-scorecard).
-
-## Introduction
-
-This project is inspired by a collaborative effort that begain in the summer of 2017 [Professor Nick Hillman](https://elpa.education.wisc.edu/elpa/people/faculty-and-staff-directory/nicholas-hillman) published [Working with college scorecard data](http://website.education.wisc.edu/nwhillman/index.php/2017/06/09/working-with-college-scorecard-data/) that guided readers through the process of building a panel data set consisting of [college score card data](https://collegescorecard.ed.gov/data/). From that post a conversation between Hillman, [Nicholas Cox](https://www.dur.ac.uk/geography/staff/geogstaffhidden/?id=335), [Kevin Fosnacht](http://education.indiana.edu/dotnetforms/Profile.aspx?u=kfosnach), and Alan Riley [of Stata Corporation](https://blog.stata.com/author/ariley/) further developed the choice of code. I had the fortune to 'listen' in on some of the emails.
-
-Subsequently Hillman published [More college scorecard code for Stata](http://website.education.wisc.edu/nwhillman/index.php/2017/06/23/more-college-scorecard-code-for-stata/). Using the ideas shared in the above conversations I developed a set of routines that build a panel data set of IPEDS data [StataIPEDSAll Stable Version 1.0](https://github.com/adamrossnelson/StataIPEDSAll/tree/1.0). Using the same ideas this routine builds on Hillman's original blog post.
-
-Upon implementation available from Stata's command line is a quick way to download and build college scorecard panel data (stable release):
-
-```
-do https://raw.githubusercontent.com/adamrossnelson/colscore/1.0/colscore.do
-```
-Or at the working development release (master branch):
-```
-do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore.do
-```
-
-## Usage
-
-Plan your day. At last testing, building the complete college scorecard data required approximately 11 min on a PC Windows 10 3.60 GHz Intel(R) Core(TM) i7-7700 CPU 16 GB RAM computer running Stata SE 15. Slightly longer at 17 min a Mac OS 10.10.5 (Mid 2014) 2.8 GHz Intel Core i7 16 GB RAM running Stata SE 15.
-
-No promises that these code work as described or as users may desire. This work is collaborative and needs to be checked re-checked. Report problems or concerns to Adam Ross Nelson on GitHub issues or via Twitter @adamrossnelson.
-
-## Updates
-
-If I am behind on making updates let me know. Or branch the project, revise on your own, and submit a pull request. For beginners, contact me and I'll help you learn how.
+https://github.com/adamrossnelson/colscore/tree/master
 
 ## License
 

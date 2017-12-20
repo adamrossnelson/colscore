@@ -2,7 +2,9 @@ version 14
 clear all
 set more off
 
-xxx // Break - See ReadMe.md before proceeding.
+    // Break - See ReadMe.md before proceeding.
+    // 1.0 Branch retired. See master branch:
+xxx // https://github.com/adamrossnelson/colscore/tree/master
 
 // Sep/2017:	GitHub rebuild.
 // Apr/2017:	Initial build.
