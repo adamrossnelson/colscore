@@ -2,9 +2,10 @@ version 14
 clear all
 set more off
 
-// Oct/2017: 	Updated to include data files added in Sep of 2017.
-// Sep/2017:	GitHub rebuild.
-// Apr/2017:	Initial build.
+// Mar/2018:  Updated to document data elements added Sep/Dec of 2017
+// Oct/2017:  Updated to include data files added in Sep of 2017.
+// Sep/2017:  GitHub rebuild.
+// Apr/2017:  Initial build.
 
 // Corresponding Collaborator: Adam Ross Nelson
 
@@ -133,6 +134,95 @@ rename ïunitid unitid
 // add value labels (authored by Kevin Fosnacht, kfosnach@indiana.edu)
 // (Found at: https://website.education.wisc.edu/nwhillman/wp-content/uploads/2017/06/scorecard-2.txt)
 // Accessed June 22, 2017.
+
+// variable labels
+//      Added by Collegescorecard in Sep and Dec of 2017
+
+label variable alias "Institution name aliases"
+label variable c100_4 "Completion rate for first-time, full-time students at four-year institutions (100% of expected time to completion)"
+label variable d100_4 "Adjusted cohort count for completion rate at four-year institutions (denominator of 100% completion rate)"
+label variable c100_l4 "Completion rate for first-time, full-time students at less-than-four-year institutions (100% of expected time to completion)"
+label variable d100_l4 "Adjusted cohort count for completion rate at less-than-four-year institutions (denominator of 100% completion rate)"
+label variable trans_4 "Transfer rate for first-time, full-time students at four-year institutions (within 150% of expected time to completion/6 years)"
+label variable dtrans_4 "Adjusted cohort count for transfer rate at less-than-four-year institutions (denominator of 150% transfer rate)"
+label variable trans_l4 "Transfer rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion)"
+label variable dtrans_l4 "Adjusted cohort count for transfer rate at four-year institutions (denominator of 150% transfer rate)"
+label variable iclevel "Level of institution"
+
+label variable ugds_men "Total share of enrollment of undergraduate degree-seeking students who are men"
+label variable ugds_women "Total share of enrollment of undergraduate degree-seeking students who are women"
+label variable cdr2_denom "Number of students in the cohort for the two-year cohort default rate"
+label variable cdr3_denom "Number of students in the cohort for the three-year cohort default rate"
+label variable openadmp "Open admissions policy indicator"
+
+label variable d_pctpell_pctfloan "Number of undergraduate students (denominator percent receiving a pell grant or federal student loan)"
+label variable ugnonds "Number of non-degree-seeking undergraduate students"
+label variable grads "Number of graduate students"
+label variable d150_4_white "Adjusted cohort count for completion rate of White students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_black "Adjusted cohort count for completion rate of Black/African American students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_hisp "Adjusted cohort count for completion rate of Hispanic students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_asian "Adjusted cohort count for completion rate of Asian students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_aian "Adjusted cohort count for completion rate of American Indian/Alaska Native students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_nhpi "Adjusted cohort count for completion rate of Native Hawaiian/Pacific Islander students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_2mor "Adjusted cohort count for completion rate of students of Two or More Races at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_nra "Adjusted cohort count for completion rate of Nonresident Alien students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_unkn "Adjusted cohort count for completion rate of students of Unknown race at four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_white "Adjusted cohort count for completion rate of White students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_black "Adjusted cohort count for completion rate of Black/African American students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_hisp "Adjusted cohort count for completion rate of Hispanic students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_asian "Adjusted cohort count for completion rate of Asian students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_aian "Adjusted cohort count for completion rate of American Indian/Alaska Native students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_nhpi "Adjusted cohort count for completion rate of Native Hawaiian/Pacific Islander students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_2mor "Adjusted cohort count for completion rate of students of Two or More Races at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_nra "Adjusted cohort count for completion rate of Nonresident Alien students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_unkn "Adjusted cohort count for completion rate of students of Unknown race at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_whitenh "Adjusted cohort count for completion rate of White, non-Hispanic students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_blacknh "Adjusted cohort count for completion rate of Black, non-Hispanic students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_api "Adjusted cohort count for completion rate of Asian/Pacific Islander students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_aianold "Adjusted cohort count for completion rate of American Indian/Alaska Native students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_4_hispold "Adjusted cohort count for completion rate of Hispanic students at four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_whitenh "Adjusted cohort count for completion rate of White, non-Hispanic students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_blacknh "Adjusted cohort count for completion rate of Black, non-Hispanic students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_api "Adjusted cohort count for completion rate of Asian/Pacific Islander students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_aianold "Adjusted cohort count for completion rate of American Indian/Alaska Native students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable d150_l4_hispold "Adjusted cohort count for completion rate of Hispanic students at less-than-four-year institutions (denominator of 150% completion rate)"
+label variable accredcode "Code corresponding to accreditor (as captured from PEPS)"
+label variable t4approvaldate "Date that institution was first approved to participate in Title IV aid programs"
+label variable omacht6_ftft "Adjusted cohort count of full-time, first-time students (denominator for the percentage receiving an award within 6 years of entry)"
+label variable omawdp6_ftft "Percentage of full-time, first-time student receiving an award within 6 years of entry"
+label variable omacht8_ftft "Adjusted cohort count of full-time, first-time students (denominator for the 8-year outcomes percentages)"
+label variable omawdp8_ftft "Percentage of full-time, first-time student receiving an award within 8 years of entry"
+label variable omenryp8_ftft "Percentage of full-time, first-time students that did not receive an award and are still enrolled at this institution 8 years after entry"
+label variable omenrap8_ftft "Percentage of full-time, first-time students that enrolled at another institution after leaving this institution within 8 years of entry"
+label variable omenrup8_ftft "Percentage of full-time, first-time students whose enrollment status is unknown after leaving this institution within 8 years of entry"
+label variable omacht6_ptft "Adjusted cohort count of part-time, first-time students (denominator for the percentage receiving an award within 6 years of entry)"
+label variable omawdp6_ptft "Percentage of part-time, first-time student receiving an award within 6 years of entry"
+label variable omacht8_ptft "Adjusted cohort count of part-time, first-time students (denominator for the 8-year outcomes percentages)"
+label variable omawdp8_ptft "Percentage of part-time, first-time student receiving an award within 8 years of entry"
+label variable omenryp8_ptft "Percentage of part-time, first-time students that did not receive an award and are still enrolled at this institution 8 years after entry"
+label variable omenrap8_ptft "Percentage of part-time, first-time students that enrolled at another institution after leaving this institution within 8 years of entry"
+label variable omenrup8_ptft "Percentage of part-time, first-time students whose enrollment status is unknown after leaving this institution within 8 years of entry"
+label variable omacht6_ftnft "Adjusted cohort count of full-time, not first-time students (denominator for the percentage receiving an award within 6 years of entry)"
+label variable omawdp6_ftnft "Percentage of full-time, not first-time student receiving an award within 6 years of entry"
+label variable omacht8_ftnft "Adjusted cohort count of full-time, not first-time students (denominator for the 8-year outcomes percentages)"
+label variable omawdp8_ftnft "Percentage of full-time, not first-time student receiving an award within 8 years of entry"
+label variable omenryp8_ftnft "Percentage of full-time, not first-time students that did not receive an award and are still enrolled at this institution 8 years after entry"
+label variable omenrap8_ftnft "Percentage of full-time, not first-time students that enrolled at another institution after leaving this institution within 8 years of entry"
+label variable omenrup8_ftnft "Percentage of full-time, not first-time students whose enrollment status is unknown after leaving this institution within 8 years of entry"
+label variable omacht6_ptnft "Adjusted cohort count of part-time, not first-time students (denominator for the percentage receiving an award within 6 years of entry)"
+label variable omawdp6_ptnft "Percentage of part-time, not first-time student receiving an award within 6 years of entry"
+label variable omacht8_ptnft "Adjusted cohort count of part-time, not first-time students (denominator for the 8-year outcomes percentages)"
+label variable omawdp8_ptnft "Percentage of part-time, not first-time student receiving an award within 8 years of entry"
+label variable omenryp8_ptnft "Percentage of part-time, not first-time students that did not receive an award and are still enrolled at this institution 8 years after entry"
+label variable omenrap8_ptnft "Percentage of part-time, not first-time students that enrolled at another institution after leaving this institution within 8 years of entry"
+label variable omenrup8_ptnft "Percentage of part-time, not first-time students whose enrollment status is unknown after leaving this institution within 8 years of entry"
+
+// value labels
+//      Added by Collegescorecard in Sep and Dec of 2017
+label define iclevel_vl 1 "4-Year" 2 "2-Year" 3 "Less Than 2Yr"
+label values iclevel icle_vl
+label define open_vl 1 "Yes" 2 "No" 3 "Does not enrol first-time students"
+label values openadmp open_vl
 
 // variable labels
 //		Contributed by : Kevin Fosnacht
