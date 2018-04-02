@@ -2,7 +2,8 @@ version 14
 clear all
 set more off
 
-// Mar/2018:  Updated to document data elements added Sep/Dec of 2017
+// Apr/2018:  Updated to document data elemebts added Feb of 201.
+// Mar/2018:  Updated to document data elements added Sep/Dec of 2017.
 // Oct/2017:  Updated to include data files added in Sep of 2017.
 // Sep/2017:  GitHub rebuild.
 // Apr/2017:  Initial build.
@@ -128,6 +129,9 @@ forvalues i = 1997/2015 {
 }
 
 rename ïunitid unitid
+
+// Data dictionary and other documenation:
+//    https://collegescorecard.ed.gov/data/
 
 // variable labels
 //      Added by Collegescorecard in Sep and Feb of 2018
