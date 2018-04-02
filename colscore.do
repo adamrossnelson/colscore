@@ -129,13 +129,36 @@ forvalues i = 1997/2015 {
 
 rename ïunitid unitid
 
-// add value labels (authored by Kevin Fosnacht, kfosnach@indiana.edu)
-// (Found at: https://website.education.wisc.edu/nwhillman/wp-content/uploads/2017/06/scorecard-2.txt)
-// Accessed June 22, 2017.
+// variable labels
+//      Added by Collegescorecard in Sep and Feb of 2018
+label variable c200_4  "Dbl Chk Data Dict / Completion rt first-time, ft stus at 4yr insts (200% expected)"
+label variable c200_l4 "Dbl Chk Data Dict / Completion rt first-time, ft stus at < 4yr insts (200% expected)"
+label variable c200_4_pooled  "Dbl Chk Data Dict / Completion rt first-time, ft stus at 4yr insts (200% expected)"
+label variable c200_l4_pooled "Dbl Chk Data Dict / Completion rt first-time, ft stus at < 4yr insts (200% expected)"
+label variable ret_ft4_pooled  "First-time, f-time stu retention rt at 4-year insts"
+label variable ret_ftl4_pooled "First-time, f-time stu retention rt at less-than-4-year insts"
+label variable ret_pt4_pooled  "First-time, p-time stu retention rt at 4-year insts"
+label variable ret_ptl4_pooled "First-time, p-time stu retention rt at less-than-4-year insts"
+label variable ret_ft_den4_pooled  "Adjusted cohort count for the 1st-time, f-time stu ret rt 4-yr insts (denominator retention rt)"
+label variable ret_ft_denl4_pooled "Adjusted cohort count for the 1st-time, f-time stu ret rt less-than-4-yr insts (denominator retention rt)"
+label variable ret_pt_den4_pooled  "Adjusted cohort count for the 1st-time, p-time stu ret rt 4-year insts (denominator retention rt)"
+label variable ret_pt_denl4_pooled "Adjusted cohort count for the 1st-time, p-time stu ret rt less-than-4-yr insts (denominator retention rt)"
+label variable poolyrsret_ft "Yrs used for rolling avergs of f-time ret rate RET_FT[4/L4]_POOLED"
+label variable poolyrsret_pt "Yrs used for rolling avergs of p-time ret rate RET_PT[4/L4]_POOLED"
+label variable ret_ft4_pooled_supp  "First-time, f-time stu ret rate at 4-year insts"
+label variable ret_ftl4_pooled_supp "First-time, f-time stu ret rate at less-than-4-year insts"
+label variable ret_pt4_pooled_supp  "First-time, p-time stu ret rate at 4-year insts"
+label variable ret_ptl4_pooled_supp "First-time, p-time stu ret rate at less-than-4-year insts"
+label variable trans_4_pooled    "xfer rt 1st-time, f-time stus at 4-year insts (within 150% expected time to completion/6 years)"
+label variable trans_l4_pooled   "xfer rt 1st-time, f-time stus at less-than-4-year insts (150% expected time to completion)"
+label variable dtrans_4_pooled   "Adjusted cohort count for xfer rt at 4-year insts (denominator 150% transfer rate)"
+label variable dtrans_l4_pooled  "Adjusted cohort count for xfer rt at less-than-4-year insts (denominator 150% transfer rate)"
+label variable trans_4_pooled_supp  "xfer rt 1st-time, f-time stus at four-4 insts (within 150% expected time to completion/6 years)"
+label variable trans_l4_pooled_supp "xfer rt 1st-time, f-time stus at less-than-4-year insts (150% expected time to completion)"
+
 
 // variable labels
 //      Added by Collegescorecard in Sep and Dec of 2017
-
 label variable alias "Institution name aliases"
 label variable c100_4 "Completion rate for first-time, full-time students at four-year institutions (100% of expected time to completion)"
 label variable d100_4 "Adjusted cohort count for completion rate at four-year institutions (denominator of 100% completion rate)"
@@ -221,6 +244,11 @@ label define iclevel_vl 1 "4-Year" 2 "2-Year" 3 "Less Than 2Yr"
 label values iclevel icle_vl
 label define open_vl 1 "Yes" 2 "No" 3 "Does not enrol first-time students"
 label values openadmp open_vl
+
+
+// add value labels (authored by Kevin Fosnacht, kfosnach@indiana.edu)
+// (Found at: https://website.education.wisc.edu/nwhillman/wp-content/uploads/2017/06/scorecard-2.txt)
+// Accessed June 22, 2017.
 
 // variable labels
 //		Contributed by : Kevin Fosnacht
