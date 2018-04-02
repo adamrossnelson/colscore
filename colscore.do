@@ -15,9 +15,7 @@ set more off
   
 ##############################################################################*/
 
-// Utilizes preckage version of sshnd (interactive file picker)
-// Stable 1.0 version of sshnd documentation available at:
-// https://github.com/adamrossnelson/sshnd/tree/1.0
+// Utilizes version of sshnd (interactive file picker)
 do https://raw.githubusercontent.com/adamrossnelson/sshnd/master/sshnd.do
 
 capture log close                                // Close stray log files.
