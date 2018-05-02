@@ -2,7 +2,7 @@ version 14
 clear all
 set more off
 
-// Apr/2018:  Updated to document data elemebts added Feb of 201.
+// Apr/2018:  Updated to document data elements added Feb of 201.
 // Mar/2018:  Updated to document data elements added Sep/Dec of 2017.
 // Oct/2017:  Updated to include data files added in Sep of 2017.
 // Sep/2017:  GitHub rebuild.
