@@ -2,6 +2,7 @@ version 14
 clear all
 set more off
 
+// May/2018:  Tested on Linux. Success.
 // Apr/2018:  Updated to document data elements added Feb of 2018.
 // Mar/2018:  Updated to document data elements added Sep/Dec of 2017.
 // Oct/2017:  Updated to include data files added in Sep of 2017.
