@@ -1,10 +1,10 @@
-# 1. colscore
-
-College Scorecard Panel Data Builder
+# 1. College Scorecard Panel Data Builder
 
 This project is inspired by a collaborative effort that began in the summer of 2017 [Professor Nick Hillman](https://elpa.education.wisc.edu/elpa/people/faculty-and-staff-directory/nicholas-hillman) published [Working with college scorecard data](http://website.education.wisc.edu/nwhillman/index.php/2017/06/09/working-with-college-scorecard-data/) that guided readers through the process of building a panel data set consisting of [college score card data](https://collegescorecard.ed.gov/data/). From that post a conversation between Hillman, [Nicholas Cox](https://www.dur.ac.uk/geography/staff/geogstaffhidden/?id=335), [Kevin Fosnacht](http://education.indiana.edu/dotnetforms/Profile.aspx?u=kfosnach), and Alan Riley [of Stata Corporation](https://blog.stata.com/author/ariley/) further developed the choice of code.
 
 Subsequently Hillman published [More college scorecard code for Stata](http://website.education.wisc.edu/nwhillman/index.php/2017/06/23/more-college-scorecard-code-for-stata/). Using the ideas shared in the above conversations I developed a set of routines that build a panel data set of IPEDS data [StataIPEDSAll Project](https://github.com/adamrossnelson/StataIPEDSAll). Using the same ideas this routine builds on Hillman's original blog post.
+
+Fall 2019 brought an update to this code which includes `colscore_build_stata_meta.py` which works with [CollegeScorecardDataDictionary.xlsx](https://collegescorecard.ed.gov/assets/CollegeScorecardDataDictionary.xlsx) to automatically create do file code that creates variable labels and value labels. Using `colscore_build_stata_meta.py` can help quickly update and refresh College Scorecard data as its source files are updated or enhanced.
 
 ## 1.1. Usage
 
@@ -20,7 +20,7 @@ do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore.do
 
 ## 1.2. Suggested Naming Convention
 
-When prompted for a log file name suggested name is `ColScore96to15.log` which will produce `ColScore96to15.dta` at the location you specify. (Update year reference as needed).
+When prompted for a log file name suggested name is `ColScore96to17.log` which will produce `ColScore96to17.dta` at the location you specify. (_Update year reference as needed_).
 
 ## 1.3. Updates
 
