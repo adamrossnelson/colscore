@@ -143,4 +143,27 @@ for i in range(0,len(original_desc_list)):
 colscore_var_lab_writer = colscore_var_lab_writer + '\n'   
 write_a_file(colscore_var_lab_writer, fname='colscore_var_lab_writes.do')
 
-# TODO: Make do file that will write the val labels.
+# Make do file that will write the val labels.
+calscore_val_lab_writer = '// Auto-written by colscore_build_stata_meta.py\n\n'
+calscore_val_lab_writer = calscore_val_lab_writer + '// File written on: ' 
+calscore_val_lab_writer = calscore_val_lab_writer + str(datetime.datetime.now()) + '\n\n'
+
+varlist = list(df[(df['LABEL'].fillna('.') != '.') & \
+    (df['VALUE'].fillna('.') != '.')]['VARIABLE NAME'].dropna())
+df['VARIABLE NAME FFILL'] = df['VARIABLE NAME'].ffill()
+for i in varlist:
+    keylist = df[df['VARIABLE NAME FFILL'] == i]['VALUE'].dropna().apply(int)
+    lablist = df[df['VARIABLE NAME FFILL'] == i]['LABEL'].dropna()
+    val_lab_dict = dict(zip(keylist, lablist))
+
+    calscore_val_lab_writer = calscore_val_lab_writer + 'label define '
+    calscore_val_lab_writer = calscore_val_lab_writer + 'vl_' + i + ' '
+    for key, value in val_lab_dict.items():
+        calscore_val_lab_writer = calscore_val_lab_writer + str(key) + ' "'
+        calscore_val_lab_writer = calscore_val_lab_writer + value.strip() + '" '
+    calscore_val_lab_writer = calscore_val_lab_writer + '\n'
+    calscore_val_lab_writer = calscore_val_lab_writer + 'label values '
+    calscore_val_lab_writer = calscore_val_lab_writer + i.lower() + ' vl_' + i
+    calscore_val_lab_writer = calscore_val_lab_writer + '\n\n'
+
+write_a_file(calscore_val_lab_writer, fname='colscore_val_lab_writes.do')
