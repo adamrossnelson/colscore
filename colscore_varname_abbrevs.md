@@ -1,5 +1,8 @@
 # Crosswalk Of Original & Abberviated Descriptions
 
+// File written on: 2019-10-15 19:36:48.639522
+
+```
 UNITID
 Unit ID for institution
 Unit ID for inst
@@ -1288,7 +1291,7 @@ Avg. net price for largest prog at inst for prog-yr insts
 
 NPT4_OTHER
 Average net price for the largest program at the institution for schools on "other" academic year calendars
-Avg. net price for largest prog at inst for schools on "oth" academic yr calendars
+Avg. net price for largest prog at inst for schools on oth academic yr calendars
 
 NPT41_PUB
 Average net price for $0-$30,000 family income (public institutions)
@@ -7918,3 +7921,6 @@ OMENRUP_PARTTIME_POOLED_SUPP
 Percentage of part-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
 Pctg. ptTime stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
 
+
+
+```
