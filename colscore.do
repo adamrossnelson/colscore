@@ -2,6 +2,7 @@ version 14
 clear all
 set more off
 
+// Oct/2019:  Updated to include files added since Sep 2017.
 // May/2018:  Tested on Linux. Success.
 // Apr/2018:  Updated to document data elements added Feb of 2018.
 // Mar/2018:  Updated to document data elements added Sep/Dec of 2017.
@@ -32,7 +33,7 @@ copy https://ed-public-download.app.cloud.gov/downloads/CollegeScorecard_Raw_Dat
 unzipfile CollegeScorecard_Raw_Data.zip, replace
 cd CollegeScorecard_Raw_Data
 
-forvalues i = 1996 / 2015 {
+forvalues i = 1996 / 2017 {
 		// dataset names look like MERGED1996_97_PP.csv so the
 		// next two lines come up with the '97' given '1996'.
 	local num2 = (`i'+1) - int((`i'+1) / 100)*100
@@ -124,7 +125,7 @@ clear
 use "MERGED_1996PP.dta"
 di "Loaded MERGED_1996PP.dta"
 
-forvalues i = 1997/2015 {
+forvalues i = 1997/201 {
 	di "Merging MERGED_`i'PP.dta"
 	append using "MERGED_`i'PP.dta"
 }
