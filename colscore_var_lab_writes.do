@@ -1,6 +1,6 @@
 // Auto-written by colscore_build_stata_meta.py
 
-// File written on: 2019-10-15 19:10:10.042923
+// File written on: 2019-10-15 19:36:48.645893
 
 lab var unitid "Unit ID for inst"
 lab var opeid "8-digit OPE ID for inst"
@@ -321,7 +321,7 @@ lab var curroper "Flag for currently operating inst, 0=closed, 1=operating"
 lab var npt4_pub "Avg. net price for Title IV insts (public insts)"
 lab var npt4_priv "Avg. net price for Title IV insts (private for-profit and nonprofit insts)"
 lab var npt4_prog "Avg. net price for largest prog at inst for prog-yr insts"
-lab var npt4_other "Avg. net price for largest prog at inst for schools on "oth" academic yr calendars"
+lab var npt4_other "Avg. net price for largest prog at inst for schools on oth academic yr calendars"
 lab var npt41_pub "Avg. net price for $0-$30,000 fam. inc. (public insts)"
 lab var npt42_pub "Avg. net price for $30,001-$48,000 fam. inc. (public insts)"
 lab var npt43_pub "Avg. net price for $48,001-$75,000 fam. inc. (public insts)"

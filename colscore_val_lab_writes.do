@@ -1,6 +1,6 @@
 // Auto-written by colscore_build_stata_meta.py
 
-// File written on: 2019-10-15 19:10:10.045735
+// File written on: 2019-10-15 19:36:48.648799
 
 label define vl_MAIN 0 "Not main campus" 1 "Main campus" 
 label values main vl_MAIN

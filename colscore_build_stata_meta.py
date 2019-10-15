@@ -57,7 +57,7 @@ def abbreviate_long_labs(long_text):
                       'part-time':'ptTime','year':'yr',
                       ' yrs':'yrs','completion':'comp',
                       'less-than-':'<',
-                      '\n':''}
+                      '\n':'','"':''}
 
     for key, value in wrds_to_abbrev.items():
         if short_text is not np.nan:
@@ -105,6 +105,9 @@ df['NAME OF DATA ABBREV'] = df['NAME OF DATA ABBREV'].apply(abbreviate_long_labs
 
 # Make reference file show orig description and abbrev description
 orig_to_abbrev_file = '# Crosswalk Of Original & Abberviated Descriptions\n\n'
+orig_to_abbrev_file = orig_to_abbrev_file + 'File written on: ' 
+orig_to_abbrev_file = orig_to_abbrev_file + str(datetime.datetime.now()) + '\n\n'
+orig_to_abbrev_file = orig_to_abbrev_file + "```\n"
 
 varname_list = []
 original_desc_list = []
@@ -126,6 +129,7 @@ for i in range(0,len(original_desc_list)):
     orig_to_abbrev_file = orig_to_abbrev_file + abbrev_desc_list[i]
     orig_to_abbrev_file = orig_to_abbrev_file + '\n\n'
 
+orig_to_abbrev_file = orig_to_abbrev_file + "\n\n```"
 write_a_file(orig_to_abbrev_file, fname='colscore_varname_abbrevs.md')
 
 # Make do file that will write var labels

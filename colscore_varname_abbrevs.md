@@ -1,6 +1,6 @@
 # Crosswalk Of Original & Abberviated Descriptions
 
-// File written on: 2019-10-15 19:36:48.639522
+File written on: 2019-10-15 19:36:48.639522
 
 ```
 UNITID
