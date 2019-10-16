@@ -157,8 +157,12 @@ rename ïunitid unitid
 // Variable labels & Value labels
 // See colscore_legacy.do for former approaches.
 // These files can be refreshed with colscore_build_stata_meta.py
-do "`starting_dir'/colscore_val_lab_writes.do"
-do "`starting_dir'/colsgticore_var_lab_writes.do"
+// TODO: Engineer a method to "find" local copy of these files...
+// do "`starting_dir'/colscore_val_lab_writes.do"
+// do "`starting_dir'/colsgticore_var_lab_writes.do"
+do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore_var_lab_writes.do
+do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore_val_lab_writes.do
+
 
 // Move up file directory level, compress, add notes.
 // Save resulting panel data set.
