@@ -1,6 +1,6 @@
 // Auto-written by colscore_build_stata_meta.py
 
-// File written on: 2019-10-15 19:36:48.645893
+// File written on: 2019-10-15 19:54:57.466478
 
 lab var unitid "Unit ID for inst"
 lab var opeid "8-digit OPE ID for inst"

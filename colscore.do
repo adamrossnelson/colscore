@@ -51,7 +51,9 @@ forvalues i = 1996 / 2017 {
 		// replace 'NULL' with Stata's '.n' extended missing value, and
 		// likewise replace 'PrivacySuppressed' with '.p'
 	scalar fcontents = fileread("MERGED`i'_`num2'_PP.csv")
-	scalar fcontents = subinstr(fcontents, ",NULL",              ",.n", .)
+	scalar fcontents = subinstr(fcontents, ",NULL", ",.n", .)
+	scalar fcontents = subinstr(fcontents, ",NULNULL", ",.n", .)
+	scalar fcontents = subinstr(fcontents, ",NU", ",.n", .)
 	scalar fcontents = subinstr(fcontents, ",PrivacySuppressed", ",.p", .)
 
 		// Save the changed file contents as, e.g., MERGED_1996PP.csv
