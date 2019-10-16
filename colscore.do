@@ -130,7 +130,7 @@ clear
 use "MERGED_1996PP.dta"
 di "Loaded MERGED_1996PP.dta"
 
-forvalues i = 1997/201 {
+forvalues i = 1997/2017 {
 	di "Merging MERGED_`i'PP.dta"
 	append using "MERGED_`i'PP.dta"
 }
