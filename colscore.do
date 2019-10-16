@@ -54,6 +54,7 @@ forvalues i = 1996 / 2017 {
 	scalar fcontents = subinstr(fcontents, ",NULL", ",.n", .)
 	scalar fcontents = subinstr(fcontents, ",NULNULL", ",.n", .)
 	scalar fcontents = subinstr(fcontents, ",NU", ",.n", .)
+	scalar fcontents = subinstr(fcontents, ",L", ",.n", .)
 	scalar fcontents = subinstr(fcontents, ",PrivacySuppressed", ",.p", .)
 
 		// Save the changed file contents as, e.g., MERGED_1996PP.csv
