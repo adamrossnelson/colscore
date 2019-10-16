@@ -53,8 +53,7 @@ forvalues i = 1996 / 2017 {
 	scalar fcontents = fileread("MERGED`i'_`num2'_PP.csv")
 	scalar fcontents = subinstr(fcontents, ",NULL", ",.n", .)
 	scalar fcontents = subinstr(fcontents, ",NULNULL", ",.n", .)
-	// scalar fcontents = subinstr(fcontents, ",NU", ",.n", .)
-	// scalar fcontents = subinstr(fcontents, ",L", ",.n", .)
+	scalar fcontents = subinstr(fcontents, ",NU", ",.n", .)
 	scalar fcontents = subinstr(fcontents, ",PrivacySuppressed", ",.p", .)
 
 		// Save the changed file contents as, e.g., MERGED_1996PP.csv
@@ -124,17 +123,6 @@ forvalues i = 1996 / 2017 {
 		recast long separ_dt_mdn
 	}
 	
-		// Repair incorrect values in HSI (2017)
-	if `i' == 2017 {
-		replace hsi = ".n" if hsi == "NU"
-		destring hsi, replace
-	}
-
-		// Repair incorrect values in poolyrsret_pt (2001)
-	if `i' == 2001 {
-		replace poolyrsret_pt = ".n" if poolyrsret_pt == "L"
-		destring poolyrsret_pt, replace
-	}
 		// Save as Stata dataset
 	compress
 	save "MERGED_`i'PP.dta", replace
@@ -157,8 +145,11 @@ rename ïunitid unitid
 // Variable labels & Value labels
 // See colscore_legacy.do for former approaches.
 // These files can be refreshed with colscore_build_stata_meta.py
-do "`starting_dir'/colscore_val_lab_writes.do"
-do "`starting_dir'/colscore_var_lab_writes.do"
+// TODO: Engineer a method to "find" local copy of these files...
+// do "`starting_dir'/colscore_val_lab_writes.do"
+// do "`starting_dir'/colscore_var_lab_writes.do"
+do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore_var_lab_writes.do
+do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore_val_lab_writes.do
 
 // Move up file directory level, compress, add notes.
 // Save resulting panel data set.
