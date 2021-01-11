@@ -10,7 +10,8 @@ Fall 2019 brought an update to this code which includes `colscore_build_stata_me
 Plan your day. 
 - At last testing, building the complete college scorecard data required approximately 11 min on a PC Windows 10 3.60 GHz Intel(R) Core(TM) i7-7700 CPU 16 GB RAM computer running Stata SE 15. 
 - Slightly longer at 17 min on a Mac OS 10.10.5 (Mid 2014) 2.8 GHz Intel Core i7 16 GB RAM running Stata SE 15.
--  Only __ min on a Mac OX 11.1 (M1, 2020 Big Sur) MacBook Air 8 GB AM running Stata SE 16.
+- Only 17 min on a Mac OX 11.1 (M1, 2020 Big Sur) MacBook Air 8 GB AM running Stata SE 16.
+
 No promises that these code work as described or as users may desire. This work is collaborative and needs to be checked and re-checked. Report problems or concerns to Adam Ross Nelson on GitHub issues or via Twitter @adamrossnelson.
 
 Run from Stata:
