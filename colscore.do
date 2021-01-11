@@ -3,7 +3,7 @@ clear all
 set more off
 
 // Jan/2020:  Routine updates.
-// Oct/2019:  Created colscore_build_stata_meta.py to automate
+// Oct/2019:  Created colscore_build_stata_meta.py to automate.
 //            Value and variable label creation.
 // Oct/2019:  Updated to include files added since Sep 2017.
 // May/2018:  Tested on Linux. Success.
