@@ -2,6 +2,7 @@ version 14
 clear all
 set more off
 
+// Jan/2020:  Routine updates.
 // Oct/2019:  Created colscore_build_stata_meta.py to automate
 //            Value and variable label creation.
 // Oct/2019:  Updated to include files added since Sep 2017.
@@ -70,10 +71,6 @@ forvalues i = 1996 / 2017 {
 	gen int year = `i'
 	gen int isYr = year
 
-		// Fix strange character that sometimes appears in unitid
-		// column header/variable name
-	capture rename ?itid unitid
-
 		// Fix string variable 'alias', which now has the string ".n"
 		// in it for various observations; it is really a string
 		// variable, so we just want to indicate missing with "".
@@ -110,7 +107,6 @@ forvalues i = 1996 / 2017 {
 	else {
 		recast long separ_dt_mdn
 	}
-	
 	capture confirm string variable t4approvaldate
 	if _rc==0 {
 		gen long newdate = date(t4approvaldate,"MDY")
@@ -124,6 +120,9 @@ forvalues i = 1996 / 2017 {
 		recast long separ_dt_mdn
 	}
 	
+		// Update: Thse year specific fixes corrected in source data.
+		// Commenting the block of code for historic reference.
+		/*	
 		// Repair incorrect values in HSI (2017)
 	if `i' == 2017 {
 		replace hsi = ".n" if hsi == "NU"
@@ -135,6 +134,7 @@ forvalues i = 1996 / 2017 {
 		replace poolyrsret_pt = ".n" if poolyrsret_pt == "L"
 		destring poolyrsret_pt, replace
 	}
+	*/
 		// Save as Stata dataset
 	compress
 	save "MERGED_`i'PP.dta", replace
@@ -149,6 +149,8 @@ forvalues i = 1997/2017 {
 	append using "MERGED_`i'PP.dta"
 }
 
+// Fix strange character that sometimes appears in unitid
+// column header/variable name
 rename ïunitid unitid
 
 // Data dictionary and other documenation:
