@@ -1,16 +1,17 @@
 # 1. College Scorecard Panel Data Builder
+Collaborative effort that began in the summer of 2017 inspired this project. See for example: [Professor Nick Hillman](https://elpa.education.wisc.edu/elpa/people/faculty-and-staff-directory/nicholas-hillman) published [Working with college scorecard data](http://website.education.wisc.edu/nwhillman/index.php/2017/06/09/working-with-college-scorecard-data/) that guided readers through building a panel data set comprising [college score card data](https://collegescorecard.ed.gov/data/). From that post a conversation between Hillman, [Nicholas Cox](https://www.dur.ac.uk/geography/staff/geogstaffhidden/?id=335), [Kevin Fosnacht](http://education.indiana.edu/dotnetforms/Profile.aspx?u=kfosnach), and Alan Riley [of Stata Corporation](https://blog.stata.com/author/ariley/) further developed the choice of code.
 
-This project is inspired by a collaborative effort that began in the summer of 2017 [Professor Nick Hillman](https://elpa.education.wisc.edu/elpa/people/faculty-and-staff-directory/nicholas-hillman) published [Working with college scorecard data](http://website.education.wisc.edu/nwhillman/index.php/2017/06/09/working-with-college-scorecard-data/) that guided readers through the process of building a panel data set consisting of [college score card data](https://collegescorecard.ed.gov/data/). From that post a conversation between Hillman, [Nicholas Cox](https://www.dur.ac.uk/geography/staff/geogstaffhidden/?id=335), [Kevin Fosnacht](http://education.indiana.edu/dotnetforms/Profile.aspx?u=kfosnach), and Alan Riley [of Stata Corporation](https://blog.stata.com/author/ariley/) further developed the choice of code.
+Subsequently Hillman published [More college scorecard code for Stata](http://website.education.wisc.edu/nwhillman/index.php/2017/06/23/more-college-scorecard-code-for-stata/). Using the ideas shared in the above conversations, I developed a set of routines that build a panel data set of IPEDS data [StataIPEDSAll Project](https://github.com/adamrossnelson/StataIPEDSAll). Using the same ideas, this routine builds on Hillman's original blog post.
 
-Subsequently Hillman published [More college scorecard code for Stata](http://website.education.wisc.edu/nwhillman/index.php/2017/06/23/more-college-scorecard-code-for-stata/). Using the ideas shared in the above conversations I developed a set of routines that build a panel data set of IPEDS data [StataIPEDSAll Project](https://github.com/adamrossnelson/StataIPEDSAll). Using the same ideas this routine builds on Hillman's original blog post.
-
-Fall 2019 brought an update to this code which includes `colscore_build_stata_meta.py` which works with [CollegeScorecardDataDictionary.xlsx](https://collegescorecard.ed.gov/assets/CollegeScorecardDataDictionary.xlsx) to automatically create do file code that creates variable labels and value labels. Using `colscore_build_stata_meta.py` can help quickly update and refresh College Scorecard data as its source files are updated or enhanced.
+Fall 2019 brought an update to this code which includes `colscore_build_stata_meta.py` which works with [CollegeScorecardDataDictionary.xlsx](https://collegescorecard.ed.gov/assets/CollegeScorecardDataDictionary.xlsx) to create do file code that creates variable labels and value labels. Using `colscore_build_stata_meta.py` can help quickly update and refresh College Scorecard data as its source files evolve.
 
 ## 1.1. Usage
 
-Plan your day. At last testing, building the complete college scorecard data required approximately 11 min on a PC Windows 10 3.60 GHz Intel(R) Core(TM) i7-7700 CPU 16 GB RAM computer running Stata SE 15. Slightly longer at 17 min a Mac OS 10.10.5 (Mid 2014) 2.8 GHz Intel Core i7 16 GB RAM running Stata SE 15.
-
-No promises that these code work as described or as users may desire. This work is collaborative and needs to be checked re-checked. Report problems or concerns to Adam Ross Nelson on GitHub issues or via Twitter @adamrossnelson.
+Plan your day. 
+- At last testing, building the complete college scorecard data required approximately 11 min on a PC Windows 10 3.60 GHz Intel(R) Core(TM) i7-7700 CPU 16 GB RAM computer running Stata SE 15. 
+- Slightly longer at 17 min on a Mac OS 10.10.5 (Mid 2014) 2.8 GHz Intel Core i7 16 GB RAM running Stata SE 15.
+-  Only __ min on a Mac OX 11.1 (M1, 2020 Big Sur) MacBook Air 8 GB AM running Stata SE 16.
+No promises that these code work as described or as users may desire. This work is collaborative and needs to be checked and re-checked. Report problems or concerns to Adam Ross Nelson on GitHub issues or via Twitter @adamrossnelson.
 
 Run from Stata:
 
