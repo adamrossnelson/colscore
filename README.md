@@ -22,7 +22,7 @@ do https://raw.githubusercontent.com/adamrossnelson/colscore/master/colscore.do
 
 ## 1.2. Suggested Naming Convention
 
-When prompted for a log file name suggested name is `ColScore96to17.log` which will produce `ColScore96to17.dta` at the location you specify. (_Update year reference as needed_).
+When prompted for a log file name suggested name is `ColScore96to18.log` which will produce `ColScore96to18.dta` at the location you specify. (_Update year reference as needed_).
 
 ## 1.3. Updates
 
