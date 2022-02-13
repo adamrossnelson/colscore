@@ -1,6 +1,10 @@
 # Crosswalk Of Original & Abberviated Descriptions
 
-File written on: 2019-10-15 19:54:57.455561
+File written on: 2022-02-13 15:28:51.460376
+
+File written by `colscore_build_stata_meta.py`
+
+More documentation at: https://github.com/adamrossnelson/colscore
 
 ```
 UNITID
@@ -131,7 +135,7 @@ Flag for Alaska Natv. Natv. Hawaiian serving inst
 
 TRIBAL
 Flag for tribal college and university
-Flag for tribal college and university
+Flag for tribal col.&univ
 
 AANAPII
 Flag for Asian American Native American Pacific Islander-serving institution
@@ -411,19 +415,19 @@ Pctg. deg.s awarded in History.
 
 CIP01CERT1
 Certificate of less than one academic year in Agriculture, Agriculture Operations, And Related Sciences.
-Cert. less than one academic yr in Agriculture, Agriculture Operations, & Related Sciences.
+Cert. <1 academic yr in Agriculture, Agriculture Operations, & Related Sciences.
 
 CIP01CERT2
 Certificate of at least one but less than two academic years in Agriculture, Agriculture Operations, And Related Sciences.
-Cert. at least one but less than two academicyrs in Agriculture, Agriculture Operations, & Related Sciences.
+Cert. >1<2 academicyrs in Agriculture, Agriculture Operations, & Related Sciences.
 
 CIP01ASSOC
 Associate degree in Agriculture, Agriculture Operations, And Related Sciences.
 Assoc. deg. in Agriculture, Agriculture Operations, & Related Sciences.
 
 CIP01CERT4
-Awards of at least two but less than four academic years in Agriculture, Agriculture Operations, And Related Sciences.
-Awards at least two but less than four academicyrs in Agriculture, Agriculture Operations, & Related Sciences.
+Award of at least two but less than four academic years in Agriculture, Agriculture Operations, And Related Sciences.
+Award >2<4 academicyrs in Agriculture, Agriculture Operations, & Related Sciences.
 
 CIP01BACHL
 Bachelor's degree in Agriculture, Agriculture Operations, And Related Sciences.
@@ -431,11 +435,11 @@ Bchlr's deg. in Agriculture, Agriculture Operations, & Related Sciences.
 
 CIP03CERT1
 Certificate of less than one academic year in Natural Resources And Conservation.
-Cert. less than one academic yr in Natural Resources & Conservation.
+Cert. <1 academic yr in Natural Resources & Conservation.
 
 CIP03CERT2
 Certificate of at least one but less than two academic years in Natural Resources And Conservation.
-Cert. at least one but less than two academicyrs in Natural Resources & Conservation.
+Cert. >1<2 academicyrs in Natural Resources & Conservation.
 
 CIP03ASSOC
 Associate degree in Natural Resources And Conservation.
@@ -443,7 +447,7 @@ Assoc. deg. in Natural Resources & Conservation.
 
 CIP03CERT4
 Award of at least two but less than four academic years in Natural Resources And Conservation.
-Award at least two but less than four academicyrs in Natural Resources & Conservation.
+Award >2<4 academicyrs in Natural Resources & Conservation.
 
 CIP03BACHL
 Bachelor's degree in Natural Resources And Conservation.
@@ -451,19 +455,19 @@ Bchlr's deg. in Natural Resources & Conservation.
 
 CIP04CERT1
 Certificate of less than one academic year in Architecture And Related Services.
-Cert. less than one academic yr in Architecture & Related Services.
+Cert. <1 academic yr in Architecture & Related Services.
 
 CIP04CERT2
 Certificate of at least one but less than two academic years in Architecture And Related Services.
-Cert. at least one but less than two academicyrs in Architecture & Related Services.
+Cert. >1<2 academicyrs in Architecture & Related Services.
 
 CIP04ASSOC
 Associate degree in Architecture And Related Services.
 Assoc. deg. in Architecture & Related Services.
 
 CIP04CERT4
-Award of more than two but less than four academic years in Architecture And Related Services.
-Award more than two but less than four academicyrs in Architecture & Related Services.
+Award of at least two but less than four academic years in Architecture And Related Services.
+Award >2<4 academicyrs in Architecture & Related Services.
 
 CIP04BACHL
 Bachelor's degree in Architecture And Related Services.
@@ -471,19 +475,19 @@ Bchlr's deg. in Architecture & Related Services.
 
 CIP05CERT1
 Certificate of less than one academic year in Area, Ethnic, Cultural, Gender, And Group Studies.
-Cert. less than one academic yr in Area, Ethnic, Cultural, Gender, & Group Studies.
+Cert. <1 academic yr in Area, Ethnic, Cultural, Gender, & Group Studies.
 
 CIP05CERT2
 Certificate of at least one but less than two academic years in Area, Ethnic, Cultural, Gender, And Group Studies.
-Cert. at least one but less than two academicyrs in Area, Ethnic, Cultural, Gender, & Group Studies.
+Cert. >1<2 academicyrs in Area, Ethnic, Cultural, Gender, & Group Studies.
 
 CIP05ASSOC
 Associate degree in Area, Ethnic, Cultural, Gender, And Group Studies.
 Assoc. deg. in Area, Ethnic, Cultural, Gender, & Group Studies.
 
 CIP05CERT4
-Award of more than two but less than four academic years in Area, Ethnic, Cultural, Gender, And Group Studies.
-Award more than two but less than four academicyrs in Area, Ethnic, Cultural, Gender, & Group Studies.
+Award of at least two but less than four academic years in Area, Ethnic, Cultural, Gender, And Group Studies.
+Award >2<4 academicyrs in Area, Ethnic, Cultural, Gender, & Group Studies.
 
 CIP05BACHL
 Bachelor's degree in Area, Ethnic, Cultural, Gender, And Group Studies.
@@ -491,19 +495,19 @@ Bchlr's deg. in Area, Ethnic, Cultural, Gender, & Group Studies.
 
 CIP09CERT1
 Certificate of less than one academic year in Communication, Journalism, And Related Programs.
-Cert. less than one academic yr in Communication, Journalism, & Related Programs.
+Cert. <1 academic yr in Communication, Journalism, & Related Programs.
 
 CIP09CERT2
 Certificate of at least one but less than two academic years in Communication, Journalism, And Related Programs.
-Cert. at least one but less than two academicyrs in Communication, Journalism, & Related Programs.
+Cert. >1<2 academicyrs in Communication, Journalism, & Related Programs.
 
 CIP09ASSOC
 Associate degree in Communication, Journalism, And Related Programs.
 Assoc. deg. in Communication, Journalism, & Related Programs.
 
 CIP09CERT4
-Award of more than two but less than four academic years in Communication, Journalism, And Related Programs.
-Award more than two but less than four academicyrs in Communication, Journalism, & Related Programs.
+Award of at least two but less than four academic years in Communication, Journalism, And Related Programs.
+Award >2<4 academicyrs in Communication, Journalism, & Related Programs.
 
 CIP09BACHL
 Bachelor's degree in Communication, Journalism, And Related Programs.
@@ -511,19 +515,19 @@ Bchlr's deg. in Communication, Journalism, & Related Programs.
 
 CIP10CERT1
 Certificate of less than one academic year in Communications Technologies/Technicians And Support Services.
-Cert. less than one academic yr in Communications Technologies/Technicians & Support Services.
+Cert. <1 academic yr in Communications Technologies/Technicians & Support Services.
 
 CIP10CERT2
 Certificate of at least one but less than two academic years in Communications Technologies/Technicians And Support Services.
-Cert. at least one but less than two academicyrs in Communications Technologies/Technicians & Support Services.
+Cert. >1<2 academicyrs in Communications Technologies/Technicians & Support Services.
 
 CIP10ASSOC
 Associate degree in Communications Technologies/Technicians And Support Services.
 Assoc. deg. in Communications Technologies/Technicians & Support Services.
 
 CIP10CERT4
-Award of more than two but less than four academic years in Communications Technologies/Technicians And Support Services.
-Award more than two but less than four academicyrs in Communications Technologies/Technicians & Support Services.
+Award of at least two but less than four academic years in Communications Technologies/Technicians And Support Services.
+Award >2<4 academicyrs in Communications Technologies/Technicians & Support Services.
 
 CIP10BACHL
 Bachelor's degree in Communications Technologies/Technicians And Support Services.
@@ -531,19 +535,19 @@ Bchlr's deg. in Communications Technologies/Technicians & Support Services.
 
 CIP11CERT1
 Certificate of less than one academic year in Computer And Information Sciences And Support Services.
-Cert. less than one academic yr in Computer & Information Sciences & Support Services.
+Cert. <1 academic yr in Computer & Information Sciences & Support Services.
 
 CIP11CERT2
 Certificate of at least one but less than two academic years in Computer And Information Sciences And Support Services.
-Cert. at least one but less than two academicyrs in Computer & Information Sciences & Support Services.
+Cert. >1<2 academicyrs in Computer & Information Sciences & Support Services.
 
 CIP11ASSOC
 Associate degree in Computer And Information Sciences And Support Services.
 Assoc. deg. in Computer & Information Sciences & Support Services.
 
 CIP11CERT4
-Award of more than two but less than four academic years in Computer And Information Sciences And Support Services.
-Award more than two but less than four academicyrs in Computer & Information Sciences & Support Services.
+Award of at least two but less than four academic years in Computer And Information Sciences And Support Services.
+Award >2<4 academicyrs in Computer & Information Sciences & Support Services.
 
 CIP11BACHL
 Bachelor's degree in Computer And Information Sciences And Support Services.
@@ -551,19 +555,19 @@ Bchlr's deg. in Computer & Information Sciences & Support Services.
 
 CIP12CERT1
 Certificate of less than one academic year in Personal And Culinary Services.
-Cert. less than one academic yr in Personal & Culinary Services.
+Cert. <1 academic yr in Personal & Culinary Services.
 
 CIP12CERT2
 Certificate of at least one but less than two academic years in Personal And Culinary Services.
-Cert. at least one but less than two academicyrs in Personal & Culinary Services.
+Cert. >1<2 academicyrs in Personal & Culinary Services.
 
 CIP12ASSOC
 Associate degree in Personal And Culinary Services.
 Assoc. deg. in Personal & Culinary Services.
 
 CIP12CERT4
-Award of more than two but less than four academic years in Personal And Culinary Services.
-Award more than two but less than four academicyrs in Personal & Culinary Services.
+Award of at least two but less than four academic years in Personal And Culinary Services.
+Award >2<4 academicyrs in Personal & Culinary Services.
 
 CIP12BACHL
 Bachelor's degree in Personal And Culinary Services.
@@ -571,19 +575,19 @@ Bchlr's deg. in Personal & Culinary Services.
 
 CIP13CERT1
 Certificate of less than one academic year in Education.
-Cert. less than one academic yr in Education.
+Cert. <1 academic yr in Education.
 
 CIP13CERT2
 Certificate of at least one but less than two academic years in Education.
-Cert. at least one but less than two academicyrs in Education.
+Cert. >1<2 academicyrs in Education.
 
 CIP13ASSOC
 Associate degree in Education.
 Assoc. deg. in Education.
 
 CIP13CERT4
-Award of more than two but less than four academic years in Education.
-Award more than two but less than four academicyrs in Education.
+Award of at least two but less than four academic years in Education.
+Award >2<4 academicyrs in Education.
 
 CIP13BACHL
 Bachelor's degree in Education.
@@ -591,19 +595,19 @@ Bchlr's deg. in Education.
 
 CIP14CERT1
 Certificate of less than one academic year in Engineering.
-Cert. less than one academic yr in Engineering.
+Cert. <1 academic yr in Engineering.
 
 CIP14CERT2
 Certificate of at least one but less than two academic years in Engineering.
-Cert. at least one but less than two academicyrs in Engineering.
+Cert. >1<2 academicyrs in Engineering.
 
 CIP14ASSOC
 Associate degree in Engineering.
 Assoc. deg. in Engineering.
 
 CIP14CERT4
-Award of more than two but less than four academic years in Engineering.
-Award more than two but less than four academicyrs in Engineering.
+Award of at least two but less than four academic years in Engineering.
+Award >2<4 academicyrs in Engineering.
 
 CIP14BACHL
 Bachelor's degree in Engineering.
@@ -611,19 +615,19 @@ Bchlr's deg. in Engineering.
 
 CIP15CERT1
 Certificate of less than one academic year in Engineering Technologies And Engineering-Related Fields.
-Cert. less than one academic yr in Engineering Technologies & Engineering-Related Fields.
+Cert. <1 academic yr in Engineering Technologies & Engineering-Related Fields.
 
 CIP15CERT2
 Certificate of at least one but less than two academic years in Engineering Technologies And Engineering-Related Fields.
-Cert. at least one but less than two academicyrs in Engineering Technologies & Engineering-Related Fields.
+Cert. >1<2 academicyrs in Engineering Technologies & Engineering-Related Fields.
 
 CIP15ASSOC
 Associate degree in Engineering Technologies And Engineering-Related Fields.
 Assoc. deg. in Engineering Technologies & Engineering-Related Fields.
 
 CIP15CERT4
-Award of more than two but less than four academic years in Engineering Technologies And Engineering-Related Fields.
-Award more than two but less than four academicyrs in Engineering Technologies & Engineering-Related Fields.
+Award of at least two but less than four academic years in Engineering Technologies And Engineering-Related Fields.
+Award >2<4 academicyrs in Engineering Technologies & Engineering-Related Fields.
 
 CIP15BACHL
 Bachelor's degree in Engineering Technologies And Engineering-Related Fields.
@@ -631,19 +635,19 @@ Bchlr's deg. in Engineering Technologies & Engineering-Related Fields.
 
 CIP16CERT1
 Certificate of less than one academic year in Foreign Languages, Literatures, And Linguistics.
-Cert. less than one academic yr in Foreign Languages, Literatures, & Linguistics.
+Cert. <1 academic yr in Foreign Languages, Literatures, & Linguistics.
 
 CIP16CERT2
 Certificate of at least one but less than two academic years in Foreign Languages, Literatures, And Linguistics.
-Cert. at least one but less than two academicyrs in Foreign Languages, Literatures, & Linguistics.
+Cert. >1<2 academicyrs in Foreign Languages, Literatures, & Linguistics.
 
 CIP16ASSOC
 Associate degree in Foreign Languages, Literatures, And Linguistics.
 Assoc. deg. in Foreign Languages, Literatures, & Linguistics.
 
 CIP16CERT4
-Award of more than two but less than four academic years in Foreign Languages, Literatures, And Linguistics.
-Award more than two but less than four academicyrs in Foreign Languages, Literatures, & Linguistics.
+Award of at least two but less than four academic years in Foreign Languages, Literatures, And Linguistics.
+Award >2<4 academicyrs in Foreign Languages, Literatures, & Linguistics.
 
 CIP16BACHL
 Bachelor's degree in Foreign Languages, Literatures, And Linguistics.
@@ -651,19 +655,19 @@ Bchlr's deg. in Foreign Languages, Literatures, & Linguistics.
 
 CIP19CERT1
 Certificate of less than one academic year in Family And Consumer Sciences/Human Sciences.
-Cert. less than one academic yr in Family & Consumer Sciences/Human Sciences.
+Cert. <1 academic yr in Family & Consumer Sciences/Human Sciences.
 
 CIP19CERT2
 Certificate of at least one but less than two academic years in Family And Consumer Sciences/Human Sciences.
-Cert. at least one but less than two academicyrs in Family & Consumer Sciences/Human Sciences.
+Cert. >1<2 academicyrs in Family & Consumer Sciences/Human Sciences.
 
 CIP19ASSOC
 Associate degree in Family And Consumer Sciences/Human Sciences.
 Assoc. deg. in Family & Consumer Sciences/Human Sciences.
 
 CIP19CERT4
-Award of more than two but less than four academic years in Family And Consumer Sciences/Human Sciences.
-Award more than two but less than four academicyrs in Family & Consumer Sciences/Human Sciences.
+Award of at least two but less than four academic years in Family And Consumer Sciences/Human Sciences.
+Award >2<4 academicyrs in Family & Consumer Sciences/Human Sciences.
 
 CIP19BACHL
 Bachelor's degree in Family And Consumer Sciences/Human Sciences.
@@ -671,19 +675,19 @@ Bchlr's deg. in Family & Consumer Sciences/Human Sciences.
 
 CIP22CERT1
 Certificate of less than one academic year in Legal Professions And Studies.
-Cert. less than one academic yr in Legal Professions & Studies.
+Cert. <1 academic yr in Legal Professions & Studies.
 
 CIP22CERT2
 Certificate of at least one but less than two academic years in Legal Professions And Studies.
-Cert. at least one but less than two academicyrs in Legal Professions & Studies.
+Cert. >1<2 academicyrs in Legal Professions & Studies.
 
 CIP22ASSOC
 Associate degree in Legal Professions And Studies.
 Assoc. deg. in Legal Professions & Studies.
 
 CIP22CERT4
-Award of more than two but less than four academic years in Legal Professions And Studies.
-Award more than two but less than four academicyrs in Legal Professions & Studies.
+Award of at least two but less than four academic years in Legal Professions And Studies.
+Award >2<4 academicyrs in Legal Professions & Studies.
 
 CIP22BACHL
 Bachelor's degree in Legal Professions And Studies.
@@ -691,19 +695,19 @@ Bchlr's deg. in Legal Professions & Studies.
 
 CIP23CERT1
 Certificate of less than one academic year in English Language And Literature/Letters.
-Cert. less than one academic yr in English Language & Literature/Letters.
+Cert. <1 academic yr in English Language & Literature/Letters.
 
 CIP23CERT2
 Certificate of at least one but less than two academic years in English Language And Literature/Letters.
-Cert. at least one but less than two academicyrs in English Language & Literature/Letters.
+Cert. >1<2 academicyrs in English Language & Literature/Letters.
 
 CIP23ASSOC
 Associate degree in English Language And Literature/Letters.
 Assoc. deg. in English Language & Literature/Letters.
 
 CIP23CERT4
-Award of more than two but less than four academic years in English Language And Literature/Letters.
-Award more than two but less than four academicyrs in English Language & Literature/Letters.
+Award of at least two but less than four academic years in English Language And Literature/Letters.
+Award >2<4 academicyrs in English Language & Literature/Letters.
 
 CIP23BACHL
 Bachelor's degree in English Language And Literature/Letters.
@@ -711,19 +715,19 @@ Bchlr's deg. in English Language & Literature/Letters.
 
 CIP24CERT1
 Certificate of less than one academic year in Liberal Arts And Sciences, General Studies And Humanities.
-Cert. less than one academic yr in Liberal Arts & Sciences, General Studies & Humanities.
+Cert. <1 academic yr in Liberal Arts & Sciences, General Studies & Humanities.
 
 CIP24CERT2
 Certificate of at least one but less than two academic years in Liberal Arts And Sciences, General Studies And Humanities.
-Cert. at least one but less than two academicyrs in Liberal Arts & Sciences, General Studies & Humanities.
+Cert. >1<2 academicyrs in Liberal Arts & Sciences, General Studies & Humanities.
 
 CIP24ASSOC
 Associate degree in Liberal Arts And Sciences, General Studies And Humanities.
 Assoc. deg. in Liberal Arts & Sciences, General Studies & Humanities.
 
 CIP24CERT4
-Award of more than two but less than four academic years in Liberal Arts And Sciences, General Studies And Humanities.
-Award more than two but less than four academicyrs in Liberal Arts & Sciences, General Studies & Humanities.
+Award of at least two but less than four academic years in Liberal Arts And Sciences, General Studies And Humanities.
+Award >2<4 academicyrs in Liberal Arts & Sciences, General Studies & Humanities.
 
 CIP24BACHL
 Bachelor's degree in Liberal Arts And Sciences, General Studies And Humanities.
@@ -731,19 +735,19 @@ Bchlr's deg. in Liberal Arts & Sciences, General Studies & Humanities.
 
 CIP25CERT1
 Certificate of less than one academic year in Library Science.
-Cert. less than one academic yr in Library Science.
+Cert. <1 academic yr in Library Science.
 
 CIP25CERT2
 Certificate of at least one but less than two academic years in Library Science.
-Cert. at least one but less than two academicyrs in Library Science.
+Cert. >1<2 academicyrs in Library Science.
 
 CIP25ASSOC
 Associate degree in Library Science.
 Assoc. deg. in Library Science.
 
 CIP25CERT4
-Award of more than two but less than four academic years in Library Science.
-Award more than two but less than four academicyrs in Library Science.
+Award of at least two but less than four academic years in Library Science.
+Award >2<4 academicyrs in Library Science.
 
 CIP25BACHL
 Bachelor's degree in Library Science.
@@ -751,19 +755,19 @@ Bchlr's deg. in Library Science.
 
 CIP26CERT1
 Certificate of less than one academic year in Biological And Biomedical Sciences.
-Cert. less than one academic yr in Biological & Biomedical Sciences.
+Cert. <1 academic yr in Biological & Biomedical Sciences.
 
 CIP26CERT2
 Certificate of at least one but less than two academic years in Biological And Biomedical Sciences.
-Cert. at least one but less than two academicyrs in Biological & Biomedical Sciences.
+Cert. >1<2 academicyrs in Biological & Biomedical Sciences.
 
 CIP26ASSOC
 Associate degree in Biological And Biomedical Sciences.
 Assoc. deg. in Biological & Biomedical Sciences.
 
 CIP26CERT4
-Award of more than two but less than four academic years in Biological And Biomedical Sciences.
-Award more than two but less than four academicyrs in Biological & Biomedical Sciences.
+Award of at least two but less than four academic years in Biological And Biomedical Sciences.
+Award >2<4 academicyrs in Biological & Biomedical Sciences.
 
 CIP26BACHL
 Bachelor's degree in Biological And Biomedical Sciences.
@@ -771,19 +775,19 @@ Bchlr's deg. in Biological & Biomedical Sciences.
 
 CIP27CERT1
 Certificate of less than one academic year in Mathematics And Statistics.
-Cert. less than one academic yr in Mathematics & Statistics.
+Cert. <1 academic yr in Mathematics & Statistics.
 
 CIP27CERT2
 Certificate of at least one but less than two academic years in Mathematics And Statistics.
-Cert. at least one but less than two academicyrs in Mathematics & Statistics.
+Cert. >1<2 academicyrs in Mathematics & Statistics.
 
 CIP27ASSOC
 Associate degree in Mathematics And Statistics.
 Assoc. deg. in Mathematics & Statistics.
 
 CIP27CERT4
-Award of more than two but less than four academic years in Mathematics And Statistics.
-Award more than two but less than four academicyrs in Mathematics & Statistics.
+Award of at least two but less than four academic years in Mathematics And Statistics.
+Award >2<4 academicyrs in Mathematics & Statistics.
 
 CIP27BACHL
 Bachelor's degree in Mathematics And Statistics.
@@ -791,19 +795,19 @@ Bchlr's deg. in Mathematics & Statistics.
 
 CIP29CERT1
 Certificate of less than one academic year in Military Technologies And Applied Sciences.
-Cert. less than one academic yr in Military Technologies & Applied Sciences.
+Cert. <1 academic yr in Military Technologies & Applied Sciences.
 
 CIP29CERT2
 Certificate of at least one but less than two academic years in Military Technologies And Applied Sciences.
-Cert. at least one but less than two academicyrs in Military Technologies & Applied Sciences.
+Cert. >1<2 academicyrs in Military Technologies & Applied Sciences.
 
 CIP29ASSOC
 Associate degree in Military Technologies And Applied Sciences.
 Assoc. deg. in Military Technologies & Applied Sciences.
 
 CIP29CERT4
-Award of more than two but less than four academic years in Military Technologies And Applied Sciences.
-Award more than two but less than four academicyrs in Military Technologies & Applied Sciences.
+Award of at least two but less than four academic years in Military Technologies And Applied Sciences.
+Award >2<4 academicyrs in Military Technologies & Applied Sciences.
 
 CIP29BACHL
 Bachelor's degree in Military Technologies And Applied Sciences.
@@ -811,19 +815,19 @@ Bchlr's deg. in Military Technologies & Applied Sciences.
 
 CIP30CERT1
 Certificate of less than one academic year in Multi/Interdisciplinary Studies.
-Cert. less than one academic yr in Multi/Interdisciplinary Studies.
+Cert. <1 academic yr in Multi/Interdisciplinary Studies.
 
 CIP30CERT2
 Certificate of at least one but less than two academic years in Multi/Interdisciplinary Studies.
-Cert. at least one but less than two academicyrs in Multi/Interdisciplinary Studies.
+Cert. >1<2 academicyrs in Multi/Interdisciplinary Studies.
 
 CIP30ASSOC
 Associate degree in Multi/Interdisciplinary Studies.
 Assoc. deg. in Multi/Interdisciplinary Studies.
 
 CIP30CERT4
-Award of more than two but less than four academic years in Multi/Interdisciplinary Studies.
-Award more than two but less than four academicyrs in Multi/Interdisciplinary Studies.
+Award of at least two but less than four academic years in Multi/Interdisciplinary Studies.
+Award >2<4 academicyrs in Multi/Interdisciplinary Studies.
 
 CIP30BACHL
 Bachelor's degree in Multi/Interdisciplinary Studies.
@@ -831,19 +835,19 @@ Bchlr's deg. in Multi/Interdisciplinary Studies.
 
 CIP31CERT1
 Certificate of less than one academic year in Parks, Recreation, Leisure, And Fitness Studies.
-Cert. less than one academic yr in Parks, Recreation, Leisure, & Fitness Studies.
+Cert. <1 academic yr in Parks, Recreation, Leisure, & Fitness Studies.
 
 CIP31CERT2
 Certificate of at least one but less than two academic years in Parks, Recreation, Leisure, And Fitness Studies.
-Cert. at least one but less than two academicyrs in Parks, Recreation, Leisure, & Fitness Studies.
+Cert. >1<2 academicyrs in Parks, Recreation, Leisure, & Fitness Studies.
 
 CIP31ASSOC
 Associate degree in Parks, Recreation, Leisure, And Fitness Studies.
 Assoc. deg. in Parks, Recreation, Leisure, & Fitness Studies.
 
 CIP31CERT4
-Award of more than two but less than four academic years in Parks, Recreation, Leisure, And Fitness Studies.
-Award more than two but less than four academicyrs in Parks, Recreation, Leisure, & Fitness Studies.
+Award of at least two but less than four academic years in Parks, Recreation, Leisure, And Fitness Studies.
+Award >2<4 academicyrs in Parks, Recreation, Leisure, & Fitness Studies.
 
 CIP31BACHL
 Bachelor's degree in Parks, Recreation, Leisure, And Fitness Studies.
@@ -851,19 +855,19 @@ Bchlr's deg. in Parks, Recreation, Leisure, & Fitness Studies.
 
 CIP38CERT1
 Certificate of less than one academic year in Philosophy And Religious Studies.
-Cert. less than one academic yr in Philosophy & Religious Studies.
+Cert. <1 academic yr in Philosophy & Religious Studies.
 
 CIP38CERT2
 Certificate of at least one but less than two academic years in Philosophy And Religious Studies.
-Cert. at least one but less than two academicyrs in Philosophy & Religious Studies.
+Cert. >1<2 academicyrs in Philosophy & Religious Studies.
 
 CIP38ASSOC
 Associate degree in Philosophy And Religious Studies.
 Assoc. deg. in Philosophy & Religious Studies.
 
 CIP38CERT4
-Award of more than two but less than four academic years in Philosophy And Religious Studies.
-Award more than two but less than four academicyrs in Philosophy & Religious Studies.
+Award of at least two but less than four academic years in Philosophy And Religious Studies.
+Award >2<4 academicyrs in Philosophy & Religious Studies.
 
 CIP38BACHL
 Bachelor's degree in Philosophy And Religious Studies.
@@ -871,19 +875,19 @@ Bchlr's deg. in Philosophy & Religious Studies.
 
 CIP39CERT1
 Certificate of less than one academic year in Theology And Religious Vocations.
-Cert. less than one academic yr in Theology & Religious Vocations.
+Cert. <1 academic yr in Theology & Religious Vocations.
 
 CIP39CERT2
 Certificate of at least one but less than two academic years in Theology And Religious Vocations.
-Cert. at least one but less than two academicyrs in Theology & Religious Vocations.
+Cert. >1<2 academicyrs in Theology & Religious Vocations.
 
 CIP39ASSOC
 Associate degree in Theology And Religious Vocations.
 Assoc. deg. in Theology & Religious Vocations.
 
 CIP39CERT4
-Award of more than two but less than four academic years in Theology And Religious Vocations.
-Award more than two but less than four academicyrs in Theology & Religious Vocations.
+Award of at least two but less than four academic years in Theology And Religious Vocations.
+Award >2<4 academicyrs in Theology & Religious Vocations.
 
 CIP39BACHL
 Bachelor's degree in Theology And Religious Vocations.
@@ -891,19 +895,19 @@ Bchlr's deg. in Theology & Religious Vocations.
 
 CIP40CERT1
 Certificate of less than one academic year in Physical Sciences.
-Cert. less than one academic yr in Physical Sciences.
+Cert. <1 academic yr in Physical Sciences.
 
 CIP40CERT2
 Certificate of at least one but less than two academic years in Physical Sciences.
-Cert. at least one but less than two academicyrs in Physical Sciences.
+Cert. >1<2 academicyrs in Physical Sciences.
 
 CIP40ASSOC
 Associate degree in Physical Sciences.
 Assoc. deg. in Physical Sciences.
 
 CIP40CERT4
-Award of more than two but less than four academic years in Physical Sciences.
-Award more than two but less than four academicyrs in Physical Sciences.
+Award of at least two but less than four academic years in Physical Sciences.
+Award >2<4 academicyrs in Physical Sciences.
 
 CIP40BACHL
 Bachelor's degree in Physical Sciences.
@@ -911,19 +915,19 @@ Bchlr's deg. in Physical Sciences.
 
 CIP41CERT1
 Certificate of less than one academic year in Science Technologies/Technicians.
-Cert. less than one academic yr in Science Technologies/Technicians.
+Cert. <1 academic yr in Science Technologies/Technicians.
 
 CIP41CERT2
 Certificate of at least one but less than two academic years in Science Technologies/Technicians.
-Cert. at least one but less than two academicyrs in Science Technologies/Technicians.
+Cert. >1<2 academicyrs in Science Technologies/Technicians.
 
 CIP41ASSOC
 Associate degree in Science Technologies/Technicians.
 Assoc. deg. in Science Technologies/Technicians.
 
 CIP41CERT4
-Award of more than two but less than four academic years in Science Technologies/Technicians.
-Award more than two but less than four academicyrs in Science Technologies/Technicians.
+Award of at least two but less than four academic years in Science Technologies/Technicians.
+Award >2<4 academicyrs in Science Technologies/Technicians.
 
 CIP41BACHL
 Bachelor's degree in Science Technologies/Technicians.
@@ -931,19 +935,19 @@ Bchlr's deg. in Science Technologies/Technicians.
 
 CIP42CERT1
 Certificate of less than one academic year in Psychology.
-Cert. less than one academic yr in Psychology.
+Cert. <1 academic yr in Psychology.
 
 CIP42CERT2
 Certificate of at least one but less than two academic years in Psychology.
-Cert. at least one but less than two academicyrs in Psychology.
+Cert. >1<2 academicyrs in Psychology.
 
 CIP42ASSOC
 Associate degree in Psychology.
 Assoc. deg. in Psychology.
 
 CIP42CERT4
-Award of more than two but less than four academic years in Psychology.
-Award more than two but less than four academicyrs in Psychology.
+Award of at least two but less than four academic years in Psychology.
+Award >2<4 academicyrs in Psychology.
 
 CIP42BACHL
 Bachelor's degree in Psychology.
@@ -951,19 +955,19 @@ Bchlr's deg. in Psychology.
 
 CIP43CERT1
 Certificate of less than one academic year in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.
-Cert. less than one academic yr in Homeland Security, Law Enforcement, Firefighting & Related Protective Services.
+Cert. <1 academic yr in Homeland Security, Law Enforcement, Firefighting & Related Protective Services.
 
 CIP43CERT2
 Certificate of at least one but less than two academic years in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.
-Cert. at least one but less than two academicyrs in Homeland Security, Law Enforcement, Firefighting & Related Protective Services.
+Cert. >1<2 academicyrs in Homeland Security, Law Enforcement, Firefighting & Related Protective Services.
 
 CIP43ASSOC
 Associate degree in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.
 Assoc. deg. in Homeland Security, Law Enforcement, Firefighting & Related Protective Services.
 
 CIP43CERT4
-Award of more than two but less than four academic years in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.
-Award more than two but less than four academicyrs in Homeland Security, Law Enforcement, Firefighting & Related Protective Services.
+Award of at least two but less than four academic years in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.
+Award >2<4 academicyrs in Homeland Security, Law Enforcement, Firefighting & Related Protective Services.
 
 CIP43BACHL
 Bachelor's degree in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.
@@ -971,19 +975,19 @@ Bchlr's deg. in Homeland Security, Law Enforcement, Firefighting & Related Prote
 
 CIP44CERT1
 Certificate of less than one academic year in Public Administration And Social Service Professions.
-Cert. less than one academic yr in Public Administration & Social Service Professions.
+Cert. <1 academic yr in Public Administration & Social Service Professions.
 
 CIP44CERT2
 Certificate of at least one but less than two academic years in Public Administration And Social Service Professions.
-Cert. at least one but less than two academicyrs in Public Administration & Social Service Professions.
+Cert. >1<2 academicyrs in Public Administration & Social Service Professions.
 
 CIP44ASSOC
 Associate degree in Public Administration And Social Service Professions.
 Assoc. deg. in Public Administration & Social Service Professions.
 
 CIP44CERT4
-Award of more than two but less than four academic years in Public Administration And Social Service Professions.
-Award more than two but less than four academicyrs in Public Administration & Social Service Professions.
+Award of at least two but less than four academic years in Public Administration And Social Service Professions.
+Award >2<4 academicyrs in Public Administration & Social Service Professions.
 
 CIP44BACHL
 Bachelor's degree in Public Administration And Social Service Professions.
@@ -991,19 +995,19 @@ Bchlr's deg. in Public Administration & Social Service Professions.
 
 CIP45CERT1
 Certificate of less than one academic year in Social Sciences.
-Cert. less than one academic yr in Social Sciences.
+Cert. <1 academic yr in Social Sciences.
 
 CIP45CERT2
 Certificate of at least one but less than two academic years in Social Sciences.
-Cert. at least one but less than two academicyrs in Social Sciences.
+Cert. >1<2 academicyrs in Social Sciences.
 
 CIP45ASSOC
 Associate degree in Social Sciences.
 Assoc. deg. in Social Sciences.
 
 CIP45CERT4
-Award of more than two but less than four academic years in Social Sciences.
-Award more than two but less than four academicyrs in Social Sciences.
+Award of at least two but less than four academic years in Social Sciences.
+Award >2<4 academicyrs in Social Sciences.
 
 CIP45BACHL
 Bachelor's degree in Social Sciences.
@@ -1011,19 +1015,19 @@ Bchlr's deg. in Social Sciences.
 
 CIP46CERT1
 Certificate of less than one academic year in Construction Trades.
-Cert. less than one academic yr in Construction Trades.
+Cert. <1 academic yr in Construction Trades.
 
 CIP46CERT2
 Certificate of at least one but less than two academic years in Construction Trades.
-Cert. at least one but less than two academicyrs in Construction Trades.
+Cert. >1<2 academicyrs in Construction Trades.
 
 CIP46ASSOC
 Associate degree in Construction Trades.
 Assoc. deg. in Construction Trades.
 
 CIP46CERT4
-Award of more than two but less than four academic years in Construction Trades.
-Award more than two but less than four academicyrs in Construction Trades.
+Award of at least two but less than four academic years in Construction Trades.
+Award >2<4 academicyrs in Construction Trades.
 
 CIP46BACHL
 Bachelor's degree in Construction Trades.
@@ -1031,19 +1035,19 @@ Bchlr's deg. in Construction Trades.
 
 CIP47CERT1
 Certificate of less than one academic year in Mechanic And Repair Technologies/Technicians.
-Cert. less than one academic yr in Mechanic & Repair Technologies/Technicians.
+Cert. <1 academic yr in Mechanic & Repair Technologies/Technicians.
 
 CIP47CERT2
 Certificate of at least one but less than two academic years in Mechanic And Repair Technologies/Technicians.
-Cert. at least one but less than two academicyrs in Mechanic & Repair Technologies/Technicians.
+Cert. >1<2 academicyrs in Mechanic & Repair Technologies/Technicians.
 
 CIP47ASSOC
 Associate degree in Mechanic And Repair Technologies/Technicians.
 Assoc. deg. in Mechanic & Repair Technologies/Technicians.
 
 CIP47CERT4
-Award of more than two but less than four academic years in Mechanic And Repair Technologies/Technicians.
-Award more than two but less than four academicyrs in Mechanic & Repair Technologies/Technicians.
+Award of at least two but less than four academic years in Mechanic And Repair Technologies/Technicians.
+Award >2<4 academicyrs in Mechanic & Repair Technologies/Technicians.
 
 CIP47BACHL
 Bachelor's degree in Mechanic And Repair Technologies/Technicians.
@@ -1051,19 +1055,19 @@ Bchlr's deg. in Mechanic & Repair Technologies/Technicians.
 
 CIP48CERT1
 Certificate of less than one academic year in Precision Production.
-Cert. less than one academic yr in Precision Production.
+Cert. <1 academic yr in Precision Production.
 
 CIP48CERT2
 Certificate of at least one but less than two academic years in Precision Production.
-Cert. at least one but less than two academicyrs in Precision Production.
+Cert. >1<2 academicyrs in Precision Production.
 
 CIP48ASSOC
 Associate degree in Precision Production.
 Assoc. deg. in Precision Production.
 
 CIP48CERT4
-Award of more than two but less than four academic years in Precision Production.
-Award more than two but less than four academicyrs in Precision Production.
+Award of at least two but less than four academic years in Precision Production.
+Award >2<4 academicyrs in Precision Production.
 
 CIP48BACHL
 Bachelor's degree in Precision Production.
@@ -1071,19 +1075,19 @@ Bchlr's deg. in Precision Production.
 
 CIP49CERT1
 Certificate of less than one academic year in Transportation And Materials Moving.
-Cert. less than one academic yr in Transportation & Materials Moving.
+Cert. <1 academic yr in Transportation & Materials Moving.
 
 CIP49CERT2
 Certificate of at least one but less than two academic years in Transportation And Materials Moving.
-Cert. at least one but less than two academicyrs in Transportation & Materials Moving.
+Cert. >1<2 academicyrs in Transportation & Materials Moving.
 
 CIP49ASSOC
 Associate degree in Transportation And Materials Moving.
 Assoc. deg. in Transportation & Materials Moving.
 
 CIP49CERT4
-Award of more than two but less than four academic years in Transportation And Materials Moving.
-Award more than two but less than four academicyrs in Transportation & Materials Moving.
+Award of at least two but less than four academic years in Transportation And Materials Moving.
+Award >2<4 academicyrs in Transportation & Materials Moving.
 
 CIP49BACHL
 Bachelor's degree in Transportation And Materials Moving.
@@ -1091,19 +1095,19 @@ Bchlr's deg. in Transportation & Materials Moving.
 
 CIP50CERT1
 Certificate of less than one academic year in Visual And Performing Arts.
-Cert. less than one academic yr in Visual & Performing Arts.
+Cert. <1 academic yr in Visual & Performing Arts.
 
 CIP50CERT2
 Certificate of at least one but less than two academic years in Visual And Performing Arts.
-Cert. at least one but less than two academicyrs in Visual & Performing Arts.
+Cert. >1<2 academicyrs in Visual & Performing Arts.
 
 CIP50ASSOC
 Associate degree in Visual And Performing Arts.
 Assoc. deg. in Visual & Performing Arts.
 
 CIP50CERT4
-Award of more than two but less than four academic years in Visual And Performing Arts.
-Award more than two but less than four academicyrs in Visual & Performing Arts.
+Award of at least two but less than four academic years in Visual And Performing Arts.
+Award >2<4 academicyrs in Visual & Performing Arts.
 
 CIP50BACHL
 Bachelor's degree in Visual And Performing Arts.
@@ -1111,19 +1115,19 @@ Bchlr's deg. in Visual & Performing Arts.
 
 CIP51CERT1
 Certificate of less than one academic year in Health Professions And Related Programs.
-Cert. less than one academic yr in Health Professions & Related Programs.
+Cert. <1 academic yr in Health Professions & Related Programs.
 
 CIP51CERT2
 Certificate of at least one but less than two academic years in Health Professions And Related Programs.
-Cert. at least one but less than two academicyrs in Health Professions & Related Programs.
+Cert. >1<2 academicyrs in Health Professions & Related Programs.
 
 CIP51ASSOC
 Associate degree in Health Professions And Related Programs.
 Assoc. deg. in Health Professions & Related Programs.
 
 CIP51CERT4
-Award of more than two but less than four academic years in Health Professions And Related Programs.
-Award more than two but less than four academicyrs in Health Professions & Related Programs.
+Award of at least two but less than four academic years in Health Professions And Related Programs.
+Award >2<4 academicyrs in Health Professions & Related Programs.
 
 CIP51BACHL
 Bachelor's degree in Health Professions And Related Programs.
@@ -1131,19 +1135,19 @@ Bchlr's deg. in Health Professions & Related Programs.
 
 CIP52CERT1
 Certificate of less than one academic year in Business, Management, Marketing, And Related Support Services.
-Cert. less than one academic yr in Business, Management, Marketing, & Related Support Services.
+Cert. <1 academic yr in Business, Management, Marketing, & Related Support Services.
 
 CIP52CERT2
 Certificate of at least one but less than two academic years in Business, Management, Marketing, And Related Support Services.
-Cert. at least one but less than two academicyrs in Business, Management, Marketing, & Related Support Services.
+Cert. >1<2 academicyrs in Business, Management, Marketing, & Related Support Services.
 
 CIP52ASSOC
 Associate degree in Business, Management, Marketing, And Related Support Services.
 Assoc. deg. in Business, Management, Marketing, & Related Support Services.
 
 CIP52CERT4
-Award of more than two but less than four academic years in Business, Management, Marketing, And Related Support Services.
-Award more than two but less than four academicyrs in Business, Management, Marketing, & Related Support Services.
+Award of at least two but less than four academic years in Business, Management, Marketing, And Related Support Services.
+Award >2<4 academicyrs in Business, Management, Marketing, & Related Support Services.
 
 CIP52BACHL
 Bachelor's degree in Business, Management, Marketing, And Related Support Services.
@@ -1151,19 +1155,19 @@ Bchlr's deg. in Business, Management, Marketing, & Related Support Services.
 
 CIP54CERT1
 Certificate of less than one academic year in History.
-Cert. less than one academic yr in History.
+Cert. <1 academic yr in History.
 
 CIP54CERT2
 Certificate of at least one but less than two academic years in History.
-Cert. at least one but less than two academicyrs in History.
+Cert. >1<2 academicyrs in History.
 
 CIP54ASSOC
 Associate degree in History.
 Assoc. deg. in History.
 
 CIP54CERT4
-Award of more than two but less than four academic years in History.
-Award more than two but less than four academicyrs in History.
+Award of at least two but less than four academic years in History.
+Award >2<4 academicyrs in History.
 
 CIP54BACHL
 Bachelor's degree in History.
@@ -7920,6 +7924,4054 @@ Pctg. ptTime stdnt rcving an award within 8yrs entry, pooled in rolling avgs and
 OMENRUP_PARTTIME_POOLED_SUPP
 Percentage of part-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
 Pctg. ptTime stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+FTFTPCTPELL
+Percentage of full-time, first-time degree/certificate-seeking undergraduate students awarded a Pell Grant
+Pctg. flTime, 1st-time deg./certificate-seeking udgr. stdnts awarded a Pell Grant
+
+FTFTPCTFLOAN
+Percentage of full-time, first-time degree/certificate-seeking undergraduate students awarded a federal loan
+Pctg. flTime, 1st-time deg./certificate-seeking udgr. stdnts awarded a fed. loan
+
+UG12MN
+Unduplicated count of undergraduate students enrolled during a 12 month period
+Unduplicated count udgr. stdnts enrolled during a 12 month period
+
+G12MN
+Unduplicated count of graduate students enrolled during a 12 month period
+Unduplicated count graduate stdnts enrolled during a 12 month period
+
+SCUGFFN
+Number of full-time, first-time degree/certificate-seeking undergraduate students (denominator for percent full-time, first-time degree/certificate-seeking undergraduates receiving a pell grant or federal student loan)
+Num flTime, 1st-time deg./certificate-seeking udgr. stdnts (dnmtr for percent flTime, 1st-time deg./certificate-seeking udgr.s rcving a pell grant or fed. stdnt loan)
+
+POOLYRS_FTFTAIDPCT
+Years used for rolling averages of FTFTPCTPELL_POOLED_SUPP and FTFTPCTFLOAN_POOLED_SUPP
+Yrs used for rolling avgs FTFTPCTPELL_POOLED_SUPP and FTFTPCTFLOAN_POOLED_SUPP
+
+FTFTPCTPELL_POOLED_SUPP
+Percentage of full-time, first-time degree/certificate-seeking undergraduate students awarded a Pell Grant, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, 1st-time deg./certificate-seeking udgr. stdnts awarded a Pell Grant, pooled in rolling avgs and suppressed for small n size
+
+FTFTPCTFLOAN_POOLED_SUPP
+Percentage of full-time, first-time degree/certificate-seeking undergraduate students awarded a federal loan, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, 1st-time deg./certificate-seeking udgr. stdnts awarded a fed. loan, pooled in rolling avgs and suppressed for small n size
+
+SCUGFFN_POOLED
+Number of full-time, first-time degree/certificate-seeking undergraduate students (denominator for percent full-time, first-time degree/certificate-seeking undergraduates receiving a pell grant or federal student loan), pooled in rolling averages
+Num flTime, 1st-time deg./certificate-seeking udgr. stdnts (dnmtr for percent flTime, 1st-time deg./certificate-seeking udgr.s rcving a pell grant or fed. stdnt loan), pooled in rolling avgs
+
+PPLUS_PCT_LOW
+Lower bound of estimated percentage range of students whose parents took out a PLUS loan
+Lower bound estimated percentage range stdnts whose parents took out a PLUS loan
+
+PPLUS_PCT_HIGH
+Upper bound of estimated percentage range of students whose parents took out a PLUS loan
+Upper bound estimated percentage range stdnts whose parents took out a PLUS loan
+
+PPLUS_PCT_LOW_POOLED_SUPP
+Lower bound of estimated percentage range of students whose parents took out a PLUS loan, pooled in rolling averages and suppressed for small n size
+Lower bound estimated percentage range stdnts whose parents took out a PLUS loan, pooled in rolling avgs and suppressed for small n size
+
+PPLUS_PCT_HIGH_POOLED_SUPP
+Upper bound of estimated percentage range of students whose parents took out a PLUS loan, pooled in rolling averages and suppressed for small n size
+Upper bound estimated percentage range stdnts whose parents took out a PLUS loan, pooled in rolling avgs and suppressed for small n size
+
+POOLYRS_PLUSPCT
+Years used for rolling averages of PPLUS_PCT_LOW_POOLED_SUPP and PPLUS_PCT_HIGH_POOLED_SUPP
+Yrs used for rolling avgs PPLUS_PCT_LOW_POOLED_SUPP and PPLUS_PCT_HIGH_POOLED_SUPP
+
+PLUS_DEBT_INST_N
+Student recipient count for median PLUS loan debt disbursed at this institution
+Student recipient cnt. median PLUS loan debt disbursed at this inst
+
+PLUS_DEBT_INST_MD
+Median PLUS loan debt disbursed at this institution
+Median PLUS loan debt disbursed at this inst
+
+PLUS_DEBT_ALL_N
+Student recipient count for median PLUS loan debt disbursed at all institutions
+Student recipient cnt. median PLUS loan debt disbursed at all insts
+
+PLUS_DEBT_ALL_MD
+Median PLUS loan debt disbursed at all institutions
+Median PLUS loan debt disbursed at all insts
+
+PLUS_DEBT_INST_COMP_N
+Student recipient count for median PLUS loan debt disbursed to completers at this institution
+Student recipient cnt. median PLUS loan debt disbursed to completers at this inst
+
+PLUS_DEBT_INST_COMP_MD
+Median PLUS loan debt disbursed to completers at this institution
+Median PLUS loan debt disbursed to completers at this inst
+
+PLUS_DEBT_INST_COMP_MDPAY10
+Median estimated monthly payment for PLUS loan debt disbursed to completers at this institution
+Median estimated monthly payment for PLUS loan debt disbursed to completers at this inst
+
+PLUS_DEBT_INST_COMP_MD_SUPP
+Median PLUS loan debt disbursed to completers at this institution, suppressed for n=30
+Median PLUS loan debt disbursed to completers at this inst, suppressed for n=30
+
+PLUS_DEBT_INST_COMP_MDPAY10_SUPP
+Median estimated monthly payment for PLUS loan debt disbursed to completers at this institution, suppressed for n=30
+Median estimated monthly payment for PLUS loan debt disbursed to completers at this inst, suppressed for n=30
+
+PLUS_DEBT_ALL_COMP_N
+Student recipient count for median PLUS loan debt disbursed to completers at all institutions
+Student recipient cnt. median PLUS loan debt disbursed to completers at all insts
+
+PLUS_DEBT_ALL_COMP_MD
+Median PLUS loan debt disbursed to completers at all institutions
+Median PLUS loan debt disbursed to completers at all insts
+
+PLUS_DEBT_ALL_COMP_MDPAY10
+Median estimated monthly payment for PLUS loan debt disbursed to completers at all institutions
+Median estimated monthly payment for PLUS loan debt disbursed to completers at all insts
+
+PLUS_DEBT_ALL_COMP_MD_SUPP
+Median PLUS loan debt disbursed to completers at all institutions, suppressed for n=30
+Median PLUS loan debt disbursed to completers at all insts, suppressed for n=30
+
+PLUS_DEBT_ALL_COMP_MDPAY10_SUPP
+Median estimated monthly payment for PLUS loan debt disbursed to completers at all institutions, suppressed for n=30
+Median estimated monthly payment for PLUS loan debt disbursed to completers at all insts, suppressed for n=30
+
+PLUS_DEBT_INST_NOCOMP_N
+Student recipient count for median PLUS loan debt disbursed to non-completers at this institution
+Student recipient cnt. median PLUS loan debt disbursed to non-completers at this inst
+
+PLUS_DEBT_INST_NOCOMP_MD
+Median PLUS loan debt disbursed to non-completers at this institution
+Median PLUS loan debt disbursed to non-completers at this inst
+
+PLUS_DEBT_ALL_NOCOMP_N
+Student recipient count for median PLUS loan debt disbursed to non-completers at all institutions
+Student recipient cnt. median PLUS loan debt disbursed to non-completers at all insts
+
+PLUS_DEBT_ALL_NOCOMP_MD
+Median PLUS loan debt disbursed to non-completers at all institutions
+Median PLUS loan debt disbursed to non-completers at all insts
+
+PLUS_DEBT_INST_MALE_N
+Student recipient count for median PLUS loan debt disbursed to males at this institution
+Student recipient cnt. median PLUS loan debt disbursed to males at this inst
+
+PLUS_DEBT_INST_MALE_MD
+Median PLUS loan debt disbursed to males at this institution
+Median PLUS loan debt disbursed to males at this inst
+
+PLUS_DEBT_ALL_MALE_N
+Student recipient count for median PLUS loan debt disbursed to males at all institutions
+Student recipient cnt. median PLUS loan debt disbursed to males at all insts
+
+PLUS_DEBT_ALL_MALE_MD
+Median PLUS loan debt disbursed to males at all institutions
+Median PLUS loan debt disbursed to males at all insts
+
+PLUS_DEBT_INST_NOMALE_N
+Student recipient count for median PLUS loan debt disbursed to non-males at this institution
+Student recipient cnt. median PLUS loan debt disbursed to non-males at this inst
+
+PLUS_DEBT_INST_NOMALE_MD
+Median PLUS loan debt disbursed to non-males at this institution
+Median PLUS loan debt disbursed to non-males at this inst
+
+PLUS_DEBT_ALL_NOMALE_N
+Student recipient count for median PLUS loan debt disbursed to non-males at all institutions
+Student recipient cnt. median PLUS loan debt disbursed to non-males at all insts
+
+PLUS_DEBT_ALL_NOMALE_MD
+Median PLUS loan debt disbursed to non-males at all institutions
+Median PLUS loan debt disbursed to non-males at all insts
+
+PLUS_DEBT_INST_PELL_N
+Student recipient count for median PLUS loan debt disbursed to Pell recipients at this institution
+Student recipient cnt. median PLUS loan debt disbursed to Pell recipients at this inst
+
+PLUS_DEBT_INST_PELL_MD
+Median PLUS loan debt disbursed to Pell recipients at this institution
+Median PLUS loan debt disbursed to Pell recipients at this inst
+
+PLUS_DEBT_ALL_PELL_N
+Student recipient count for median PLUS loan debt disbursed to Pell recipients at all institutions
+Student recipient cnt. median PLUS loan debt disbursed to Pell recipients at all insts
+
+PLUS_DEBT_ALL_PELL_MD
+Median PLUS loan debt disbursed to Pell recipients at all institutions
+Median PLUS loan debt disbursed to Pell recipients at all insts
+
+PLUS_DEBT_INST_NOPELL_N
+Student recipient count for median PLUS loan debt disbursed to non-Pell-recipients at this institution
+Student recipient cnt. median PLUS loan debt disbursed to non-Pell-recipients at this inst
+
+PLUS_DEBT_INST_NOPELL_MD
+Median PLUS loan debt disbursed to non-Pell-recipients at this institution
+Median PLUS loan debt disbursed to non-Pell-recipients at this inst
+
+PLUS_DEBT_ALL_NOPELL_N
+Student recipient count for median PLUS loan debt disbursed to non-Pell-recipients at all institutions
+Student recipient cnt. median PLUS loan debt disbursed to non-Pell-recipients at all insts
+
+PLUS_DEBT_ALL_NOPELL_MD
+Median PLUS loan debt disbursed to non-Pell-recipients at all institutions
+Median PLUS loan debt disbursed to non-Pell-recipients at all insts
+
+PLUS_DEBT_INST_STAFFTHIS_N
+Student recipient count for median PLUS loan debt disbursed at this institution to Stafford loan recipients at this institution
+Student recipient cnt. median PLUS loan debt disbursed at this inst to Stafford loan recipients at this inst
+
+PLUS_DEBT_INST_STAFFTHIS_MD
+Median PLUS loan debt disbursed at this institution to Stafford loan recipients at this institution
+Median PLUS loan debt disbursed at this inst to Stafford loan recipients at this inst
+
+PLUS_DEBT_ALL_STAFFTHIS_N
+Student recipient count for median PLUS loan debt disbursed at any institution to Stafford loan recipients at this institution
+Student recipient cnt. median PLUS loan debt disbursed at any inst to Stafford loan recipients at this inst
+
+PLUS_DEBT_ALL_STAFFTHIS_MD
+Median PLUS loan debt disbursed at any institution to Stafford loan recipients at this institution
+Median PLUS loan debt disbursed at any inst to Stafford loan recipients at this inst
+
+PLUS_DEBT_INST_NOSTAFFTHIS_N
+Student recipient count for median PLUS loan debt disbursed at this institution to students not receiving a Stafford loan at this institution
+Student recipient cnt. median PLUS loan debt disbursed at this inst to stdnts not rcving a Stafford loan at this inst
+
+PLUS_DEBT_INST_NOSTAFFTHIS_MD
+Median PLUS loan debt disbursed at this institution to students not receiving a Stafford loan at this institution
+Median PLUS loan debt disbursed at this inst to stdnts not rcving a Stafford loan at this inst
+
+PLUS_DEBT_ALL_NOSTAFFTHIS_N
+Student recipient count for median PLUS loan debt disbursed at any institution to students not receiving a Stafford loan at this institution
+Student recipient cnt. median PLUS loan debt disbursed at any inst to stdnts not rcving a Stafford loan at this inst
+
+PLUS_DEBT_ALL_NOSTAFFTHIS_MD
+Median PLUS loan debt disbursed at any institution to students not receiving a Stafford loan at this institution
+Median PLUS loan debt disbursed at any inst to stdnts not rcving a Stafford loan at this inst
+
+PLUS_DEBT_INST_STAFFANY_N
+Student recipient count for median PLUS loan debt disbursed at this institution to Stafford loan recipients at any institution
+Student recipient cnt. median PLUS loan debt disbursed at this inst to Stafford loan recipients at any inst
+
+PLUS_DEBT_INST_STAFFANY_MD
+Median PLUS loan debt disbursed at this institution to Stafford loan recipients at any institution
+Median PLUS loan debt disbursed at this inst to Stafford loan recipients at any inst
+
+PLUS_DEBT_ALL_STAFFANY_N
+Student recipient count for median PLUS loan debt disbursed at any institution to Stafford loan recipients at any institution
+Student recipient cnt. median PLUS loan debt disbursed at any inst to Stafford loan recipients at any inst
+
+PLUS_DEBT_ALL_STAFFANY_MD
+Median PLUS loan debt disbursed at any institution to Stafford loan recipients at any institution
+Median PLUS loan debt disbursed at any inst to Stafford loan recipients at any inst
+
+PLUS_DEBT_INST_NOSTAFFANY_N
+Student recipient count for median PLUS loan debt disbursed at this institution to students not receiving a Stafford loan at any institution
+Student recipient cnt. median PLUS loan debt disbursed at this inst to stdnts not rcving a Stafford loan at any inst
+
+PLUS_DEBT_INST_NOSTAFFANY_MD
+Median PLUS loan debt disbursed at this institution to students not receiving a Stafford loan at any institution
+Median PLUS loan debt disbursed at this inst to stdnts not rcving a Stafford loan at any inst
+
+PLUS_DEBT_ALL_NOSTAFFANY_N
+Student recipient count for median PLUS loan debt disbursed at any institution to students not receiving a Stafford loan at any institution
+Student recipient cnt. median PLUS loan debt disbursed at any inst to stdnts not rcving a Stafford loan at any inst
+
+PLUS_DEBT_ALL_NOSTAFFANY_MD
+Median PLUS loan debt disbursed at any institution to students not receiving a Stafford loan at any institution
+Median PLUS loan debt disbursed at any inst to stdnts not rcving a Stafford loan at any inst
+
+COUNT_NWNE_3YR
+Number of graduates not working and not enrolled 3 years after completing
+Num graduates not working and not enrolled 3yrs after completing
+
+COUNT_WNE_3YR
+Number of graduates working and not enrolled 3 years after completing
+Num graduates working and not enrolled 3yrs after completing
+
+CNTOVER150_3YR
+Number of graduates working and not enrolled who earned more than 150% of the single-person household poverty threshold 3 years after completing
+Num graduates working and not enrolled who earned more than 150% single-person household poverty threshold 3yrs after completing
+
+DBRR1_FED_UG_N
+Undergraduate federal student loan dollar-based 1-year repayment rate borrower count
+Undergraduate fed. stdnt loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_FED_UG_NUM
+Undergraduate federal student loan dollar-based 1-year repayment rate numerator
+Undergraduate fed. stdnt loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_FED_UG_DEN
+Undergraduate federal student loan dollar-based 1-year repayment rate denominator
+Undergraduate fed. stdnt loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_FED_UG_RT
+Undergraduate federal student loan dollar-based 1-year repayment rate
+Undergraduate fed. stdnt loan dollar-based 1yr repayment rt.
+
+DBRR1_FED_GR_N
+Graduate federal student loan dollar-based 1-year repayment rate borrower count
+Graduate fed. stdnt loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_FED_GR_NUM
+Graduate federal student loan dollar-based 1-year repayment rate numerator
+Graduate fed. stdnt loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_FED_GR_DEN
+Graduate federal student loan dollar-based 1-year repayment rate denominator
+Graduate fed. stdnt loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_FED_GR_RT
+Graduate federal student loan dollar-based 1-year repayment rate
+Graduate fed. stdnt loan dollar-based 1yr repayment rt.
+
+DBRR1_FED_UGCOMP_N
+Undergraduate borrower completers undergraduate federal student loan dollar-based 1-year repayment rate borrower count
+Undergraduate borrower completers udgr. fed. stdnt loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_FED_UGCOMP_NUM
+Undergraduate borrower completers undergraduate federal student loan dollar-based 1-year repayment rate numerator
+Undergraduate borrower completers udgr. fed. stdnt loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_FED_UGCOMP_DEN
+Undergraduate borrower completers undergraduate federal student loan dollar-based 1-year repayment rate denominator
+Undergraduate borrower completers udgr. fed. stdnt loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_FED_UGCOMP_RT
+Undergraduate borrower completers undergraduate federal student loan dollar-based 1-year repayment rate
+Undergraduate borrower completers udgr. fed. stdnt loan dollar-based 1yr repayment rt.
+
+DBRR1_FED_UGNOCOMP_N
+Undergraduate borrower non-completers undergraduate federal student loan dollar-based 1-year repayment rate borrower count
+Undergraduate borrower non-completers udgr. fed. stdnt loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_FED_UGNOCOMP_NUM
+Undergraduate borrower non-completers undergraduate federal student loan dollar-based 1-year repayment rate numerator
+Undergraduate borrower non-completers udgr. fed. stdnt loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_FED_UGNOCOMP_DEN
+Undergraduate borrower non-completers undergraduate federal student loan dollar-based 1-year repayment rate denominator
+Undergraduate borrower non-completers udgr. fed. stdnt loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_FED_UGNOCOMP_RT
+Undergraduate borrower non-completers undergraduate federal student loan dollar-based 1-year repayment rate repayment rate
+Undergraduate borrower non-completers udgr. fed. stdnt loan dollar-based 1yr repayment rt. repayment rt.
+
+DBRR1_FED_UGUNK_N
+Undergraduate borrowers with unknown completion status undergraduate federal student loan dollar-based 1-year repayment rate borrower count
+Undergraduate borrowers with unkn comp status udgr. fed. stdnt loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_FED_UGUNK_NUM
+Undergraduate borrowers with unknown completion status undergraduate federal student loan dollar-based 1-year repayment rate numerator
+Undergraduate borrowers with unkn comp status udgr. fed. stdnt loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_FED_UGUNK_DEN
+Undergraduate borrowers with unknown completion status undergraduate federal student loan dollar-based 1-year repayment rate denominator
+Undergraduate borrowers with unkn comp status udgr. fed. stdnt loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_FED_UGUNK_RT
+Undergraduate borrowers with unknown completion status undergraduate federal student loan dollar-based 1-year repayment rate repayment rate
+Undergraduate borrowers with unkn comp status udgr. fed. stdnt loan dollar-based 1yr repayment rt. repayment rt.
+
+DBRR1_FED_GRCOMP_N
+Graduate borrower completers graduate federal student loan dollar-based 1-year repayment rate borrower count
+Graduate borrower completers graduate fed. stdnt loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_FED_GRCOMP_NUM
+Graduate borrower completers graduate federal student loan dollar-based 1-year repayment rate numerator
+Graduate borrower completers graduate fed. stdnt loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_FED_GRCOMP_DEN
+Graduate borrower completers graduate federal student loan dollar-based 1-year repayment rate denominator
+Graduate borrower completers graduate fed. stdnt loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_FED_GRCOMP_RT
+Graduate borrower completers graduate federal student loan dollar-based 1-year repayment rate
+Graduate borrower completers graduate fed. stdnt loan dollar-based 1yr repayment rt.
+
+DBRR1_FED_GRNOCOMP_N
+Graduate borrower non-completers graduate federal student loan dollar-based 1-year repayment rate borrower count
+Graduate borrower non-completers graduate fed. stdnt loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_FED_GRNOCOMP_NUM
+Graduate borrower non-completers graduate federal student loan dollar-based 1-year repayment rate numerator
+Graduate borrower non-completers graduate fed. stdnt loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_FED_GRNOCOMP_DEN
+Graduate borrower non-completers graduate federal student loan dollar-based 1-year repayment rate denominator
+Graduate borrower non-completers graduate fed. stdnt loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_FED_GRNOCOMP_RT
+Graduate borrower non-completers graduate federal student loan dollar-based 1-year repayment rate repayment rate
+Graduate borrower non-completers graduate fed. stdnt loan dollar-based 1yr repayment rt. repayment rt.
+
+DBRR4_FED_UG_N
+Undergraduate federal student loan dollar-based 4-year repayment rate borrower count
+Undergraduate fed. stdnt loan dollar-based 4yr repayment rt. borrower count
+
+DBRR4_FED_UG_NUM
+Undergraduate federal student loan dollar-based 4-year repayment rate numerator
+Undergraduate fed. stdnt loan dollar-based 4yr repayment rt. numerator
+
+DBRR4_FED_UG_DEN
+Undergraduate federal student loan dollar-based 4-year repayment rate denominator
+Undergraduate fed. stdnt loan dollar-based 4yr repayment rt. dnmtr
+
+DBRR4_FED_UG_RT
+Undergraduate federal student loan dollar-based 4-year repayment rate
+Undergraduate fed. stdnt loan dollar-based 4yr repayment rt.
+
+DBRR4_FED_GR_N
+Graduate federal student loan dollar-based 4-year repayment rate borrower count
+Graduate fed. stdnt loan dollar-based 4yr repayment rt. borrower count
+
+DBRR4_FED_GR_NUM
+Graduate federal student loan dollar-based 4-year repayment rate numerator
+Graduate fed. stdnt loan dollar-based 4yr repayment rt. numerator
+
+DBRR4_FED_GR_DEN
+Graduate federal student loan dollar-based 4-year repayment rate denominator
+Graduate fed. stdnt loan dollar-based 4yr repayment rt. dnmtr
+
+DBRR4_FED_GR_RT
+Graduate federal student loan dollar-based 4-year repayment rate
+Graduate fed. stdnt loan dollar-based 4yr repayment rt.
+
+DBRR4_FED_UGCOMP_N
+Undergraduate borrower completers undergraduate federal student loan dollar-based 4-year repayment rate borrower count
+Undergraduate borrower completers udgr. fed. stdnt loan dollar-based 4yr repayment rt. borrower count
+
+DBRR4_FED_UGCOMP_NUM
+Undergraduate borrower completers undergraduate federal student loan dollar-based 4-year repayment rate numerator
+Undergraduate borrower completers udgr. fed. stdnt loan dollar-based 4yr repayment rt. numerator
+
+DBRR4_FED_UGCOMP_DEN
+Undergraduate borrower completers undergraduate federal student loan dollar-based 4-year repayment rate denominator
+Undergraduate borrower completers udgr. fed. stdnt loan dollar-based 4yr repayment rt. dnmtr
+
+DBRR4_FED_UGCOMP_RT
+Undergraduate borrower completers undergraduate federal student loan dollar-based 4-year repayment rate
+Undergraduate borrower completers udgr. fed. stdnt loan dollar-based 4yr repayment rt.
+
+DBRR4_FED_UGNOCOMP_N
+Undergraduate borrower non-completers undergraduate federal student loan dollar-based 4-year repayment rate borrower count
+Undergraduate borrower non-completers udgr. fed. stdnt loan dollar-based 4yr repayment rt. borrower count
+
+DBRR4_FED_UGNOCOMP_NUM
+Undergraduate borrower non-completers undergraduate federal student loan dollar-based 4-year repayment rate numerator
+Undergraduate borrower non-completers udgr. fed. stdnt loan dollar-based 4yr repayment rt. numerator
+
+DBRR4_FED_UGNOCOMP_DEN
+Undergraduate borrower non-completers undergraduate federal student loan dollar-based 4-year repayment rate denominator
+Undergraduate borrower non-completers udgr. fed. stdnt loan dollar-based 4yr repayment rt. dnmtr
+
+DBRR4_FED_UGNOCOMP_RT
+Undergraduate borrower non-completers undergraduate federal student loan dollar-based 4-year repayment rate repayment rate
+Undergraduate borrower non-completers udgr. fed. stdnt loan dollar-based 4yr repayment rt. repayment rt.
+
+DBRR4_FED_UGUNK_N
+Undergraduate borrowers with unknown completion status undergraduate federal student loan dollar-based 4-year repayment rate borrower count
+Undergraduate borrowers with unkn comp status udgr. fed. stdnt loan dollar-based 4yr repayment rt. borrower count
+
+DBRR4_FED_UGUNK_NUM
+Undergraduate borrowers with unknown completion status undergraduate federal student loan dollar-based 4-year repayment rate numerator
+Undergraduate borrowers with unkn comp status udgr. fed. stdnt loan dollar-based 4yr repayment rt. numerator
+
+DBRR4_FED_UGUNK_DEN
+Undergraduate borrowers with unknown completion status undergraduate federal student loan dollar-based 4-year repayment rate denominator
+Undergraduate borrowers with unkn comp status udgr. fed. stdnt loan dollar-based 4yr repayment rt. dnmtr
+
+DBRR4_FED_UGUNK_RT
+Undergraduate borrowers with unknown completion status undergraduate federal student loan dollar-based 4-year repayment rate repayment rate
+Undergraduate borrowers with unkn comp status udgr. fed. stdnt loan dollar-based 4yr repayment rt. repayment rt.
+
+DBRR5_FED_UG_N
+Undergraduate federal student loan dollar-based 5-year repayment rate borrower count
+Undergraduate fed. stdnt loan dollar-based 5yr repayment rt. borrower count
+
+DBRR5_FED_UG_NUM
+Undergraduate federal student loan dollar-based 5-year repayment rate numerator
+Undergraduate fed. stdnt loan dollar-based 5yr repayment rt. numerator
+
+DBRR5_FED_UG_DEN
+Undergraduate federal student loan dollar-based 5-year repayment rate denominator
+Undergraduate fed. stdnt loan dollar-based 5yr repayment rt. dnmtr
+
+DBRR5_FED_UG_RT
+Undergraduate federal student loan dollar-based 5-year repayment rate
+Undergraduate fed. stdnt loan dollar-based 5yr repayment rt.
+
+DBRR5_FED_GR_N
+Graduate federal student loan dollar-based 5-year repayment rate borrower count
+Graduate fed. stdnt loan dollar-based 5yr repayment rt. borrower count
+
+DBRR5_FED_GR_NUM
+Graduate federal student loan dollar-based 5-year repayment rate numerator
+Graduate fed. stdnt loan dollar-based 5yr repayment rt. numerator
+
+DBRR5_FED_GR_DEN
+Graduate federal student loan dollar-based 5-year repayment rate denominator
+Graduate fed. stdnt loan dollar-based 5yr repayment rt. dnmtr
+
+DBRR5_FED_GR_RT
+Graduate federal student loan dollar-based 5-year repayment rate
+Graduate fed. stdnt loan dollar-based 5yr repayment rt.
+
+DBRR10_FED_UG_N
+Undergraduate federal student loan dollar-based 10-year repayment rate borrower count
+Undergraduate fed. stdnt loan dollar-based 10-yr repayment rt. borrower count
+
+DBRR10_FED_UG_NUM
+Undergraduate federal student loan dollar-based 10-year repayment rate numerator
+Undergraduate fed. stdnt loan dollar-based 10-yr repayment rt. numerator
+
+DBRR10_FED_UG_DEN
+Undergraduate federal student loan dollar-based 10-year repayment rate denominator
+Undergraduate fed. stdnt loan dollar-based 10-yr repayment rt. dnmtr
+
+DBRR10_FED_UG_RT
+Undergraduate federal student loan dollar-based 10-year repayment rate
+Undergraduate fed. stdnt loan dollar-based 10-yr repayment rt.
+
+DBRR10_FED_GR_N
+Graduate federal student loan dollar-based 10-year repayment rate borrower count
+Graduate fed. stdnt loan dollar-based 10-yr repayment rt. borrower count
+
+DBRR10_FED_GR_NUM
+Graduate federal student loan dollar-based 10-year repayment rate numerator
+Graduate fed. stdnt loan dollar-based 10-yr repayment rt. numerator
+
+DBRR10_FED_GR_DEN
+Graduate federal student loan dollar-based 10-year repayment rate denominator
+Graduate fed. stdnt loan dollar-based 10-yr repayment rt. dnmtr
+
+DBRR10_FED_GR_RT
+Graduate federal student loan dollar-based 10-year repayment rate
+Graduate fed. stdnt loan dollar-based 10-yr repayment rt.
+
+DBRR20_FED_UG_N
+Undergraduate federal student loan dollar-based 20-year repayment rate borrower count
+Undergraduate fed. stdnt loan dollar-based 20-yr repayment rt. borrower count
+
+DBRR20_FED_UG_NUM
+Undergraduate federal student loan dollar-based 20-year repayment rate numerator
+Undergraduate fed. stdnt loan dollar-based 20-yr repayment rt. numerator
+
+DBRR20_FED_UG_DEN
+Undergraduate federal student loan dollar-based 20-year repayment rate denominator
+Undergraduate fed. stdnt loan dollar-based 20-yr repayment rt. dnmtr
+
+DBRR20_FED_UG_RT
+Undergraduate federal student loan dollar-based 20-year repayment rate
+Undergraduate fed. stdnt loan dollar-based 20-yr repayment rt.
+
+DBRR20_FED_GR_N
+Graduate federal student loan dollar-based 20-year repayment rate borrower count
+Graduate fed. stdnt loan dollar-based 20-yr repayment rt. borrower count
+
+DBRR20_FED_GR_NUM
+Graduate federal student loan dollar-based 20-year repayment rate numerator
+Graduate fed. stdnt loan dollar-based 20-yr repayment rt. numerator
+
+DBRR20_FED_GR_DEN
+Graduate federal student loan dollar-based 20-year repayment rate denominator
+Graduate fed. stdnt loan dollar-based 20-yr repayment rt. dnmtr
+
+DBRR20_FED_GR_RT
+Graduate federal student loan dollar-based 20-year repayment rate
+Graduate fed. stdnt loan dollar-based 20-yr repayment rt.
+
+DBRR1_PP_UG_N
+Undergraduate Parent PLUS Loan dollar-based 1-year repayment rate borrower count
+Undergraduate Parent PLUS Loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_PP_UG_NUM
+Undergraduate Parent PLUS Loan dollar-based 1-year repayment rate numerator
+Undergraduate Parent PLUS Loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_PP_UG_DEN
+Undergraduate Parent PLUS Loan dollar-based 1-year repayment rate denominator
+Undergraduate Parent PLUS Loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_PP_UG_RT
+Undergraduate Parent PLUS Loan dollar-based 1-year repayment rate
+Undergraduate Parent PLUS Loan dollar-based 1yr repayment rt.
+
+DBRR1_PP_UGCOMP_N
+Undergraduate student completers Parent PLUS Loan dollar-based 1-year repayment rate borrower count
+Undergraduate stdnt completers Parent PLUS Loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_PP_UGCOMP_NUM
+Undergraduate student completers Parent PLUS Loan dollar-based 1-year repayment rate numerator
+Undergraduate stdnt completers Parent PLUS Loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_PP_UGCOMP_DEN
+Undergraduate student completers Parent PLUS Loan dollar-based 1-year repayment rate denominator
+Undergraduate stdnt completers Parent PLUS Loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_PP_UGCOMP_RT
+Undergraduate student completers Parent PLUS Loan dollar-based 1-year repayment rate
+Undergraduate stdnt completers Parent PLUS Loan dollar-based 1yr repayment rt.
+
+DBRR1_PP_UGNOCOMP_N
+Undergraduate student non-completers Parent PLUS Loan dollar-based 1-year repayment rate borrower count
+Undergraduate stdnt non-completers Parent PLUS Loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_PP_UGNOCOMP_NUM
+Undergraduate student non-completers Parent PLUS Loan dollar-based 1-year repayment rate numerator
+Undergraduate stdnt non-completers Parent PLUS Loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_PP_UGNOCOMP_DEN
+Undergraduate student non-completers Parent PLUS Loan dollar-based 1-year repayment rate denominator
+Undergraduate stdnt non-completers Parent PLUS Loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_PP_UGNOCOMP_RT
+Undergraduate student non-completers Parent PLUS Loan dollar-based 1-year repayment rate repayment rate
+Undergraduate stdnt non-completers Parent PLUS Loan dollar-based 1yr repayment rt. repayment rt.
+
+DBRR1_PP_UGUNK_N
+Undergraduate students with unknown completion status Parent PLUS Loan dollar-based 1-year repayment rate borrower count
+Undergraduate stdnts with unkn comp status Parent PLUS Loan dollar-based 1yr repayment rt. borrower count
+
+DBRR1_PP_UGUNK_NUM
+Undergraduate students with unknown completion status Parent PLUS Loan dollar-based 1-year repayment rate numerator
+Undergraduate stdnts with unkn comp status Parent PLUS Loan dollar-based 1yr repayment rt. numerator
+
+DBRR1_PP_UGUNK_DEN
+Undergraduate students with unknown completion status Parent PLUS Loan dollar-based 1-year repayment rate denominator
+Undergraduate stdnts with unkn comp status Parent PLUS Loan dollar-based 1yr repayment rt. dnmtr
+
+DBRR1_PP_UGUNK_RT
+Undergraduate students with unknown completion status Parent PLUS Loan dollar-based 1-year repayment rate repayment rate
+Undergraduate stdnts with unkn comp status Parent PLUS Loan dollar-based 1yr repayment rt. repayment rt.
+
+DBRR4_PP_UG_N
+Undergraduate Parent PLUS Loan dollar-based 4-year repayment rate borrower count
+Undergraduate Parent PLUS Loan dollar-based 4yr repayment rt. borrower count
+
+DBRR4_PP_UG_NUM
+Undergraduate Parent PLUS Loan dollar-based 4-year repayment rate numerator
+Undergraduate Parent PLUS Loan dollar-based 4yr repayment rt. numerator
+
+DBRR4_PP_UG_DEN
+Undergraduate Parent PLUS Loan dollar-based 4-year repayment rate denominator
+Undergraduate Parent PLUS Loan dollar-based 4yr repayment rt. dnmtr
+
+DBRR4_PP_UG_RT
+Undergraduate Parent PLUS Loan dollar-based 4-year repayment rate
+Undergraduate Parent PLUS Loan dollar-based 4yr repayment rt.
+
+DBRR4_PP_UGCOMP_N
+Undergraduate student completers Parent PLUS Loan dollar-based 4-year repayment rate borrower count
+Undergraduate stdnt completers Parent PLUS Loan dollar-based 4yr repayment rt. borrower count
+
+DBRR4_PP_UGCOMP_NUM
+Undergraduate student completers Parent PLUS Loan dollar-based 4-year repayment rate numerator
+Undergraduate stdnt completers Parent PLUS Loan dollar-based 4yr repayment rt. numerator
+
+DBRR4_PP_UGCOMP_DEN
+Undergraduate student completers Parent PLUS Loan dollar-based 4-year repayment rate denominator
+Undergraduate stdnt completers Parent PLUS Loan dollar-based 4yr repayment rt. dnmtr
+
+DBRR4_PP_UGCOMP_RT
+Undergraduate student completers Parent PLUS Loan dollar-based 4-year repayment rate
+Undergraduate stdnt completers Parent PLUS Loan dollar-based 4yr repayment rt.
+
+DBRR4_PP_UGNOCOMP_N
+Undergraduate student non-completers Parent PLUS Loan dollar-based 4-year repayment rate borrower count
+Undergraduate stdnt non-completers Parent PLUS Loan dollar-based 4yr repayment rt. borrower count
+
+DBRR4_PP_UGNOCOMP_NUM
+Undergraduate student non-completers Parent PLUS Loan dollar-based 4-year repayment rate numerator
+Undergraduate stdnt non-completers Parent PLUS Loan dollar-based 4yr repayment rt. numerator
+
+DBRR4_PP_UGNOCOMP_DEN
+Undergraduate student non-completers Parent PLUS Loan dollar-based 4-year repayment rate denominator
+Undergraduate stdnt non-completers Parent PLUS Loan dollar-based 4yr repayment rt. dnmtr
+
+DBRR4_PP_UGNOCOMP_RT
+Undergraduate student non-completers Parent PLUS Loan dollar-based 4-year repayment rate repayment rate
+Undergraduate stdnt non-completers Parent PLUS Loan dollar-based 4yr repayment rt. repayment rt.
+
+DBRR4_PP_UGUNK_N
+Undergraduate students with unknown completion status Parent PLUS Loan dollar-based 4-year repayment rate borrower count
+Undergraduate stdnts with unkn comp status Parent PLUS Loan dollar-based 4yr repayment rt. borrower count
+
+DBRR4_PP_UGUNK_NUM
+Undergraduate students with unknown completion status Parent PLUS Loan dollar-based 4-year repayment rate numerator
+Undergraduate stdnts with unkn comp status Parent PLUS Loan dollar-based 4yr repayment rt. numerator
+
+DBRR4_PP_UGUNK_DEN
+Undergraduate students with unknown completion status Parent PLUS Loan dollar-based 4-year repayment rate denominator
+Undergraduate stdnts with unkn comp status Parent PLUS Loan dollar-based 4yr repayment rt. dnmtr
+
+DBRR4_PP_UGUNK_RT
+Undergraduate students with unknown completion status Parent PLUS Loan dollar-based 4-year repayment rate repayment rate
+Undergraduate stdnts with unkn comp status Parent PLUS Loan dollar-based 4yr repayment rt. repayment rt.
+
+DBRR5_PP_UG_N
+Undergraduate Parent PLUS Loan dollar-based 5-year repayment rate borrower count
+Undergraduate Parent PLUS Loan dollar-based 5yr repayment rt. borrower count
+
+DBRR5_PP_UG_NUM
+Undergraduate Parent PLUS Loan dollar-based 5-year repayment rate numerator
+Undergraduate Parent PLUS Loan dollar-based 5yr repayment rt. numerator
+
+DBRR5_PP_UG_DEN
+Undergraduate Parent PLUS Loan dollar-based 5-year repayment rate denominator
+Undergraduate Parent PLUS Loan dollar-based 5yr repayment rt. dnmtr
+
+DBRR5_PP_UG_RT
+Undergraduate Parent PLUS Loan dollar-based 5-year repayment rate
+Undergraduate Parent PLUS Loan dollar-based 5yr repayment rt.
+
+DBRR10_PP_UG_N
+Undergraduate Parent PLUS Loan dollar-based 10-year repayment rate borrower count
+Undergraduate Parent PLUS Loan dollar-based 10-yr repayment rt. borrower count
+
+DBRR10_PP_UG_NUM
+Undergraduate Parent PLUS Loan dollar-based 10-year repayment rate numerator
+Undergraduate Parent PLUS Loan dollar-based 10-yr repayment rt. numerator
+
+DBRR10_PP_UG_DEN
+Undergraduate Parent PLUS Loan dollar-based 10-year repayment rate denominator
+Undergraduate Parent PLUS Loan dollar-based 10-yr repayment rt. dnmtr
+
+DBRR10_PP_UG_RT
+Undergraduate Parent PLUS Loan dollar-based 10-year repayment rate
+Undergraduate Parent PLUS Loan dollar-based 10-yr repayment rt.
+
+DBRR20_PP_UG_N
+Undergraduate Parent PLUS Loan dollar-based 20-year repayment rate borrower count
+Undergraduate Parent PLUS Loan dollar-based 20-yr repayment rt. borrower count
+
+DBRR20_PP_UG_NUM
+Undergraduate Parent PLUS Loan dollar-based 20-year repayment rate numerator
+Undergraduate Parent PLUS Loan dollar-based 20-yr repayment rt. numerator
+
+DBRR20_PP_UG_DEN
+Undergraduate Parent PLUS Loan dollar-based 20-year repayment rate denominator
+Undergraduate Parent PLUS Loan dollar-based 20-yr repayment rt. dnmtr
+
+DBRR20_PP_UG_RT
+Undergraduate Parent PLUS Loan dollar-based 20-year repayment rate
+Undergraduate Parent PLUS Loan dollar-based 20-yr repayment rt.
+
+BBRR1_FED_UG_N
+Undergraduate federal student loan borrower-based 1-year borrower count
+Undergraduate fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_UG_DFLT
+Percentage of undergraduate federal student loan borrowers in default after 1 year
+Pctg. udgr. fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_UG_DLNQ
+Percentage of undergraduate federal student loan borrowers in delinquency after 1 year
+Pctg. udgr. fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_UG_FBR
+Percentage of undergraduate federal student loan borrowers in forbearance after 1 year
+Pctg. udgr. fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_UG_DFR
+Percentage of undergraduate federal student loan borrowers in deferment after 1 year
+Pctg. udgr. fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_UG_NOPROG
+Percentage of undergraduate federal student loan borrowers not making progress after 1 year
+Pctg. udgr. fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_UG_MAKEPROG
+Percentage of undergraduate federal student loan borrowers making progress after 1 year
+Pctg. udgr. fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_UG_PAIDINFULL
+Percentage of undergraduate federal student loan borrowers paid in full after 1 year
+Pctg. udgr. fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_UG_DISCHARGE
+Percentage of undergraduate federal student loan borrowers with all loans discharged after 1 year
+Pctg. udgr. fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_UGCOMP_N
+Undergraduate completer undergraduate federal student loan borrower-based 1-year borrower count
+Undergraduate completer udgr. fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_UGCOMP_DFLT
+Percentage of undergraduate completer undergraduate federal student loan borrowers in default after 1 year
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_UGCOMP_DLNQ
+Percentage of undergraduate completer undergraduate federal student loan borrowers in delinquency after 1 year
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_UGCOMP_FBR
+Percentage of undergraduate completer undergraduate federal student loan borrowers in forbearance after 1 year
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_UGCOMP_DFR
+Percentage of undergraduate completer undergraduate federal student loan borrowers in deferment after 1 year
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_UGCOMP_NOPROG
+Percentage of undergraduate completer undergraduate federal student loan borrowers not making progress after 1 year
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_UGCOMP_MAKEPROG
+Percentage of undergraduate completer undergraduate federal student loan borrowers making progress after 1 year
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_UGCOMP_PAIDINFULL
+Percentage of undergraduate completer undergraduate federal student loan borrowers paid in full after 1 year
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_UGCOMP_DISCHARGE
+Percentage of undergraduate completer undergraduate federal student loan borrowers with all loans discharged after 1 year
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_UGNOCOMP_N
+Undergraduate non-completer undergraduate federal student loan borrower-based 1-year borrower count
+Undergraduate non-completer udgr. fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_UGNOCOMP_DFLT
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in default after 1 year
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_UGNOCOMP_DLNQ
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in delinquency after 1 year
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_UGNOCOMP_FBR
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in forbearance after 1 year
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_UGNOCOMP_DFR
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in deferment after 1 year
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_UGNOCOMP_NOPROG
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers not making progress after 1 year
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_UGNOCOMP_MAKEPROG
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers making progress after 1 year
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_UGNOCOMP_PAIDINFULL
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers paid in full after 1 year
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_UGNOCOMP_DISCHARGE
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers with all loans discharged after 1 year
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_UGUNK_N
+Undergraduate unknown completion status undergraduate federal student loan borrower-based 1-year borrower count
+Undergraduate unkn comp status udgr. fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_UGUNK_DFLT
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in default after 1 year
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_UGUNK_DLNQ
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in delinquency after 1 year
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_UGUNK_FBR
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in forbearance after 1 year
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_UGUNK_DFR
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in deferment after 1 year
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_UGUNK_NOPROG
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers not making progress after 1 year
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_UGUNK_MAKEPROG
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers making progress after 1 year
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_UGUNK_PAIDINFULL
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers paid in full after 1 year
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_UGUNK_DISCHARGE
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers with all loans discharged after 1 year
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_GR_N
+Graduate federal student loan borrower-based 1-year borrower count
+Graduate fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_GR_DFLT
+Percentage of graduate federal student loan borrowers in default after 1 year
+Pctg. graduate fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_GR_DLNQ
+Percentage of graduate federal student loan borrowers in delinquency after 1 year
+Pctg. graduate fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_GR_FBR
+Percentage of graduate federal student loan borrowers in forbearance after 1 year
+Pctg. graduate fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_GR_DFR
+Percentage of graduate federal student loan borrowers in deferment after 1 year
+Pctg. graduate fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_GR_NOPROG
+Percentage of graduate federal student loan borrowers not making progress after 1 year
+Pctg. graduate fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_GR_MAKEPROG
+Percentage of graduate federal student loan borrowers making progress after 1 year
+Pctg. graduate fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_GR_PAIDINFULL
+Percentage of graduate federal student loan borrowers paid in full after 1 year
+Pctg. graduate fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_GR_DISCHARGE
+Percentage of graduate federal student loan borrowers with all loans discharged after 1 year
+Pctg. graduate fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_GRCOMP_N
+Graduate completer graduate federal student loan borrower-based 1-year borrower count
+Graduate completer graduate fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_GRCOMP_DFLT
+Percentage of graduate completer graduate federal student loan borrowers in default after 1 year
+Pctg. graduate completer graduate fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_GRCOMP_DLNQ
+Percentage of graduate completer graduate federal student loan borrowers in delinquency after 1 year
+Pctg. graduate completer graduate fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_GRCOMP_FBR
+Percentage of graduate completer graduate federal student loan borrowers in forbearance after 1 year
+Pctg. graduate completer graduate fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_GRCOMP_DFR
+Percentage of graduate completer graduate federal student loan borrowers in deferment after 1 year
+Pctg. graduate completer graduate fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_GRCOMP_NOPROG
+Percentage of graduate completer graduate federal student loan borrowers not making progress after 1 year
+Pctg. graduate completer graduate fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_GRCOMP_MAKEPROG
+Percentage of graduate completer graduate federal student loan borrowers making progress after 1 year
+Pctg. graduate completer graduate fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_GRCOMP_PAIDINFULL
+Percentage of graduate completer graduate federal student loan borrowers paid in full after 1 year
+Pctg. graduate completer graduate fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_GRCOMP_DISCHARGE
+Percentage of graduate completer graduate federal student loan borrowers with all loans discharged after 1 year
+Pctg. graduate completer graduate fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_GRNOCOMP_N
+Graduate non-completer graduate federal student loan borrower-based 1-year borrower count
+Graduate non-completer graduate fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_GRNOCOMP_DFLT
+Percentage of graduate non-completer graduate federal student loan borrowers in default after 1 year
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_GRNOCOMP_DLNQ
+Percentage of graduate non-completer graduate federal student loan borrowers in delinquency after 1 year
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_GRNOCOMP_FBR
+Percentage of graduate non-completer graduate federal student loan borrowers in forbearance after 1 year
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_GRNOCOMP_DFR
+Percentage of graduate non-completer graduate federal student loan borrowers in deferment after 1 year
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_GRNOCOMP_NOPROG
+Percentage of graduate non-completer graduate federal student loan borrowers not making progress after 1 year
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_GRNOCOMP_MAKEPROG
+Percentage of graduate non-completer graduate federal student loan borrowers making progress after 1 year
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_GRNOCOMP_PAIDINFULL
+Percentage of graduate non-completer graduate federal student loan borrowers paid in full after 1 year
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_GRNOCOMP_DISCHARGE
+Percentage of graduate non-completer graduate federal student loan borrowers with all loans discharged after 1 year
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_UG_N
+Undergraduate student Parent PLUS Loan borrower-based 1-year borrower count
+Undergraduate stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_UG_DFLT
+Percentage of undergraduate student Parent PLUS Loan borrowers in default after 1 year
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_UG_DLNQ
+Percentage of undergraduate student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_UG_FBR
+Percentage of undergraduate student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_UG_DFR
+Percentage of undergraduate student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_UG_NOPROG
+Percentage of undergraduate student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. udgr. stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_UG_MAKEPROG
+Percentage of undergraduate student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. udgr. stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_UG_PAIDINFULL
+Percentage of undergraduate student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. udgr. stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_UG_DISCHARGE
+Percentage of undergraduate student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_UGCOMP_N
+Undergraduate completer undergraduate student Parent PLUS Loan borrower-based 1-year borrower count
+Undergraduate completer udgr. stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_UGCOMP_DFLT
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in default after 1 year
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_UGCOMP_DLNQ
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_UGCOMP_FBR
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_UGCOMP_DFR
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_UGCOMP_NOPROG
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_UGCOMP_MAKEPROG
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_UGCOMP_PAIDINFULL
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_UGCOMP_DISCHARGE
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_UGNOCOMP_N
+Undergraduate non-completer undergraduate student Parent PLUS Loan borrower-based 1-year borrower count
+Undergraduate non-completer udgr. stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_UGNOCOMP_DFLT
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in default after 1 year
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_UGNOCOMP_DLNQ
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_UGNOCOMP_FBR
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_UGNOCOMP_DFR
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_UGNOCOMP_NOPROG
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_UGNOCOMP_MAKEPROG
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_UGNOCOMP_PAIDINFULL
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_UGNOCOMP_DISCHARGE
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_UGUNK_N
+Undergraduate unknown completion status undergraduate student Parent PLUS Loan borrower-based 1-year borrower count
+Undergraduate unkn comp status udgr. stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_UGUNK_DFLT
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in default after 1 year
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_UGUNK_DLNQ
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_UGUNK_FBR
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_UGUNK_DFR
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_UGUNK_NOPROG
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_UGUNK_MAKEPROG
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_UGUNK_PAIDINFULL
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_UGUNK_DISCHARGE
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR2_FED_UG_N
+Undergraduate federal student loan borrower-based 2-year borrower count
+Undergraduate fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_UG_DFLT
+Percentage of undergraduate federal student loan borrowers in default after 2 years
+Pctg. udgr. fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_UG_DLNQ
+Percentage of undergraduate federal student loan borrowers in delinquency after 2 years
+Pctg. udgr. fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_UG_FBR
+Percentage of undergraduate federal student loan borrowers in forbearance after 2 years
+Pctg. udgr. fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_UG_DFR
+Percentage of undergraduate federal student loan borrowers in deferment after 2 years
+Pctg. udgr. fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_UG_NOPROG
+Percentage of undergraduate federal student loan borrowers not making progress after 2 years
+Pctg. udgr. fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_UG_MAKEPROG
+Percentage of undergraduate federal student loan borrowers making progress after 2 years
+Pctg. udgr. fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_UG_PAIDINFULL
+Percentage of undergraduate federal student loan borrowers paid in full after 2 years
+Pctg. udgr. fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_UG_DISCHARGE
+Percentage of undergraduate federal student loan borrowers with all loans discharged after 2 years
+Pctg. udgr. fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_UGCOMP_N
+Undergraduate completer undergraduate federal student loan borrower-based 2-year borrower count
+Undergraduate completer udgr. fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_UGCOMP_DFLT
+Percentage of undergraduate completer undergraduate federal student loan borrowers in default after 2 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_UGCOMP_DLNQ
+Percentage of undergraduate completer undergraduate federal student loan borrowers in delinquency after 2 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_UGCOMP_FBR
+Percentage of undergraduate completer undergraduate federal student loan borrowers in forbearance after 2 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_UGCOMP_DFR
+Percentage of undergraduate completer undergraduate federal student loan borrowers in deferment after 2 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_UGCOMP_NOPROG
+Percentage of undergraduate completer undergraduate federal student loan borrowers not making progress after 2 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_UGCOMP_MAKEPROG
+Percentage of undergraduate completer undergraduate federal student loan borrowers making progress after 2 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_UGCOMP_PAIDINFULL
+Percentage of undergraduate completer undergraduate federal student loan borrowers paid in full after 2 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_UGCOMP_DISCHARGE
+Percentage of undergraduate completer undergraduate federal student loan borrowers with all loans discharged after 2 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_UGNOCOMP_N
+Undergraduate non-completer undergraduate federal student loan borrower-based 2-year borrower count
+Undergraduate non-completer udgr. fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_UGNOCOMP_DFLT
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in default after 2 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_UGNOCOMP_DLNQ
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in delinquency after 2 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_UGNOCOMP_FBR
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in forbearance after 2 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_UGNOCOMP_DFR
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in deferment after 2 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_UGNOCOMP_NOPROG
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers not making progress after 2 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_UGNOCOMP_MAKEPROG
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers making progress after 2 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_UGNOCOMP_PAIDINFULL
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers paid in full after 2 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_UGNOCOMP_DISCHARGE
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers with all loans discharged after 2 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_UGUNK_N
+Undergraduate unknown completion status undergraduate federal student loan borrower-based 2-year borrower count
+Undergraduate unkn comp status udgr. fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_UGUNK_DFLT
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in default after 2 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_UGUNK_DLNQ
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in delinquency after 2 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_UGUNK_FBR
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in forbearance after 2 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_UGUNK_DFR
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in deferment after 2 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_UGUNK_NOPROG
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers not making progress after 2 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_UGUNK_MAKEPROG
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers making progress after 2 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_UGUNK_PAIDINFULL
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers paid in full after 2 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_UGUNK_DISCHARGE
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers with all loans discharged after 2 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_GR_N
+Graduate federal student loan borrower-based 2-year borrower count
+Graduate fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_GR_DFLT
+Percentage of graduate federal student loan borrowers in default after 2 years
+Pctg. graduate fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_GR_DLNQ
+Percentage of graduate federal student loan borrowers in delinquency after 2 years
+Pctg. graduate fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_GR_FBR
+Percentage of graduate federal student loan borrowers in forbearance after 2 years
+Pctg. graduate fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_GR_DFR
+Percentage of graduate federal student loan borrowers in deferment after 2 years
+Pctg. graduate fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_GR_NOPROG
+Percentage of graduate federal student loan borrowers not making progress after 2 years
+Pctg. graduate fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_GR_MAKEPROG
+Percentage of graduate federal student loan borrowers making progress after 2 years
+Pctg. graduate fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_GR_PAIDINFULL
+Percentage of graduate federal student loan borrowers paid in full after 2 years
+Pctg. graduate fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_GR_DISCHARGE
+Percentage of graduate federal student loan borrowers with all loans discharged after 2 years
+Pctg. graduate fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_GRCOMP_N
+Graduate completer graduate federal student loan borrower-based 2-year borrower count
+Graduate completer graduate fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_GRCOMP_DFLT
+Percentage of graduate completer graduate federal student loan borrowers in default after 2 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_GRCOMP_DLNQ
+Percentage of graduate completer graduate federal student loan borrowers in delinquency after 2 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_GRCOMP_FBR
+Percentage of graduate completer graduate federal student loan borrowers in forbearance after 2 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_GRCOMP_DFR
+Percentage of graduate completer graduate federal student loan borrowers in deferment after 2 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_GRCOMP_NOPROG
+Percentage of graduate completer graduate federal student loan borrowers not making progress after 2 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_GRCOMP_MAKEPROG
+Percentage of graduate completer graduate federal student loan borrowers making progress after 2 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_GRCOMP_PAIDINFULL
+Percentage of graduate completer graduate federal student loan borrowers paid in full after 2 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_GRCOMP_DISCHARGE
+Percentage of graduate completer graduate federal student loan borrowers with all loans discharged after 2 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_GRNOCOMP_N
+Graduate non-completer graduate federal student loan borrower-based 2-year borrower count
+Graduate non-completer graduate fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_GRNOCOMP_DFLT
+Percentage of graduate non-completer graduate federal student loan borrowers in default after 2 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_GRNOCOMP_DLNQ
+Percentage of graduate non-completer graduate federal student loan borrowers in delinquency after 2 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_GRNOCOMP_FBR
+Percentage of graduate non-completer graduate federal student loan borrowers in forbearance after 2 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_GRNOCOMP_DFR
+Percentage of graduate non-completer graduate federal student loan borrowers in deferment after 2 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_GRNOCOMP_NOPROG
+Percentage of graduate non-completer graduate federal student loan borrowers not making progress after 2 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_GRNOCOMP_MAKEPROG
+Percentage of graduate non-completer graduate federal student loan borrowers making progress after 2 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_GRNOCOMP_PAIDINFULL
+Percentage of graduate non-completer graduate federal student loan borrowers paid in full after 2 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_GRNOCOMP_DISCHARGE
+Percentage of graduate non-completer graduate federal student loan borrowers with all loans discharged after 2 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_UG_N
+Undergraduate student Parent PLUS Loan borrower-based 2-year borrower count
+Undergraduate stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_UG_DFLT
+Percentage of undergraduate student Parent PLUS Loan borrowers in default after 2 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_UG_DLNQ
+Percentage of undergraduate student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_UG_FBR
+Percentage of undergraduate student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_UG_DFR
+Percentage of undergraduate student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_UG_NOPROG
+Percentage of undergraduate student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_UG_MAKEPROG
+Percentage of undergraduate student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_UG_PAIDINFULL
+Percentage of undergraduate student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_UG_DISCHARGE
+Percentage of undergraduate student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_UGCOMP_N
+Undergraduate completer undergraduate student Parent PLUS Loan borrower-based 2-year borrower count
+Undergraduate completer udgr. stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_UGCOMP_DFLT
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in default after 2 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_UGCOMP_DLNQ
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_UGCOMP_FBR
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_UGCOMP_DFR
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_UGCOMP_NOPROG
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_UGCOMP_MAKEPROG
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_UGCOMP_PAIDINFULL
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_UGCOMP_DISCHARGE
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_UGNOCOMP_N
+Undergraduate non-completer undergraduate student Parent PLUS Loan borrower-based 2-year borrower count
+Undergraduate non-completer udgr. stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_UGNOCOMP_DFLT
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in default after 2 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_UGNOCOMP_DLNQ
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_UGNOCOMP_FBR
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_UGNOCOMP_DFR
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_UGNOCOMP_NOPROG
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_UGNOCOMP_MAKEPROG
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_UGNOCOMP_PAIDINFULL
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_UGNOCOMP_DISCHARGE
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_UGUNK_N
+Undergraduate unknown completion status undergraduate student Parent PLUS Loan borrower-based 2-year borrower count
+Undergraduate unkn comp status udgr. stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_UGUNK_DFLT
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in default after 2 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_UGUNK_DLNQ
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_UGUNK_FBR
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_UGUNK_DFR
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_UGUNK_NOPROG
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_UGUNK_MAKEPROG
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_UGUNK_PAIDINFULL
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_UGUNK_DISCHARGE
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_UG_N_SUPP
+Undergraduate federal student loan borrower-based 2-year borrower count, suppressed for n<30
+Undergraduate fed. stdnt loan borrower-based 2yr borrower count, suppressed for n<30
+
+BBRR2_FED_UG_DFLT_SUPP
+Percentage of undergraduate federal student loan borrowers in default after 2 years, suppressed for n<30
+Pctg. udgr. fed. stdnt loan borrowers in default after 2yrs, suppressed for n<30
+
+BBRR2_FED_UG_DLNQ_SUPP
+Percentage of undergraduate federal student loan borrowers in delinquency after 2 years, suppressed for n<30
+Pctg. udgr. fed. stdnt loan borrowers in delinquency after 2yrs, suppressed for n<30
+
+BBRR2_FED_UG_FBR_SUPP
+Percentage of undergraduate federal student loan borrowers in forbearance after 2 years, suppressed for n<30
+Pctg. udgr. fed. stdnt loan borrowers in forbearance after 2yrs, suppressed for n<30
+
+BBRR2_FED_UG_DFR_SUPP
+Percentage of undergraduate federal student loan borrowers in deferment after 2 years, suppressed for n<30
+Pctg. udgr. fed. stdnt loan borrowers in deferment after 2yrs, suppressed for n<30
+
+BBRR2_FED_UG_NOPROG_SUPP
+Percentage of undergraduate federal student loan borrowers not making progress after 2 years, suppressed for n<30
+Pctg. udgr. fed. stdnt loan borrowers not making progress after 2yrs, suppressed for n<30
+
+BBRR2_FED_UG_MAKEPROG_SUPP
+Percentage of undergraduate federal student loan borrowers making progress after 2 years, suppressed for n<30
+Pctg. udgr. fed. stdnt loan borrowers making progress after 2yrs, suppressed for n<30
+
+BBRR2_FED_UG_PAIDINFULL_SUPP
+Percentage of undergraduate federal student loan borrowers paid in full after 2 years, suppressed for n<30
+Pctg. udgr. fed. stdnt loan borrowers paid in full after 2yrs, suppressed for n<30
+
+BBRR2_FED_UG_DISCHARGE_SUPP
+Percentage of undergraduate federal student loan borrowers with all loans discharged after 2 years, suppressed for n<30
+Pctg. udgr. fed. stdnt loan borrowers with all loans discharged after 2yrs, suppressed for n<30
+
+BBRR2_FED_UGCOMP_N_SUPP
+Undergraduate completer undergraduate federal student loan borrower-based 2-year borrower count, suppressed for n<30
+Undergraduate completer udgr. fed. stdnt loan borrower-based 2yr borrower count, suppressed for n<30
+
+BBRR2_FED_UGCOMP_DFLT_SUPP
+Percentage of undergraduate completer undergraduate federal student loan borrowers in default after 2 years, suppressed for n<30
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in default after 2yrs, suppressed for n<30
+
+BBRR2_FED_UGCOMP_DLNQ_SUPP
+Percentage of undergraduate completer undergraduate federal student loan borrowers in delinquency after 2 years, suppressed for n<30
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in delinquency after 2yrs, suppressed for n<30
+
+BBRR2_FED_UGCOMP_FBR_SUPP
+Percentage of undergraduate completer undergraduate federal student loan borrowers in forbearance after 2 years, suppressed for n<30
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in forbearance after 2yrs, suppressed for n<30
+
+BBRR2_FED_UGCOMP_DFR_SUPP
+Percentage of undergraduate completer undergraduate federal student loan borrowers in deferment after 2 years, suppressed for n<30
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in deferment after 2yrs, suppressed for n<30
+
+BBRR2_FED_UGCOMP_NOPROG_SUPP
+Percentage of undergraduate completer undergraduate federal student loan borrowers not making progress after 2 years, suppressed for n<30
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers not making progress after 2yrs, suppressed for n<30
+
+BBRR2_FED_UGCOMP_MAKEPROG_SUPP
+Percentage of undergraduate completer undergraduate federal student loan borrowers making progress after 2 years, suppressed for n<30
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers making progress after 2yrs, suppressed for n<30
+
+BBRR2_FED_UGCOMP_PAIDINFULL_SUPP
+Percentage of undergraduate completer undergraduate federal student loan borrowers paid in full after 2 years, suppressed for n<30
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers paid in full after 2yrs, suppressed for n<30
+
+BBRR2_FED_UGCOMP_DISCHARGE_SUPP
+Percentage of undergraduate completer undergraduate federal student loan borrowers with all loans discharged after 2 years, suppressed for n<30
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers with all loans discharged after 2yrs, suppressed for n<30
+
+LPSTAFFORD_CNT
+Number of borrowers with outstanding federal Direct Loan balances
+Num borrowers with outstanding fed. Direct Loan balances
+
+LPSTAFFORD_AMT
+Total outstanding federal Direct Loan balance
+Tot. outstanding fed. Direct Loan balance
+
+LPPPLUS_CNT
+Number of students associated with outstanding Parent PLUS Loan balances
+Num stdnts associated with outstanding Parent PLUS Loan balances
+
+LPPPLUS_AMT
+Total outstanding Parent PLUS Loan balance
+Tot. outstanding Parent PLUS Loan balance
+
+LPGPLUS_CNT
+Number of students associated with outstanding Grad PLUS Loan balances
+Num stdnts associated with outstanding Grad PLUS Loan balances
+
+LPGPLUS_AMT
+Total outstanding Grad PLUS Loan balance
+Tot. outstanding Grad PLUS Loan balance
+
+FEDSCHCD
+Federal School Code
+Federal School Code
+
+BOOKSUPPLY
+Cost of attendance: estimated books and supplies
+Cost attendance: estimated books and supplies
+
+ROOMBOARD_ON
+Cost of attendance: on-campus room and board
+Cost attendance: on-campus room and board
+
+OTHEREXPENSE_ON
+Cost of attendance: on-campus other expenses
+Cost attendance: on-campus oth expenses
+
+ROOMBOARD_OFF
+Cost of attendance: off-campus room and board
+Cost attendance: off-campus room and board
+
+OTHEREXPENSE_OFF
+Cost of attendance: off-campus other expenses
+Cost attendance: off-campus oth expenses
+
+OTHEREXPENSE_FAM
+Cost of attendance: with-family other expenses
+Cost attendance: with-fam. oth expenses
+
+ENDOWBEGIN
+Value of school's endowment at the beginning of the fiscal year
+Value school's endowment at beginning fiscal yr
+
+ENDOWEND
+Value of school's endowment at the end of the fiscal year
+Value school's endowment at end fiscal yr
+
+DOLPROVIDER
+DOL approved training provider indicator
+DOL approved training provider indicator
+
+ADMCON7
+Test score requirements for admission
+Test score requirements for admission
+
+MDCOMP_PD
+Median completion rate amongst insitutions with the same predominant degree category 
+Median comp rt. amongst insitutions with same predominant deg. category 
+
+MDCOST_PD
+Median average net price amongst insitituions with the same predominant degree category
+Median avg net price amongst insitituions with same predominant deg. category
+
+MDEARN_PD
+Median earnings of students working and not enrolled 10 years after entry
+Median earnings stdnts working and not enrolled 10yrs after entry
+
+MDCOMP_ALL
+Overall median of completion rate
+Overall median comp rt.
+
+MDCOST_ALL
+Overall median for average net price 
+Overall median for avg net price 
+
+MDEARN_ALL
+Overall median earnings of students working and not enrolled 10 years after entry
+Overall median earnings stdnts working and not enrolled 10yrs after entry
+
+D150_L4_PELL_POOLED
+Adjusted cohort count for Pell Grant recipient completion rate at less-than-four-year institutions (denominator of 150% completion rate), pooled for two-year rolling averages
+Adjstd cohort cnt. Pell Grant recipient comp rt. at <4yr insts (dnmtr 150% comp rt.), pooled for 2yr rolling avgs
+
+C150_L4_PELL_POOLED
+Pell Grant recipient completion rate at less-than-four-year institutions, pooled for two-year rolling averages
+Pell Grant recipient comp rt. at <4yr insts, pooled for 2yr rolling avgs
+
+D150_4_PELL_POOLED
+Adjusted cohort count for Pell Grant recipient completion rate at four-year institutions (denominator of 150% completion rate), pooled for two-year rolling averages
+Adjstd cohort cnt. Pell Grant recipient comp rt. at 4yr insts (dnmtr 150% comp rt.), pooled for 2yr rolling avgs
+
+C150_4_PELL_POOLED
+First-time, full-time Pell Grant recipient completion rate at four-year institutions, pooled for two-year rolling averages
+1stTime, flTime Pell Grant recipient comp rt. at 4yr insts, pooled for 2yr rolling avgs
+
+C150_L4_PELL_POOLED_SUPP
+First-time, full-time Pell Grant recipient completion rate at less-than-four-year institutions, pooled for two-year rolling averages and suppressed for small n size
+1stTime, flTime Pell Grant recipient comp rt. at <4yr insts, pooled for 2yr rolling avgs and suppressed for small n size
+
+C150_4_PELL_POOLED_SUPP
+First-time, full-time Pell Grant recipient completion rate at four-year institutions, pooled for two-year rolling averages and suppressed for small n size
+1stTime, flTime Pell Grant recipient comp rt. at 4yr insts, pooled for 2yr rolling avgs and suppressed for small n size
+
+POOLYRS150_PELL
+Years used for rolling averages of Pell Grant recipient completion rate C150_PELL_[4/L4]_POOLED
+Yrs used for rolling avgs Pell Grant recipient comp rt. C150_PELL_[4/L4]_POOLED
+
+OMENRYP_PELL_ALL
+Percentage of all Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry
+Pctg. all Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry
+
+OMENRAP_PELL_ALL
+Percentage of all Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry
+Pctg. all Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry
+
+OMAWDP8_PELL_ALL
+Percentage of all Pell Grant recipient students receiving an award within 8 years of entry
+Pctg. all Pell Grant recipient stdnts rcving an award within 8yrs entry
+
+OMENRUP_PELL_ALL
+Percentage of all Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry
+Pctg. all Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry
+
+OMENRYP_PELL_FIRSTTIME
+Percentage of first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry
+Pctg. 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry
+
+OMENRAP_PELL_FIRSTTIME
+Percentage of first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry
+Pctg. 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry
+
+OMAWDP8_PELL_FIRSTTIME
+Percentage of first-time Pell Grant recipient students receiving an award within 8 years of entry
+Pctg. 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry
+
+OMENRUP_PELL_FIRSTTIME
+Percentage of first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry
+Pctg. 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry
+
+OMENRYP_PELL_NOTFIRSTTIME
+Percentage of not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry
+Pctg. not 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry
+
+OMENRAP_PELL_NOTFIRSTTIME
+Percentage of not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry
+Pctg. not 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry
+
+OMAWDP8_PELL_NOTFIRSTTIME
+Percentage of not first-time Pell Grant recipient students receiving an award within 8 years of entry
+Pctg. not 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry
+
+OMENRUP_PELL_NOTFIRSTTIME
+Percentage of not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry
+Pctg. not 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry
+
+OMENRYP_PELL_FULLTIME
+Percentage of full-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry
+Pctg. flTime Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry
+
+OMENRAP_PELL_FULLTIME
+Percentage of full-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry
+Pctg. flTime Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry
+
+OMAWDP8_PELL_FULLTIME
+Percentage of full-time Pell Grant recipient students receiving an award within 8 years of entry
+Pctg. flTime Pell Grant recipient stdnts rcving an award within 8yrs entry
+
+OMENRUP_PELL_FULLTIME
+Percentage of full-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry
+Pctg. flTime Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry
+
+OMENRYP_PELL_PARTTIME
+Percentage of part-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry
+Pctg. ptTime Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry
+
+OMENRAP_PELL_PARTTIME
+Percentage of part-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry
+Pctg. ptTime Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry
+
+OMAWDP8_PELL_PARTTIME
+Percentage of part-time Pell Grant recipient students receiving an award within 8 years of entry
+Pctg. ptTime Pell Grant recipient stdnts rcving an award within 8yrs entry
+
+OMENRUP_PELL_PARTTIME
+Percentage of part-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry
+Pctg. ptTime Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry
+
+OMACHT8_PELL_FTFT
+Adjusted cohort count of full-time, first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages)
+Adjstd cohort count flTime, 1st-time Pell Grant recipient stdnts (dnmtr for 8-yr outcomes percentages)
+
+OMAWDP8_PELL_FTFT
+Percentage of full-time, first-time Pell Grant recipient students receiving an award within 8 years of entry
+Pctg. flTime, 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry
+
+OMENRYP8_PELL_FTFT
+Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry
+Pctg. flTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry
+
+OMENRAP8_PELL_FTFT
+Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry
+Pctg. flTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry
+
+OMENRUP8_PELL_FTFT
+Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry
+Pctg. flTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry
+
+OMACHT8_PELL_PTFT
+Adjusted cohort count of part-time, first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages)
+Adjstd cohort count ptTime, 1st-time Pell Grant recipient stdnts (dnmtr for 8-yr outcomes percentages)
+
+OMAWDP8_PELL_PTFT
+Percentage of part-time, first-time Pell Grant recipient students receiving an award within 8 years of entry
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry
+
+OMENRYP8_PELL_PTFT
+Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry
+
+OMENRAP8_PELL_PTFT
+Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry
+
+OMENRUP8_PELL_PTFT
+Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry
+
+OMACHT8_PELL_FTNFT
+Adjusted cohort count of full-time, not first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages)
+Adjstd cohort count flTime, not 1st-time Pell Grant recipient stdnts (dnmtr for 8-yr outcomes percentages)
+
+OMAWDP8_PELL_FTNFT
+Percentage of full-time, not first-time Pell Grant recipient students receiving an award within 8 years of entry
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry
+
+OMENRYP8_PELL_FTNFT
+Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry
+
+OMENRAP8_PELL_FTNFT
+Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry
+
+OMENRUP8_PELL_FTNFT
+Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry
+
+OMACHT8_PELL_PTNFT
+Adjusted cohort count of part-time, not first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages)
+Adjstd cohort count ptTime, not 1st-time Pell Grant recipient stdnts (dnmtr for 8-yr outcomes percentages)
+
+OMAWDP8_PELL_PTNFT
+Percentage of part-time, not first-time Pell Grant recipient students receiving an award within 8 years of entry
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry
+
+OMENRYP8_PELL_PTNFT
+Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry
+
+OMENRAP8_PELL_PTNFT
+Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry
+
+OMENRUP8_PELL_PTNFT
+Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry
+
+OMACHT8_PELL_FTFT_POOLED
+Adjusted cohort count of full-time, first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages), pooled across years.
+Adjstd cohort count flTime, 1st-time Pell Grant recipient stdnts (dnmtr for 8-yr outcomes percentages), pooled acrossyrs.
+
+OMACHT8_PELL_PTFT_POOLED
+Adjusted cohort count of part-time, first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages), pooled across years.
+Adjstd cohort count ptTime, 1st-time Pell Grant recipient stdnts (dnmtr for 8-yr outcomes percentages), pooled acrossyrs.
+
+OMACHT8_PELL_FTNFT_POOLED
+Adjusted cohort count of full-time, not first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages), pooled across years.
+Adjstd cohort count flTime, not 1st-time Pell Grant recipient stdnts (dnmtr for 8-yr outcomes percentages), pooled acrossyrs.
+
+OMACHT8_PELL_PTNFT_POOLED
+Adjusted cohort count of part-time, not first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages), pooled across years.
+Adjstd cohort count ptTime, not 1st-time Pell Grant recipient stdnts (dnmtr for 8-yr outcomes percentages), pooled acrossyrs.
+
+OMAWDP8_PELL_FTFT_POOLED
+Percentage of full-time, first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages.
+Pctg. flTime, 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs.
+
+OMENRYP8_PELL_FTFT_POOLED
+Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages.
+Pctg. flTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs.
+
+OMENRAP8_PELL_FTFT_POOLED
+Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages.
+Pctg. flTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs.
+
+OMENRUP8_PELL_FTFT_POOLED
+Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages.
+Pctg. flTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs.
+
+OMAWDP8_PELL_PTFT_POOLED
+Percentage of part-time, first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages.
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs.
+
+OMENRYP8_PELL_PTFT_POOLED
+Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages.
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs.
+
+OMENRAP8_PELL_PTFT_POOLED
+Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages.
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs.
+
+OMENRUP8_PELL_PTFT_POOLED
+Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages.
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs.
+
+OMAWDP8_PELL_FTNFT_POOLED
+Percentage of full-time, not first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages.
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs.
+
+OMENRYP8_PELL_FTNFT_POOLED
+Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages.
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs.
+
+OMENRAP8_PELL_FTNFT_POOLED
+Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages.
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs.
+
+OMENRUP8_PELL_FTNFT_POOLED
+Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages.
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs.
+
+OMAWDP8_PELL_PTNFT_POOLED
+Percentage of part-time, not first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages.
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs.
+
+OMENRYP8_PELL_PTNFT_POOLED
+Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages.
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs.
+
+OMENRAP8_PELL_PTNFT_POOLED
+Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages.
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs.
+
+OMENRUP8_PELL_PTNFT_POOLED
+Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages.
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs.
+
+OMENRYP_PELL_ALL_POOLED
+Percentage of all Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. all Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_ALL_POOLED
+Percentage of all Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. all Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_ALL_POOLED
+Percentage of all Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. all Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_ALL_POOLED
+Percentage of all Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. all Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP_PELL_FTT_POOLED
+Percentage of first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_FTT_POOLED
+Percentage of first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_FTT_POOLED
+Percentage of first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_FTT_POOLED
+Percentage of first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP_PELL_NFT_POOLED
+Percentage of not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. not 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_NFT_POOLED
+Percentage of not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. not 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_NFT_POOLED
+Percentage of not first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. not 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_NFT_POOLED
+Percentage of not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. not 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP_PELL_FT_POOLED
+Percentage of full-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_FT_POOLED
+Percentage of full-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_FT_POOLED
+Percentage of full-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_FT_POOLED
+Percentage of full-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP_PELL_PT_POOLED
+Percentage of part-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_PT_POOLED
+Percentage of part-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_PT_POOLED
+Percentage of part-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_PT_POOLED
+Percentage of part-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+POOLYRSOM_PELL_FTFT
+Years used for rolling averages of outcome metrics OM[ACHT6/AWDP6/ACHT8/AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_FTFT_POOLED
+Yrs used for rolling avgs outcome metrics OM[ACHT6/AWDP6/ACHT8/AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_FTFT_POOLED
+
+POOLYRSOM_PELL_PTFT
+Years used for rolling averages of outcome metrics OM[ACHT6/AWDP6/ACHT8/AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_PTFT_POOLED
+Yrs used for rolling avgs outcome metrics OM[ACHT6/AWDP6/ACHT8/AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_PTFT_POOLED
+
+POOLYRSOM_PELL_FTNFT
+Years used for rolling averages of outcome metrics OM[ACHT6/AWDP6/ACHT8/AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_FTNFT_POOLED
+Yrs used for rolling avgs outcome metrics OM[ACHT6/AWDP6/ACHT8/AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_FTNFT_POOLED
+
+POOLYRSOM_PELL_PTNFT
+Years used for rolling averages of outcome metrics OM[ACHT6/AWDP6/ACHT8/AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_PTNFT_POOLED
+Yrs used for rolling avgs outcome metrics OM[ACHT6/AWDP6/ACHT8/AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_PTNFT_POOLED
+
+POOLYRSOM_PELL_ALL
+Years used for rolling averages of outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_ALL_POOLED
+Yrs used for rolling avgs outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_ALL_POOLED
+
+POOLYRSOM_PELL_FIRSTTIME
+Years used for rolling averages of outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_FTT_POOLED
+Yrs used for rolling avgs outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_FTT_POOLED
+
+POOLYRSOM_PELL_NOTFIRSTTIME
+Years used for rolling averages of outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_NFT_POOLED
+Yrs used for rolling avgs outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_NFT_POOLED
+
+POOLYRSOM_PELL_FULLTIME
+Years used for rolling averages of outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_FT_POOLED
+Yrs used for rolling avgs outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_FT_POOLED
+
+POOLYRSOM_PELL_PARTTIME
+Years used for rolling averages of outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_PT_POOLED
+Yrs used for rolling avgs outcome metrics OM[AWDP8/ENRAP8/ENRYP8/ENRUP8]_PELL_PT_POOLED
+
+OMAWDP8_PELL_FTFT_POOLED_SUPP
+Percentage of full-time, first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP8_PELL_FTFT_POOLED_SUPP
+Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP8_PELL_FTFT_POOLED_SUPP
+Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP8_PELL_FTFT_POOLED_SUPP
+Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_PTFT_POOLED_SUPP
+Percentage of part-time, first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP8_PELL_PTFT_POOLED_SUPP
+Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP8_PELL_PTFT_POOLED_SUPP
+Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP8_PELL_PTFT_POOLED_SUPP
+Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime, 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_FTNFT_POOLED_SUPP
+Percentage of full-time, not first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP8_PELL_FTNFT_POOLED_SUPP
+Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP8_PELL_FTNFT_POOLED_SUPP
+Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP8_PELL_FTNFT_POOLED_SUPP
+Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_PTNFT_POOLED_SUPP
+Percentage of part-time, not first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP8_PELL_PTNFT_POOLED_SUPP
+Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP8_PELL_PTNFT_POOLED_SUPP
+Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP8_PELL_PTNFT_POOLED_SUPP
+Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime, not 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP_PELL_ALL_POOLED_SUPP
+Percentage of all Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. all Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_ALL_POOLED_SUPP
+Percentage of all Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. all Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_ALL_POOLED_SUPP
+Percentage of all Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. all Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_ALL_POOLED_SUPP
+Percentage of all Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. all Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP_PELL_FTT_POOLED_SUPP
+Percentage of first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_FTT_POOLED_SUPP
+Percentage of first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_FTT_POOLED_SUPP
+Percentage of first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_FTT_POOLED_SUPP
+Percentage of first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP_PELL_NFT_POOLED_SUPP
+Percentage of not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. not 1st-time Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_NFT_POOLED_SUPP
+Percentage of not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. not 1st-time Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_NFT_POOLED_SUPP
+Percentage of not first-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. not 1st-time Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_NFT_POOLED_SUPP
+Percentage of not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. not 1st-time Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP_PELL_FT_POOLED_SUPP
+Percentage of full-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_FT_POOLED_SUPP
+Percentage of full-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_FT_POOLED_SUPP
+Percentage of full-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_FT_POOLED_SUPP
+Percentage of full-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. flTime Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRYP_PELL_PT_POOLED_SUPP
+Percentage of part-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime Pell Grant recipient stdnts that did not rcve an award and are still enrolled at this inst 8yrs after entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRAP_PELL_PT_POOLED_SUPP
+Percentage of part-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime Pell Grant recipient stdnts that did not rcve an award and enrolled at anoth inst after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMAWDP8_PELL_PT_POOLED_SUPP
+Percentage of part-time Pell Grant recipient students receiving an award within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime Pell Grant recipient stdnts rcving an award within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+OMENRUP_PELL_PT_POOLED_SUPP
+Percentage of part-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry, pooled in rolling averages and suppressed for small n size
+Pctg. ptTime Pell Grant recipient stdnts that did not rcve an award and whose enrlmt. status is unkn after leaving this inst within 8yrs entry, pooled in rolling avgs and suppressed for small n size
+
+BBRR1_FED_IND_N
+Independent federal student loan borrower-based 1-year borrower count
+Independent fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_IND_DFLT
+Percentage of independent federal student loan borrowers in default after 1 year
+Pctg. independent fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_IND_DLNQ
+Percentage of independent federal student loan borrowers in delinquency after 1 year
+Pctg. independent fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_IND_FBR
+Percentage of independent federal student loan borrowers in forbearance after 1 year
+Pctg. independent fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_IND_DFR
+Percentage of independent federal student loan borrowers in deferment after 1 year
+Pctg. independent fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_IND_NOPROG
+Percentage of independent federal student loan borrowers not making progress after 1 year
+Pctg. independent fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_IND_MAKEPROG
+Percentage of independent federal student loan borrowers making progress after 1 year
+Pctg. independent fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_IND_PAIDINFULL
+Percentage of independent federal student loan borrowers paid in full after 1 year
+Pctg. independent fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_IND_DISCHARGE
+Percentage of independent federal student loan borrowers with all loans discharged after 1 year
+Pctg. independent fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_DEP_N
+Dependent federal student loan borrower-based 1-year borrower count
+Dependent fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_DEP_DFLT
+Percentage of dependent federal student loan borrowers in default after 1 year
+Pctg. dependent fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_DEP_DLNQ
+Percentage of dependent federal student loan borrowers in delinquency after 1 year
+Pctg. dependent fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_DEP_FBR
+Percentage of dependent federal student loan borrowers in forbearance after 1 year
+Pctg. dependent fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_DEP_DFR
+Percentage of dependent federal student loan borrowers in deferment after 1 year
+Pctg. dependent fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_DEP_NOPROG
+Percentage of dependent federal student loan borrowers not making progress after 1 year
+Pctg. dependent fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_DEP_MAKEPROG
+Percentage of dependent federal student loan borrowers making progress after 1 year
+Pctg. dependent fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_DEP_PAIDINFULL
+Percentage of dependent federal student loan borrowers paid in full after 1 year
+Pctg. dependent fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_DEP_DISCHARGE
+Percentage of dependent federal student loan borrowers with all loans discharged after 1 year
+Pctg. dependent fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_PELL_N
+Pell Grant recipient federal student loan borrower-based 1-year borrower count
+Pell Grant recipient fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_PELL_DFLT
+Percentage of Pell Grant recipient federal student loan borrowers in default after 1 year
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_PELL_DLNQ
+Percentage of Pell Grant recipient federal student loan borrowers in delinquency after 1 year
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_PELL_FBR
+Percentage of Pell Grant recipient federal student loan borrowers in forbearance after 1 year
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_PELL_DFR
+Percentage of Pell Grant recipient federal student loan borrowers in deferment after 1 year
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_PELL_NOPROG
+Percentage of Pell Grant recipient federal student loan borrowers not making progress after 1 year
+Pctg. Pell Grant recipient fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_PELL_MAKEPROG
+Percentage of Pell Grant recipient federal student loan borrowers making progress after 1 year
+Pctg. Pell Grant recipient fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_PELL_PAIDINFULL
+Percentage of Pell Grant recipient federal student loan borrowers paid in full after 1 year
+Pctg. Pell Grant recipient fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_PELL_DISCHARGE
+Percentage of Pell Grant recipient federal student loan borrowers with all loans discharged after 1 year
+Pctg. Pell Grant recipient fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_NOPELL_N
+Non-Pell Grant recipient federal student loan borrower-based 1-year borrower count
+Non-Pell Grant recipient fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_NOPELL_DFLT
+Percentage of non-Pell Grant recipient federal student loan borrowers in default after 1 year
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_NOPELL_DLNQ
+Percentage of non-Pell Grant recipient federal student loan borrowers in delinquency after 1 year
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_NOPELL_FBR
+Percentage of non-Pell Grant recipient federal student loan borrowers in forbearance after 1 year
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_NOPELL_DFR
+Percentage of non-Pell Grant recipient federal student loan borrowers in deferment after 1 year
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_NOPELL_NOPROG
+Percentage of non-Pell Grant recipient federal student loan borrowers not making progress after 1 year
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_NOPELL_MAKEPROG
+Percentage of non-Pell Grant recipient federal student loan borrowers making progress after 1 year
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_NOPELL_PAIDINFULL
+Percentage of non-Pell Grant recipient federal student loan borrowers paid in full after 1 year
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_NOPELL_DISCHARGE
+Percentage of non-Pell Grant recipient federal student loan borrowers with all loans discharged after 1 year
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_MALE_N
+Male federal student loan borrower-based 1-year borrower count
+Male fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_MALE_DFLT
+Percentage of male federal student loan borrowers in default after 1 year
+Pctg. male fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_MALE_DLNQ
+Percentage of male federal student loan borrowers in delinquency after 1 year
+Pctg. male fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_MALE_FBR
+Percentage of male federal student loan borrowers in forbearance after 1 year
+Pctg. male fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_MALE_DFR
+Percentage of male federal student loan borrowers in deferment after 1 year
+Pctg. male fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_MALE_NOPROG
+Percentage of male federal student loan borrowers not making progress after 1 year
+Pctg. male fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_MALE_MAKEPROG
+Percentage of male federal student loan borrowers making progress after 1 year
+Pctg. male fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_MALE_PAIDINFULL
+Percentage of male federal student loan borrowers paid in full after 1 year
+Pctg. male fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_MALE_DISCHARGE
+Percentage of male federal student loan borrowers with all loans discharged after 1 year
+Pctg. male fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_FED_NOMALE_N
+Non-male federal student loan borrower-based 1-year borrower count
+Non-male fed. stdnt loan borrower-based 1yr borrower count
+
+BBRR1_FED_NOMALE_DFLT
+Percentage of non-male federal student loan borrowers in default after 1 year
+Pctg. non-male fed. stdnt loan borrowers in default after 1 yr
+
+BBRR1_FED_NOMALE_DLNQ
+Percentage of non-male federal student loan borrowers in delinquency after 1 year
+Pctg. non-male fed. stdnt loan borrowers in delinquency after 1 yr
+
+BBRR1_FED_NOMALE_FBR
+Percentage of non-male federal student loan borrowers in forbearance after 1 year
+Pctg. non-male fed. stdnt loan borrowers in forbearance after 1 yr
+
+BBRR1_FED_NOMALE_DFR
+Percentage of non-male federal student loan borrowers in deferment after 1 year
+Pctg. non-male fed. stdnt loan borrowers in deferment after 1 yr
+
+BBRR1_FED_NOMALE_NOPROG
+Percentage of non-male federal student loan borrowers not making progress after 1 year
+Pctg. non-male fed. stdnt loan borrowers not making progress after 1 yr
+
+BBRR1_FED_NOMALE_MAKEPROG
+Percentage of non-male federal student loan borrowers making progress after 1 year
+Pctg. non-male fed. stdnt loan borrowers making progress after 1 yr
+
+BBRR1_FED_NOMALE_PAIDINFULL
+Percentage of non-male federal student loan borrowers paid in full after 1 year
+Pctg. non-male fed. stdnt loan borrowers paid in full after 1 yr
+
+BBRR1_FED_NOMALE_DISCHARGE
+Percentage of non-male federal student loan borrowers with all loans discharged after 1 year
+Pctg. non-male fed. stdnt loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_IND_N
+Independent student Parent PLUS Loan borrower-based 1-year borrower count
+Independent stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_IND_DFLT
+Percentage of independent student Parent PLUS Loan borrowers in default after 1 year
+Pctg. independent stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_IND_DLNQ
+Percentage of independent student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. independent stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_IND_FBR
+Percentage of independent student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. independent stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_IND_DFR
+Percentage of independent student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. independent stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_IND_NOPROG
+Percentage of independent student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. independent stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_IND_MAKEPROG
+Percentage of independent student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. independent stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_IND_PAIDINFULL
+Percentage of independent student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. independent stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_IND_DISCHARGE
+Percentage of independent student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. independent stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_DEP_N
+Dependent student Parent PLUS Loan borrower-based 1-year borrower count
+Dependent stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_DEP_DFLT
+Percentage of dependent student Parent PLUS Loan borrowers in default after 1 year
+Pctg. dependent stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_DEP_DLNQ
+Percentage of dependent student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. dependent stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_DEP_FBR
+Percentage of dependent student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. dependent stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_DEP_DFR
+Percentage of dependent student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. dependent stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_DEP_NOPROG
+Percentage of dependent student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. dependent stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_DEP_MAKEPROG
+Percentage of dependent student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. dependent stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_DEP_PAIDINFULL
+Percentage of dependent student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. dependent stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_DEP_DISCHARGE
+Percentage of dependent student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. dependent stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_PELL_N
+Pell Grant recipient student Parent PLUS Loan borrower-based 1-year borrower count
+Pell Grant recipient stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_PELL_DFLT
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in default after 1 year
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_PELL_DLNQ
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_PELL_FBR
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_PELL_DFR
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_PELL_NOPROG
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_PELL_MAKEPROG
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_PELL_PAIDINFULL
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_PELL_DISCHARGE
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_NOPELL_N
+Non-Pell Grant recipient student Parent PLUS Loan borrower-based 1-year borrower count
+Non-Pell Grant recipient stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_NOPELL_DFLT
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in default after 1 year
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_NOPELL_DLNQ
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_NOPELL_FBR
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_NOPELL_DFR
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_NOPELL_NOPROG
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_NOPELL_MAKEPROG
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_NOPELL_PAIDINFULL
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_NOPELL_DISCHARGE
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_MALE_N
+Male student Parent PLUS Loan borrower-based 1-year borrower count
+Male stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_MALE_DFLT
+Percentage of male student Parent PLUS Loan borrowers in default after 1 year
+Pctg. male stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_MALE_DLNQ
+Percentage of male student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. male stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_MALE_FBR
+Percentage of male student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. male stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_MALE_DFR
+Percentage of male student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. male stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_MALE_NOPROG
+Percentage of male student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. male stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_MALE_MAKEPROG
+Percentage of male student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. male stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_MALE_PAIDINFULL
+Percentage of male student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. male stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_MALE_DISCHARGE
+Percentage of male student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. male stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR1_PP_NOMALE_N
+Non-male student Parent PLUS Loan borrower-based 1-year borrower count
+Non-male stdnt Parent PLUS Loan borrower-based 1yr borrower count
+
+BBRR1_PP_NOMALE_DFLT
+Percentage of non-male student Parent PLUS Loan borrowers in default after 1 year
+Pctg. non-male stdnt Parent PLUS Loan borrowers in default after 1 yr
+
+BBRR1_PP_NOMALE_DLNQ
+Percentage of non-male student Parent PLUS Loan borrowers in delinquency after 1 year
+Pctg. non-male stdnt Parent PLUS Loan borrowers in delinquency after 1 yr
+
+BBRR1_PP_NOMALE_FBR
+Percentage of non-male student Parent PLUS Loan borrowers in forbearance after 1 year
+Pctg. non-male stdnt Parent PLUS Loan borrowers in forbearance after 1 yr
+
+BBRR1_PP_NOMALE_DFR
+Percentage of non-male student Parent PLUS Loan borrowers in deferment after 1 year
+Pctg. non-male stdnt Parent PLUS Loan borrowers in deferment after 1 yr
+
+BBRR1_PP_NOMALE_NOPROG
+Percentage of non-male student Parent PLUS Loan borrowers not making progress after 1 year
+Pctg. non-male stdnt Parent PLUS Loan borrowers not making progress after 1 yr
+
+BBRR1_PP_NOMALE_MAKEPROG
+Percentage of non-male student Parent PLUS Loan borrowers making progress after 1 year
+Pctg. non-male stdnt Parent PLUS Loan borrowers making progress after 1 yr
+
+BBRR1_PP_NOMALE_PAIDINFULL
+Percentage of non-male student Parent PLUS Loan borrowers paid in full after 1 year
+Pctg. non-male stdnt Parent PLUS Loan borrowers paid in full after 1 yr
+
+BBRR1_PP_NOMALE_DISCHARGE
+Percentage of non-male student Parent PLUS Loan borrowers with all loans discharged after 1 year
+Pctg. non-male stdnt Parent PLUS Loan borrowers with all loans discharged after 1 yr
+
+BBRR2_FED_IND_N
+Independent federal student loan borrower-based 2-year borrower count
+Independent fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_IND_DFLT
+Percentage of independent federal student loan borrowers in default after 2 years
+Pctg. independent fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_IND_DLNQ
+Percentage of independent federal student loan borrowers in delinquency after 2 years
+Pctg. independent fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_IND_FBR
+Percentage of independent federal student loan borrowers in forbearance after 2 years
+Pctg. independent fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_IND_DFR
+Percentage of independent federal student loan borrowers in deferment after 2 years
+Pctg. independent fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_IND_NOPROG
+Percentage of independent federal student loan borrowers not making progress after 2 years
+Pctg. independent fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_IND_MAKEPROG
+Percentage of independent federal student loan borrowers making progress after 2 years
+Pctg. independent fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_IND_PAIDINFULL
+Percentage of independent federal student loan borrowers paid in full after 2 years
+Pctg. independent fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_IND_DISCHARGE
+Percentage of independent federal student loan borrowers with all loans discharged after 2 years
+Pctg. independent fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_DEP_N
+Dependent federal student loan borrower-based 2-year borrower count
+Dependent fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_DEP_DFLT
+Percentage of dependent federal student loan borrowers in default after 2 years
+Pctg. dependent fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_DEP_DLNQ
+Percentage of dependent federal student loan borrowers in delinquency after 2 years
+Pctg. dependent fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_DEP_FBR
+Percentage of dependent federal student loan borrowers in forbearance after 2 years
+Pctg. dependent fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_DEP_DFR
+Percentage of dependent federal student loan borrowers in deferment after 2 years
+Pctg. dependent fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_DEP_NOPROG
+Percentage of dependent federal student loan borrowers not making progress after 2 years
+Pctg. dependent fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_DEP_MAKEPROG
+Percentage of dependent federal student loan borrowers making progress after 2 years
+Pctg. dependent fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_DEP_PAIDINFULL
+Percentage of dependent federal student loan borrowers paid in full after 2 years
+Pctg. dependent fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_DEP_DISCHARGE
+Percentage of dependent federal student loan borrowers with all loans discharged after 2 years
+Pctg. dependent fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_PELL_N
+Pell Grant recipient federal student loan borrower-based 2-year borrower count
+Pell Grant recipient fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_PELL_DFLT
+Percentage of Pell Grant recipient federal student loan borrowers in default after 2 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_PELL_DLNQ
+Percentage of Pell Grant recipient federal student loan borrowers in delinquency after 2 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_PELL_FBR
+Percentage of Pell Grant recipient federal student loan borrowers in forbearance after 2 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_PELL_DFR
+Percentage of Pell Grant recipient federal student loan borrowers in deferment after 2 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_PELL_NOPROG
+Percentage of Pell Grant recipient federal student loan borrowers not making progress after 2 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_PELL_MAKEPROG
+Percentage of Pell Grant recipient federal student loan borrowers making progress after 2 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_PELL_PAIDINFULL
+Percentage of Pell Grant recipient federal student loan borrowers paid in full after 2 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_PELL_DISCHARGE
+Percentage of Pell Grant recipient federal student loan borrowers with all loans discharged after 2 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_NOPELL_N
+Non-Pell Grant recipient federal student loan borrower-based 2-year borrower count
+Non-Pell Grant recipient fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_NOPELL_DFLT
+Percentage of non-Pell Grant recipient federal student loan borrowers in default after 2 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_NOPELL_DLNQ
+Percentage of non-Pell Grant recipient federal student loan borrowers in delinquency after 2 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_NOPELL_FBR
+Percentage of non-Pell Grant recipient federal student loan borrowers in forbearance after 2 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_NOPELL_DFR
+Percentage of non-Pell Grant recipient federal student loan borrowers in deferment after 2 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_NOPELL_NOPROG
+Percentage of non-Pell Grant recipient federal student loan borrowers not making progress after 2 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_NOPELL_MAKEPROG
+Percentage of non-Pell Grant recipient federal student loan borrowers making progress after 2 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_NOPELL_PAIDINFULL
+Percentage of non-Pell Grant recipient federal student loan borrowers paid in full after 2 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_NOPELL_DISCHARGE
+Percentage of non-Pell Grant recipient federal student loan borrowers with all loans discharged after 2 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_MALE_N
+Male federal student loan borrower-based 2-year borrower count
+Male fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_MALE_DFLT
+Percentage of male federal student loan borrowers in default after 2 years
+Pctg. male fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_MALE_DLNQ
+Percentage of male federal student loan borrowers in delinquency after 2 years
+Pctg. male fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_MALE_FBR
+Percentage of male federal student loan borrowers in forbearance after 2 years
+Pctg. male fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_MALE_DFR
+Percentage of male federal student loan borrowers in deferment after 2 years
+Pctg. male fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_MALE_NOPROG
+Percentage of male federal student loan borrowers not making progress after 2 years
+Pctg. male fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_MALE_MAKEPROG
+Percentage of male federal student loan borrowers making progress after 2 years
+Pctg. male fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_MALE_PAIDINFULL
+Percentage of male federal student loan borrowers paid in full after 2 years
+Pctg. male fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_MALE_DISCHARGE
+Percentage of male federal student loan borrowers with all loans discharged after 2 years
+Pctg. male fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_FED_NOMALE_N
+Non-male federal student loan borrower-based 2-year borrower count
+Non-male fed. stdnt loan borrower-based 2yr borrower count
+
+BBRR2_FED_NOMALE_DFLT
+Percentage of non-male federal student loan borrowers in default after 2 years
+Pctg. non-male fed. stdnt loan borrowers in default after 2yrs
+
+BBRR2_FED_NOMALE_DLNQ
+Percentage of non-male federal student loan borrowers in delinquency after 2 years
+Pctg. non-male fed. stdnt loan borrowers in delinquency after 2yrs
+
+BBRR2_FED_NOMALE_FBR
+Percentage of non-male federal student loan borrowers in forbearance after 2 years
+Pctg. non-male fed. stdnt loan borrowers in forbearance after 2yrs
+
+BBRR2_FED_NOMALE_DFR
+Percentage of non-male federal student loan borrowers in deferment after 2 years
+Pctg. non-male fed. stdnt loan borrowers in deferment after 2yrs
+
+BBRR2_FED_NOMALE_NOPROG
+Percentage of non-male federal student loan borrowers not making progress after 2 years
+Pctg. non-male fed. stdnt loan borrowers not making progress after 2yrs
+
+BBRR2_FED_NOMALE_MAKEPROG
+Percentage of non-male federal student loan borrowers making progress after 2 years
+Pctg. non-male fed. stdnt loan borrowers making progress after 2yrs
+
+BBRR2_FED_NOMALE_PAIDINFULL
+Percentage of non-male federal student loan borrowers paid in full after 2 years
+Pctg. non-male fed. stdnt loan borrowers paid in full after 2yrs
+
+BBRR2_FED_NOMALE_DISCHARGE
+Percentage of non-male federal student loan borrowers with all loans discharged after 2 years
+Pctg. non-male fed. stdnt loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_IND_N
+Independent student Parent PLUS Loan borrower-based 2-year borrower count
+Independent stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_IND_DFLT
+Percentage of independent student Parent PLUS Loan borrowers in default after 2 years
+Pctg. independent stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_IND_DLNQ
+Percentage of independent student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. independent stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_IND_FBR
+Percentage of independent student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. independent stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_IND_DFR
+Percentage of independent student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. independent stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_IND_NOPROG
+Percentage of independent student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. independent stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_IND_MAKEPROG
+Percentage of independent student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. independent stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_IND_PAIDINFULL
+Percentage of independent student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. independent stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_IND_DISCHARGE
+Percentage of independent student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. independent stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_DEP_N
+Dependent student Parent PLUS Loan borrower-based 2-year borrower count
+Dependent stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_DEP_DFLT
+Percentage of dependent student Parent PLUS Loan borrowers in default after 2 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_DEP_DLNQ
+Percentage of dependent student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_DEP_FBR
+Percentage of dependent student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_DEP_DFR
+Percentage of dependent student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_DEP_NOPROG
+Percentage of dependent student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_DEP_MAKEPROG
+Percentage of dependent student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_DEP_PAIDINFULL
+Percentage of dependent student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_DEP_DISCHARGE
+Percentage of dependent student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_PELL_N
+Pell Grant recipient student Parent PLUS Loan borrower-based 2-year borrower count
+Pell Grant recipient stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_PELL_DFLT
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in default after 2 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_PELL_DLNQ
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_PELL_FBR
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_PELL_DFR
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_PELL_NOPROG
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_PELL_MAKEPROG
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_PELL_PAIDINFULL
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_PELL_DISCHARGE
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_NOPELL_N
+Non-Pell Grant recipient student Parent PLUS Loan borrower-based 2-year borrower count
+Non-Pell Grant recipient stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_NOPELL_DFLT
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in default after 2 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_NOPELL_DLNQ
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_NOPELL_FBR
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_NOPELL_DFR
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_NOPELL_NOPROG
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_NOPELL_MAKEPROG
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_NOPELL_PAIDINFULL
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_NOPELL_DISCHARGE
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_MALE_N
+Male student Parent PLUS Loan borrower-based 2-year borrower count
+Male stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_MALE_DFLT
+Percentage of male student Parent PLUS Loan borrowers in default after 2 years
+Pctg. male stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_MALE_DLNQ
+Percentage of male student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. male stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_MALE_FBR
+Percentage of male student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. male stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_MALE_DFR
+Percentage of male student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. male stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_MALE_NOPROG
+Percentage of male student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. male stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_MALE_MAKEPROG
+Percentage of male student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. male stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_MALE_PAIDINFULL
+Percentage of male student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. male stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_MALE_DISCHARGE
+Percentage of male student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. male stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR2_PP_NOMALE_N
+Non-male student Parent PLUS Loan borrower-based 2-year borrower count
+Non-male stdnt Parent PLUS Loan borrower-based 2yr borrower count
+
+BBRR2_PP_NOMALE_DFLT
+Percentage of non-male student Parent PLUS Loan borrowers in default after 2 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers in default after 2yrs
+
+BBRR2_PP_NOMALE_DLNQ
+Percentage of non-male student Parent PLUS Loan borrowers in delinquency after 2 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers in delinquency after 2yrs
+
+BBRR2_PP_NOMALE_FBR
+Percentage of non-male student Parent PLUS Loan borrowers in forbearance after 2 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers in forbearance after 2yrs
+
+BBRR2_PP_NOMALE_DFR
+Percentage of non-male student Parent PLUS Loan borrowers in deferment after 2 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers in deferment after 2yrs
+
+BBRR2_PP_NOMALE_NOPROG
+Percentage of non-male student Parent PLUS Loan borrowers not making progress after 2 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers not making progress after 2yrs
+
+BBRR2_PP_NOMALE_MAKEPROG
+Percentage of non-male student Parent PLUS Loan borrowers making progress after 2 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers making progress after 2yrs
+
+BBRR2_PP_NOMALE_PAIDINFULL
+Percentage of non-male student Parent PLUS Loan borrowers paid in full after 2 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers paid in full after 2yrs
+
+BBRR2_PP_NOMALE_DISCHARGE
+Percentage of non-male student Parent PLUS Loan borrowers with all loans discharged after 2 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers with all loans discharged after 2yrs
+
+BBRR3_FED_UG_N
+Undergraduate federal student loan borrower-based 3-year borrower count
+Undergraduate fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_UG_DFLT
+Percentage of undergraduate federal student loan borrowers in default after 3 years
+Pctg. udgr. fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_UG_DLNQ
+Percentage of undergraduate federal student loan borrowers in delinquency after 3 years
+Pctg. udgr. fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_UG_FBR
+Percentage of undergraduate federal student loan borrowers in forbearance after 3 years
+Pctg. udgr. fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_UG_DFR
+Percentage of undergraduate federal student loan borrowers in deferment after 3 years
+Pctg. udgr. fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_UG_NOPROG
+Percentage of undergraduate federal student loan borrowers not making progress after 3 years
+Pctg. udgr. fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_UG_MAKEPROG
+Percentage of undergraduate federal student loan borrowers making progress after 3 years
+Pctg. udgr. fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_UG_PAIDINFULL
+Percentage of undergraduate federal student loan borrowers paid in full after 3 years
+Pctg. udgr. fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_UG_DISCHARGE
+Percentage of undergraduate federal student loan borrowers with all loans discharged after 3 years
+Pctg. udgr. fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_UGCOMP_N
+Undergraduate completer undergraduate federal student loan borrower-based 3-year borrower count
+Undergraduate completer udgr. fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_UGCOMP_DFLT
+Percentage of undergraduate completer undergraduate federal student loan borrowers in default after 3 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_UGCOMP_DLNQ
+Percentage of undergraduate completer undergraduate federal student loan borrowers in delinquency after 3 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_UGCOMP_FBR
+Percentage of undergraduate completer undergraduate federal student loan borrowers in forbearance after 3 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_UGCOMP_DFR
+Percentage of undergraduate completer undergraduate federal student loan borrowers in deferment after 3 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_UGCOMP_NOPROG
+Percentage of undergraduate completer undergraduate federal student loan borrowers not making progress after 3 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_UGCOMP_MAKEPROG
+Percentage of undergraduate completer undergraduate federal student loan borrowers making progress after 3 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_UGCOMP_PAIDINFULL
+Percentage of undergraduate completer undergraduate federal student loan borrowers paid in full after 3 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_UGCOMP_DISCHARGE
+Percentage of undergraduate completer undergraduate federal student loan borrowers with all loans discharged after 3 years
+Pctg. udgr. completer udgr. fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_UGNOCOMP_N
+Undergraduate non-completer undergraduate federal student loan borrower-based 3-year borrower count
+Undergraduate non-completer udgr. fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_UGNOCOMP_DFLT
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in default after 3 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_UGNOCOMP_DLNQ
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in delinquency after 3 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_UGNOCOMP_FBR
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in forbearance after 3 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_UGNOCOMP_DFR
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers in deferment after 3 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_UGNOCOMP_NOPROG
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers not making progress after 3 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_UGNOCOMP_MAKEPROG
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers making progress after 3 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_UGNOCOMP_PAIDINFULL
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers paid in full after 3 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_UGNOCOMP_DISCHARGE
+Percentage of undergraduate non-completer undergraduate federal student loan borrowers with all loans discharged after 3 years
+Pctg. udgr. non-completer udgr. fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_UGUNK_N
+Undergraduate unknown completion status undergraduate federal student loan borrower-based 3-year borrower count
+Undergraduate unkn comp status udgr. fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_UGUNK_DFLT
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in default after 3 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_UGUNK_DLNQ
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in delinquency after 3 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_UGUNK_FBR
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in forbearance after 3 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_UGUNK_DFR
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers in deferment after 3 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_UGUNK_NOPROG
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers not making progress after 3 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_UGUNK_MAKEPROG
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers making progress after 3 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_UGUNK_PAIDINFULL
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers paid in full after 3 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_UGUNK_DISCHARGE
+Percentage of undergraduate unknown completion status undergraduate federal student loan borrowers with all loans discharged after 3 years
+Pctg. udgr. unkn comp status udgr. fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_GR_N
+Graduate federal student loan borrower-based 3-year borrower count
+Graduate fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_GR_DFLT
+Percentage of graduate federal student loan borrowers in default after 3 years
+Pctg. graduate fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_GR_DLNQ
+Percentage of graduate federal student loan borrowers in delinquency after 3 years
+Pctg. graduate fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_GR_FBR
+Percentage of graduate federal student loan borrowers in forbearance after 3 years
+Pctg. graduate fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_GR_DFR
+Percentage of graduate federal student loan borrowers in deferment after 3 years
+Pctg. graduate fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_GR_NOPROG
+Percentage of graduate federal student loan borrowers not making progress after 3 years
+Pctg. graduate fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_GR_MAKEPROG
+Percentage of graduate federal student loan borrowers making progress after 3 years
+Pctg. graduate fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_GR_PAIDINFULL
+Percentage of graduate federal student loan borrowers paid in full after 3 years
+Pctg. graduate fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_GR_DISCHARGE
+Percentage of graduate federal student loan borrowers with all loans discharged after 3 years
+Pctg. graduate fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_GRCOMP_N
+Graduate completer graduate federal student loan borrower-based 3-year borrower count
+Graduate completer graduate fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_GRCOMP_DFLT
+Percentage of graduate completer graduate federal student loan borrowers in default after 3 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_GRCOMP_DLNQ
+Percentage of graduate completer graduate federal student loan borrowers in delinquency after 3 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_GRCOMP_FBR
+Percentage of graduate completer graduate federal student loan borrowers in forbearance after 3 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_GRCOMP_DFR
+Percentage of graduate completer graduate federal student loan borrowers in deferment after 3 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_GRCOMP_NOPROG
+Percentage of graduate completer graduate federal student loan borrowers not making progress after 3 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_GRCOMP_MAKEPROG
+Percentage of graduate completer graduate federal student loan borrowers making progress after 3 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_GRCOMP_PAIDINFULL
+Percentage of graduate completer graduate federal student loan borrowers paid in full after 3 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_GRCOMP_DISCHARGE
+Percentage of graduate completer graduate federal student loan borrowers with all loans discharged after 3 years
+Pctg. graduate completer graduate fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_GRNOCOMP_N
+Graduate non-completer graduate federal student loan borrower-based 3-year borrower count
+Graduate non-completer graduate fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_GRNOCOMP_DFLT
+Percentage of graduate non-completer graduate federal student loan borrowers in default after 3 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_GRNOCOMP_DLNQ
+Percentage of graduate non-completer graduate federal student loan borrowers in delinquency after 3 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_GRNOCOMP_FBR
+Percentage of graduate non-completer graduate federal student loan borrowers in forbearance after 3 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_GRNOCOMP_DFR
+Percentage of graduate non-completer graduate federal student loan borrowers in deferment after 3 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_GRNOCOMP_NOPROG
+Percentage of graduate non-completer graduate federal student loan borrowers not making progress after 3 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_GRNOCOMP_MAKEPROG
+Percentage of graduate non-completer graduate federal student loan borrowers making progress after 3 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_GRNOCOMP_PAIDINFULL
+Percentage of graduate non-completer graduate federal student loan borrowers paid in full after 3 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_GRNOCOMP_DISCHARGE
+Percentage of graduate non-completer graduate federal student loan borrowers with all loans discharged after 3 years
+Pctg. graduate non-completer graduate fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_UG_N
+Undergraduate student Parent PLUS Loan borrower-based 3-year borrower count
+Undergraduate stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_UG_DFLT
+Percentage of undergraduate student Parent PLUS Loan borrowers in default after 3 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_UG_DLNQ
+Percentage of undergraduate student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_UG_FBR
+Percentage of undergraduate student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_UG_DFR
+Percentage of undergraduate student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_UG_NOPROG
+Percentage of undergraduate student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_UG_MAKEPROG
+Percentage of undergraduate student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_UG_PAIDINFULL
+Percentage of undergraduate student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_UG_DISCHARGE
+Percentage of undergraduate student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_UGCOMP_N
+Undergraduate completer undergraduate student Parent PLUS Loan borrower-based 3-year borrower count
+Undergraduate completer udgr. stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_UGCOMP_DFLT
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in default after 3 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_UGCOMP_DLNQ
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_UGCOMP_FBR
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_UGCOMP_DFR
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_UGCOMP_NOPROG
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_UGCOMP_MAKEPROG
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_UGCOMP_PAIDINFULL
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_UGCOMP_DISCHARGE
+Percentage of undergraduate completer undergraduate student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. udgr. completer udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_UGNOCOMP_N
+Undergraduate non-completer undergraduate student Parent PLUS Loan borrower-based 3-year borrower count
+Undergraduate non-completer udgr. stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_UGNOCOMP_DFLT
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in default after 3 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_UGNOCOMP_DLNQ
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_UGNOCOMP_FBR
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_UGNOCOMP_DFR
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_UGNOCOMP_NOPROG
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_UGNOCOMP_MAKEPROG
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_UGNOCOMP_PAIDINFULL
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_UGNOCOMP_DISCHARGE
+Percentage of undergraduate non-completer undergraduate student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. udgr. non-completer udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_UGUNK_N
+Undergraduate unknown completion status undergraduate student Parent PLUS Loan borrower-based 3-year borrower count
+Undergraduate unkn comp status udgr. stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_UGUNK_DFLT
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in default after 3 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_UGUNK_DLNQ
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_UGUNK_FBR
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_UGUNK_DFR
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_UGUNK_NOPROG
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_UGUNK_MAKEPROG
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_UGUNK_PAIDINFULL
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_UGUNK_DISCHARGE
+Percentage of undergraduate unknown completion status undergraduate student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. udgr. unkn comp status udgr. stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_IND_N
+Independent federal student loan borrower-based 3-year borrower count
+Independent fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_IND_DFLT
+Percentage of independent federal student loan borrowers in default after 3 years
+Pctg. independent fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_IND_DLNQ
+Percentage of independent federal student loan borrowers in delinquency after 3 years
+Pctg. independent fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_IND_FBR
+Percentage of independent federal student loan borrowers in forbearance after 3 years
+Pctg. independent fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_IND_DFR
+Percentage of independent federal student loan borrowers in deferment after 3 years
+Pctg. independent fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_IND_NOPROG
+Percentage of independent federal student loan borrowers not making progress after 3 years
+Pctg. independent fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_IND_MAKEPROG
+Percentage of independent federal student loan borrowers making progress after 3 years
+Pctg. independent fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_IND_PAIDINFULL
+Percentage of independent federal student loan borrowers paid in full after 3 years
+Pctg. independent fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_IND_DISCHARGE
+Percentage of independent federal student loan borrowers with all loans discharged after 3 years
+Pctg. independent fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_DEP_N
+Dependent federal student loan borrower-based 3-year borrower count
+Dependent fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_DEP_DFLT
+Percentage of dependent federal student loan borrowers in default after 3 years
+Pctg. dependent fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_DEP_DLNQ
+Percentage of dependent federal student loan borrowers in delinquency after 3 years
+Pctg. dependent fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_DEP_FBR
+Percentage of dependent federal student loan borrowers in forbearance after 3 years
+Pctg. dependent fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_DEP_DFR
+Percentage of dependent federal student loan borrowers in deferment after 3 years
+Pctg. dependent fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_DEP_NOPROG
+Percentage of dependent federal student loan borrowers not making progress after 3 years
+Pctg. dependent fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_DEP_MAKEPROG
+Percentage of dependent federal student loan borrowers making progress after 3 years
+Pctg. dependent fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_DEP_PAIDINFULL
+Percentage of dependent federal student loan borrowers paid in full after 3 years
+Pctg. dependent fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_DEP_DISCHARGE
+Percentage of dependent federal student loan borrowers with all loans discharged after 3 years
+Pctg. dependent fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_PELL_N
+Pell Grant recipient federal student loan borrower-based 3-year borrower count
+Pell Grant recipient fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_PELL_DFLT
+Percentage of Pell Grant recipient federal student loan borrowers in default after 3 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_PELL_DLNQ
+Percentage of Pell Grant recipient federal student loan borrowers in delinquency after 3 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_PELL_FBR
+Percentage of Pell Grant recipient federal student loan borrowers in forbearance after 3 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_PELL_DFR
+Percentage of Pell Grant recipient federal student loan borrowers in deferment after 3 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_PELL_NOPROG
+Percentage of Pell Grant recipient federal student loan borrowers not making progress after 3 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_PELL_MAKEPROG
+Percentage of Pell Grant recipient federal student loan borrowers making progress after 3 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_PELL_PAIDINFULL
+Percentage of Pell Grant recipient federal student loan borrowers paid in full after 3 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_PELL_DISCHARGE
+Percentage of Pell Grant recipient federal student loan borrowers with all loans discharged after 3 years
+Pctg. Pell Grant recipient fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_NOPELL_N
+Non-Pell Grant recipient federal student loan borrower-based 3-year borrower count
+Non-Pell Grant recipient fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_NOPELL_DFLT
+Percentage of non-Pell Grant recipient federal student loan borrowers in default after 3 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_NOPELL_DLNQ
+Percentage of non-Pell Grant recipient federal student loan borrowers in delinquency after 3 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_NOPELL_FBR
+Percentage of non-Pell Grant recipient federal student loan borrowers in forbearance after 3 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_NOPELL_DFR
+Percentage of non-Pell Grant recipient federal student loan borrowers in deferment after 3 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_NOPELL_NOPROG
+Percentage of non-Pell Grant recipient federal student loan borrowers not making progress after 3 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_NOPELL_MAKEPROG
+Percentage of non-Pell Grant recipient federal student loan borrowers making progress after 3 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_NOPELL_PAIDINFULL
+Percentage of non-Pell Grant recipient federal student loan borrowers paid in full after 3 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_NOPELL_DISCHARGE
+Percentage of non-Pell Grant recipient federal student loan borrowers with all loans discharged after 3 years
+Pctg. non-Pell Grant recipient fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_MALE_N
+Male federal student loan borrower-based 3-year borrower count
+Male fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_MALE_DFLT
+Percentage of male federal student loan borrowers in default after 3 years
+Pctg. male fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_MALE_DLNQ
+Percentage of male federal student loan borrowers in delinquency after 3 years
+Pctg. male fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_MALE_FBR
+Percentage of male federal student loan borrowers in forbearance after 3 years
+Pctg. male fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_MALE_DFR
+Percentage of male federal student loan borrowers in deferment after 3 years
+Pctg. male fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_MALE_NOPROG
+Percentage of male federal student loan borrowers not making progress after 3 years
+Pctg. male fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_MALE_MAKEPROG
+Percentage of male federal student loan borrowers making progress after 3 years
+Pctg. male fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_MALE_PAIDINFULL
+Percentage of male federal student loan borrowers paid in full after 3 years
+Pctg. male fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_MALE_DISCHARGE
+Percentage of male federal student loan borrowers with all loans discharged after 3 years
+Pctg. male fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_FED_NOMALE_N
+Non-male federal student loan borrower-based 3-year borrower count
+Non-male fed. stdnt loan borrower-based 3yr borrower count
+
+BBRR3_FED_NOMALE_DFLT
+Percentage of non-male federal student loan borrowers in default after 3 years
+Pctg. non-male fed. stdnt loan borrowers in default after 3yrs
+
+BBRR3_FED_NOMALE_DLNQ
+Percentage of non-male federal student loan borrowers in delinquency after 3 years
+Pctg. non-male fed. stdnt loan borrowers in delinquency after 3yrs
+
+BBRR3_FED_NOMALE_FBR
+Percentage of non-male federal student loan borrowers in forbearance after 3 years
+Pctg. non-male fed. stdnt loan borrowers in forbearance after 3yrs
+
+BBRR3_FED_NOMALE_DFR
+Percentage of non-male federal student loan borrowers in deferment after 3 years
+Pctg. non-male fed. stdnt loan borrowers in deferment after 3yrs
+
+BBRR3_FED_NOMALE_NOPROG
+Percentage of non-male federal student loan borrowers not making progress after 3 years
+Pctg. non-male fed. stdnt loan borrowers not making progress after 3yrs
+
+BBRR3_FED_NOMALE_MAKEPROG
+Percentage of non-male federal student loan borrowers making progress after 3 years
+Pctg. non-male fed. stdnt loan borrowers making progress after 3yrs
+
+BBRR3_FED_NOMALE_PAIDINFULL
+Percentage of non-male federal student loan borrowers paid in full after 3 years
+Pctg. non-male fed. stdnt loan borrowers paid in full after 3yrs
+
+BBRR3_FED_NOMALE_DISCHARGE
+Percentage of non-male federal student loan borrowers with all loans discharged after 3 years
+Pctg. non-male fed. stdnt loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_IND_N
+Independent student Parent PLUS Loan borrower-based 3-year borrower count
+Independent stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_IND_DFLT
+Percentage of independent student Parent PLUS Loan borrowers in default after 3 years
+Pctg. independent stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_IND_DLNQ
+Percentage of independent student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. independent stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_IND_FBR
+Percentage of independent student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. independent stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_IND_DFR
+Percentage of independent student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. independent stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_IND_NOPROG
+Percentage of independent student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. independent stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_IND_MAKEPROG
+Percentage of independent student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. independent stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_IND_PAIDINFULL
+Percentage of independent student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. independent stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_IND_DISCHARGE
+Percentage of independent student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. independent stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_DEP_N
+Dependent student Parent PLUS Loan borrower-based 3-year borrower count
+Dependent stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_DEP_DFLT
+Percentage of dependent student Parent PLUS Loan borrowers in default after 3 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_DEP_DLNQ
+Percentage of dependent student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_DEP_FBR
+Percentage of dependent student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_DEP_DFR
+Percentage of dependent student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_DEP_NOPROG
+Percentage of dependent student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_DEP_MAKEPROG
+Percentage of dependent student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_DEP_PAIDINFULL
+Percentage of dependent student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_DEP_DISCHARGE
+Percentage of dependent student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. dependent stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_PELL_N
+Pell Grant recipient student Parent PLUS Loan borrower-based 3-year borrower count
+Pell Grant recipient stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_PELL_DFLT
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in default after 3 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_PELL_DLNQ
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_PELL_FBR
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_PELL_DFR
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_PELL_NOPROG
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_PELL_MAKEPROG
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_PELL_PAIDINFULL
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_PELL_DISCHARGE
+Percentage of Pell Grant recipient student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. Pell Grant recipient stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_NOPELL_N
+Non-Pell Grant recipient student Parent PLUS Loan borrower-based 3-year borrower count
+Non-Pell Grant recipient stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_NOPELL_DFLT
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in default after 3 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_NOPELL_DLNQ
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_NOPELL_FBR
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_NOPELL_DFR
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_NOPELL_NOPROG
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_NOPELL_MAKEPROG
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_NOPELL_PAIDINFULL
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_NOPELL_DISCHARGE
+Percentage of non-Pell Grant recipient student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. non-Pell Grant recipient stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_MALE_N
+Male student Parent PLUS Loan borrower-based 3-year borrower count
+Male stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_MALE_DFLT
+Percentage of male student Parent PLUS Loan borrowers in default after 3 years
+Pctg. male stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_MALE_DLNQ
+Percentage of male student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. male stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_MALE_FBR
+Percentage of male student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. male stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_MALE_DFR
+Percentage of male student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. male stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_MALE_NOPROG
+Percentage of male student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. male stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_MALE_MAKEPROG
+Percentage of male student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. male stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_MALE_PAIDINFULL
+Percentage of male student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. male stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_MALE_DISCHARGE
+Percentage of male student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. male stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+BBRR3_PP_NOMALE_N
+Non-male student Parent PLUS Loan borrower-based 3-year borrower count
+Non-male stdnt Parent PLUS Loan borrower-based 3yr borrower count
+
+BBRR3_PP_NOMALE_DFLT
+Percentage of non-male student Parent PLUS Loan borrowers in default after 3 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers in default after 3yrs
+
+BBRR3_PP_NOMALE_DLNQ
+Percentage of non-male student Parent PLUS Loan borrowers in delinquency after 3 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers in delinquency after 3yrs
+
+BBRR3_PP_NOMALE_FBR
+Percentage of non-male student Parent PLUS Loan borrowers in forbearance after 3 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers in forbearance after 3yrs
+
+BBRR3_PP_NOMALE_DFR
+Percentage of non-male student Parent PLUS Loan borrowers in deferment after 3 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers in deferment after 3yrs
+
+BBRR3_PP_NOMALE_NOPROG
+Percentage of non-male student Parent PLUS Loan borrowers not making progress after 3 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers not making progress after 3yrs
+
+BBRR3_PP_NOMALE_MAKEPROG
+Percentage of non-male student Parent PLUS Loan borrowers making progress after 3 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers making progress after 3yrs
+
+BBRR3_PP_NOMALE_PAIDINFULL
+Percentage of non-male student Parent PLUS Loan borrowers paid in full after 3 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers paid in full after 3yrs
+
+BBRR3_PP_NOMALE_DISCHARGE
+Percentage of non-male student Parent PLUS Loan borrowers with all loans discharged after 3 years
+Pctg. non-male stdnt Parent PLUS Loan borrowers with all loans discharged after 3yrs
+
+COUNT_NWNE_1YR
+Number of graduates working and not enrolled 1 year after completing
+Num graduates working and not enrolled 1 yr after completing
+
+COUNT_WNE_1YR
+Number of graduates not working and not enrolled 1 year after completing
+Num graduates not working and not enrolled 1 yr after completing
+
+CNTOVER150_1YR
+Number of graduates working and not enrolled who earned more than 150% of the single-person household poverty threshold 1 year after completing
+Num graduates working and not enrolled who earned more than 150% single-person household poverty threshold 1 yr after completing
+
+GT_THRESHOLD_P6
+Share of students earning more than a high school graduate (threshold earnings) 6 years after entry
+Share stdnts earning more than a high school graduate (threshold earnings) 6yrs after entry
+
+GT_THRESHOLD_P6_SUPP
+Share of students earning more than a high school graduate (threshold earnings) 6 years after entry, suppressed for small n size
+Share stdnts earning more than a high school graduate (threshold earnings) 6yrs after entry, suppressed for small n size
+
+MD_EARN_WNE_INC1_P6
+Median earnings of students working and not enrolled 6 years after entry in the lowest income tercile $0-$30,000
+Median earnings stdnts working and not enrolled 6yrs after entry in lowest inc. tercile $0-$30,000
+
+MD_EARN_WNE_INC2_P6
+Median earnings of students working and not enrolled 6 years after entry in the middle income tercile $30,001-$75,000
+Median earnings stdnts working and not enrolled 6yrs after entry in middle inc. tercile $30,001-$75,000
+
+MD_EARN_WNE_INC3_P6
+Median earnings of students working and not enrolled 6 years after entry in the highest income tercile $75,001+
+Median earnings stdnts working and not enrolled 6yrs after entry in highest inc. tercile $75,001+
+
+MD_EARN_WNE_INDEP1_P6
+Median earnings of independent students working and not enrolled 6 years after entry
+Median earnings independent stdnts working and not enrolled 6yrs after entry
+
+MD_EARN_WNE_INDEP0_P6
+Median earnings of dependent students working and not enrolled 6 years after entry
+Median earnings dependent stdnts working and not enrolled 6yrs after entry
+
+MD_EARN_WNE_MALE0_P6
+Median earnings of non-male students working and not enrolled 6 years after entry
+Median earnings non-male stdnts working and not enrolled 6yrs after entry
+
+MD_EARN_WNE_MALE1_P6
+Median earnings of male students working and not enrolled 6 years after entry
+Median earnings male stdnts working and not enrolled 6yrs after entry
+
+GT_THRESHOLD_P8
+Share of students earning more than a high school graduate (threshold earnings) 8 years after entry
+Share stdnts earning more than a high school graduate (threshold earnings) 8yrs after entry
+
+COUNT_WNE_INC1_P8
+Number of students working and not enrolled 8 years after entry in the lowest income tercile $0-$30,000
+Num stdnts working and not enrolled 8yrs after entry in lowest inc. tercile $0-$30,000
+
+MD_EARN_WNE_INC1_P8
+Median earnings of students working and not enrolled 8 years after entry in the lowest income tercile $0-$30,000
+Median earnings stdnts working and not enrolled 8yrs after entry in lowest inc. tercile $0-$30,000
+
+COUNT_WNE_INC2_P8
+Number of students working and not enrolled 8 years after entry in the middle income tercile $30,001-$75,000
+Num stdnts working and not enrolled 8yrs after entry in middle inc. tercile $30,001-$75,000
+
+MD_EARN_WNE_INC2_P8
+Median earnings of students working and not enrolled 8 years after entry in the middle income tercile $30,001-$75,000
+Median earnings stdnts working and not enrolled 8yrs after entry in middle inc. tercile $30,001-$75,000
+
+COUNT_WNE_INC3_P8
+Number of students working and not enrolled 8 years after entry in the highest income tercile $75,001+
+Num stdnts working and not enrolled 8yrs after entry in highest inc. tercile $75,001+
+
+MD_EARN_WNE_INC3_P8
+Median earnings of students working and not enrolled 8 years after entry in the highest income tercile $75,001+
+Median earnings stdnts working and not enrolled 8yrs after entry in highest inc. tercile $75,001+
+
+COUNT_WNE_INDEP1_P8
+Number of independent students working and not enrolled 8 years after entry
+Num independent stdnts working and not enrolled 8yrs after entry
+
+MD_EARN_WNE_INDEP1_P8
+Median earnings of independent students working and not enrolled 8 years after entry
+Median earnings independent stdnts working and not enrolled 8yrs after entry
+
+COUNT_WNE_INDEP0_P8
+Number of dependent students working and not enrolled 8 years after entry
+Num dependent stdnts working and not enrolled 8yrs after entry
+
+MD_EARN_WNE_INDEP0_P8
+Median earnings of dependent students working and not enrolled 8 years after entry
+Median earnings dependent stdnts working and not enrolled 8yrs after entry
+
+COUNT_WNE_MALE0_P8
+Number of non-male students working and not enrolled 8 years after entry
+Num non-male stdnts working and not enrolled 8yrs after entry
+
+MD_EARN_WNE_MALE0_P8
+Median earnings of non-male students working and not enrolled 8 years after entry
+Median earnings non-male stdnts working and not enrolled 8yrs after entry
+
+COUNT_WNE_MALE1_P8
+Number of male students working and not enrolled 8 years after entry
+Num male stdnts working and not enrolled 8yrs after entry
+
+MD_EARN_WNE_MALE1_P8
+Median earnings of male students working and not enrolled 8 years after entry
+Median earnings male stdnts working and not enrolled 8yrs after entry
+
+GT_THRESHOLD_P10
+Share of students earning more than a high school graduate (threshold earnings) 10 years after entry
+Share stdnts earning more than a high school graduate (threshold earnings) 10yrs after entry
+
+MD_EARN_WNE_INC1_P10
+Median earnings of students working and not enrolled 10 years after entry in the lowest income tercile $0-$30,000
+Median earnings stdnts working and not enrolled 10yrs after entry in lowest inc. tercile $0-$30,000
+
+MD_EARN_WNE_INC2_P10
+Median earnings of students working and not enrolled 10 years after entry in the middle income tercile $30,001-$75,000
+Median earnings stdnts working and not enrolled 10yrs after entry in middle inc. tercile $30,001-$75,000
+
+MD_EARN_WNE_INC3_P10
+Median earnings of students working and not enrolled 10 years after entry in the highest income tercile $75,001+
+Median earnings stdnts working and not enrolled 10yrs after entry in highest inc. tercile $75,001+
+
+MD_EARN_WNE_INDEP1_P10
+Median earnings of independent students working and not enrolled 10 years after entry
+Median earnings independent stdnts working and not enrolled 10yrs after entry
+
+MD_EARN_WNE_INDEP0_P10
+Median earnings of dependent students working and not enrolled 10 years after entry
+Median earnings dependent stdnts working and not enrolled 10yrs after entry
+
+MD_EARN_WNE_MALE0_P10
+Median earnings of non-male students working and not enrolled 10 years after entry
+Median earnings non-male stdnts working and not enrolled 10yrs after entry
+
+MD_EARN_WNE_MALE1_P10
+Median earnings of male students working and not enrolled 10 years after entry
+Median earnings male stdnts working and not enrolled 10yrs after entry
 
 
 
