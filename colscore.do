@@ -35,8 +35,7 @@ local sp char(13) char(10) char(13) char(10)     // Define spacer.
 di c(pwd)                                        // Confrim working directory.
 
 // Copy the zip file from the web to our current directory
-// copy https://ed-public-download.app.cloud.gov/downloads/CollegeScorecard_Raw_Data.zip .
-copy ~/Desktop/ColScore96to17wksp/CollegeScorecard_Raw_Data.zip .
+copy https://ed-public-download.app.cloud.gov/downloads/CollegeScorecard_Raw_Data.zip .
 
 // Extract the contents of the zip file and change into the created directory
 unzipfile CollegeScorecard_Raw_Data.zip, replace
