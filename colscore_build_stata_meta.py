@@ -2,6 +2,8 @@
 # Data source: 
 # https://collegescorecard.ed.gov/assets/CollegeScorecardDataDictionary.xlsx
 #
+# Feb/2022:  Resolved todo items in the creation of 
+#            colscore_val_lab_writes.do & val_var_lab_writes.do.
 # Feb/2022:  Routine updates. Added two todo items in the creation of
 #            colscore_val_lab_writes.do & val_var_lab_writes.do.
 #            Moderate adjustments to wrds_to_abbrev dictionary.
@@ -151,8 +153,7 @@ colscore_var_lab_writer = colscore_var_lab_writer + '// File written on: '
 colscore_var_lab_writer = colscore_var_lab_writer + str(datetime.datetime.now()) + '\n\n'
 
 for i in range(0,len(original_desc_list)):
-    # TODO: Need to remove the stata capture statement from this code.
-    colscore_var_lab_writer = colscore_var_lab_writer + 'capture lab var '
+    colscore_var_lab_writer = colscore_var_lab_writer + 'lab var '
     colscore_var_lab_writer = colscore_var_lab_writer + varname_list[i].lower()
     colscore_var_lab_writer = colscore_var_lab_writer + ' "'
     colscore_var_lab_writer = colscore_var_lab_writer + abbrev_desc_list[i]
@@ -174,15 +175,13 @@ for i in varlist:
     lablist = df[df['VARIABLE NAME FFILL'] == i]['LABEL'].dropna()
     val_lab_dict = dict(zip(keylist, lablist))
 
-    # TODO: Need to remove the stata capture statement from this code.
-    calscore_val_lab_writer = calscore_val_lab_writer + 'capture label define '
+    calscore_val_lab_writer = calscore_val_lab_writer + 'label define '
     calscore_val_lab_writer = calscore_val_lab_writer + 'vl_' + i + ' '
     for key, value in val_lab_dict.items():
         calscore_val_lab_writer = calscore_val_lab_writer + str(key) + ' "'
         calscore_val_lab_writer = calscore_val_lab_writer + value.strip() + '" '
     calscore_val_lab_writer = calscore_val_lab_writer + '\n'
-    # TODO: Need to remove the stata capture statement from this code.
-    calscore_val_lab_writer = calscore_val_lab_writer + 'capture label values '
+    calscore_val_lab_writer = calscore_val_lab_writer + 'label values '
     calscore_val_lab_writer = calscore_val_lab_writer + i.lower() + ' vl_' + i
     calscore_val_lab_writer = calscore_val_lab_writer + '\n\n'
 

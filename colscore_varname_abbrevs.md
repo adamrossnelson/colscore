@@ -1,6 +1,6 @@
 # Crosswalk Of Original & Abberviated Descriptions
 
-File written on: 2022-02-13 15:28:51.460376
+File written on: 2022-02-18 14:46:24.547944
 
 File written by `colscore_build_stata_meta.py`
 
