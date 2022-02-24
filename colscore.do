@@ -46,7 +46,7 @@ local cur_addy = "https://ed-public-download.app.cloud.gov/downloads/"
 copy "`cur_addy'`cur_file'" .
 
 // Extract the contents of the zip file
-unzipfile "`cur_file`", replace
+unzipfile "`cur_file'", replace
 
 forvalues i = 1996 / 2018 {
 		// dataset names look like MERGED1996_97_PP.csv so the
